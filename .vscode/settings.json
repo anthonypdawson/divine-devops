@@ -1,0 +1,55 @@
+{
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "Run",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "sync",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+    "emmet.includeLanguages": {
+        "jekyll": "html",
+        "scss": "css"
+    },
+    "files.autoSave": "afterDelay",
+   "editor.minimap.enabled": false,
+  "files.watcherExclude": {
+    "**/_site/**": true,
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/.vscode/**": true,
+    "**/.DS_Store": true,
+    "**/assets/**": true,
+    "**/.sass-cache/**": true,
+    "**/.jekyll-cache/**": true,
+    "**/Gemfile.lock": true
+  },
+  "search.exclude": {
+    "**/_site": true,
+    "**/node_modules": true,
+    "**/assets": true,
+    "**/.sass-cache": true,
+    "**/.jekyll-cache": true
+  },
+"typescript.tsserver.maxTsServerMemory": 2048,
+"typescript.tsserver.watchOptions": {
+    "watchFile": "useFsEvents",
+    "watchDirectory": "useFsEvents"
+},
+"markdown.extension.completion.enabled": true,
+"markdown.extension.print.theme": "dark",
+"git.autofetch": false,
+"git.autorefresh": false,
+"git.decorations.enabled": false,
+"scm.diffDecorations": "none"
+}
