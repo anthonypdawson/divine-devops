@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Slack Thread: The Prophecy Formatting War"
-date: 2025-06-08
+date: 2025-07-05 08:00:00
 summary: "Metatron and Uriel clash over prophecy formatting standards, YAML vs. human readability, and the dangers of schema-driven miracles."
 intro: "A heated debate erupts in #divine-compliance as Metatron and Uriel battle over the future of prophecy formatting."
 tags: [slack, prophecy, formatting, yaml, governance, metatron, uriel, gabriel, lucifer, michael]

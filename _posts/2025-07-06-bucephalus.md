@@ -1,6 +1,6 @@
 ---
 title: "Interview with Bucephalus the Lesser"
-date: 2025-06-19
+date: 2025-07-06 8:00:00
 tags: [rasputin, hr, miracles, equine, heavenops]
 summary: "As foretold in the Rasputin deployment chaos, his horse has now applied for a role in HeavenOps. This is what we learned."
 layout: terminal_post
