@@ -4,7 +4,6 @@ title: "Future Posts"
 permalink: /future/
 ---
 
-# Future Posts
 
 <ul>
   {% for post in site.future %}
