@@ -1,7 +1,7 @@
 ---
 title: "Slack Thread: Exodus Logistics Chaos (Incident #EX-1300)"
 image: /assets/images/posts/exodus-logistics-chaos-fast.webp
-date: 2025-07-09 8:00:00
+date: 2025-07-10 8:00:00
 tags: [incident, exodus, logistics, slack, postmortem, devops]
 summary: "A reconstructed 40-year Slack thread chronicling the infamous Exodus logistics disaster."
 layout: terminal_post

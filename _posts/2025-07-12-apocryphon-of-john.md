@@ -1,6 +1,6 @@
 ---
 title: "The Apocryphon of John: Postmortem of a Misconfigured Creation"
-date: 2025-07-04 12:00:00
+date: 2025-07-12 8:00:00
 tags: [gnostic, devops, demiurge, rollback, incident, creation]
 summary: "A cosmic DevOps postmortem: when the Demiurge's flawed deployment required a rollback plan for all of creation."
 layout: terminal_post
