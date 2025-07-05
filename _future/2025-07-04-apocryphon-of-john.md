@@ -5,7 +5,7 @@ tags: [gnostic, devops, demiurge, rollback, incident, creation]
 summary: "A cosmic DevOps postmortem: when the Demiurge's flawed deployment required a rollback plan for all of creation."
 layout: terminal_post
 category: "HeavenOps Reports"
-image: "/assets/images/posts/apocryphon-john.webp"
+image: "/assets/images/posts/apocryphon-of-john.webp"
 ---
 
 ## Background: Gnostic Lore & The Demiurge
