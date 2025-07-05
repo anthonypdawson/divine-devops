@@ -46,5 +46,20 @@ jobs:
 ### 4. Site Generator Configuration
 - If using Jekyll or a similar static site generator, ensure your `_config.yml` includes the relevant `.md` files in the `assets` directory so they are published.
 
+### 6. Image Format for Posts
+- All post images should use the `.webp` format for optimal performance and consistency.
+- Store post images in the `/assets/images/posts/` directory and reference them in front matter as shown in the examples above.
+
+### 7. Using Generic Category/Type Icons
+- For posts that represent a category or type (e.g., code-heavy posts, incident reports), you can use a generic icon from `/assets/images/icons/`.
+- Save the icon as a `.webp` file (e.g., `code-post.webp`).
+- Reference it in your post front matter like this:
+
+```yaml
+image: /assets/images/icons/code-post.webp
+```
+
+- This helps visually distinguish posts by type or category and keeps your site consistent.
+
 ### 5. Summary
 This approach ensures your project files are readable, linkable, and included in your published documentation, while maintaining a clean and user-friendly experience for your readers.
