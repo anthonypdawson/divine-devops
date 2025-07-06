@@ -19,6 +19,8 @@
                         {% unless post.image contains 'images/posts/' %}
                         {% if post.image %}
                         <img class="title-image" src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
+                        {% else %}
+                        <img class="title-image" src="{{ '/assets/images/icons/default.webp' | relative_url }}" alt="Default post image">
                         {% endif %}
                         {% endunless %}
                         <div class="post-list-main">
@@ -44,6 +46,8 @@
                         {% unless post.image contains 'images/posts/' %}
                         {% if post.image %}
                         <img class="title-image" src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
+                        {% else %}
+                        <img class="title-image" src="{{ '/assets/images/icons/default.webp' | relative_url }}" alt="Default post image">
                         {% endif %}
                         {% endunless %}
                         <div class="post-list-main">
