@@ -4,8 +4,6 @@ summary: "Log of unauthorized angelic API calls and incident reviews."
 layout: terminal_post
 ---
 
-# Metatron’s Incident Report
-
 A running log of all unauthorized API calls, compliance breaches, and incident reviews.
 
 | Date       | Angel    | Incident Description                | Status      |
