@@ -13,12 +13,13 @@ image_alt: "Angelic investigators reviewing Da Vinci’s flying machine sketches
 <h2 class="center">“The Da Vinci Intelligence Breach”</h2>  
 *Filed by:* Celestial Oversight Division  
 *Severity Level:* Unprecedented (Mortal Operating Beyond Approved Cognitive Parameters) 🚨  
-*Related Incident:* [RNS-1492: The Renaissance Misfire]({{ site.baseurl }}{% link _posts/2025-06-16-renaissance-misfire.md %}#content)  
+
+*Related Incident:* [RNS-1492: The Renaissance Misfire]({{ site.baseurl }}{% link _posts/2025/06/2025-06-16-renaissance-misfire.md %}#content)  
 
 ---
 
 ## Summary 📝  
-Following the catastrophic misallocation of **human intelligence resources** (see [RNS-1492: The Renaissance Misfire]({{ site.baseurl }}{% link _posts/2025-06-16-renaissance-misfire.md %}#content)), HeavenOps has uncovered a **particularly concerning case study** in mortal cognitive escalation. Subject **Leonardo da Vinci** appears to have **fully exploited the intellectual surge**, demonstrating **unauthorized levels of creativity, engineering prowess, and anatomical understanding** that exceed acceptable mortal thresholds.  
+Following the catastrophic misallocation of **human intelligence resources** (see [RNS-1492: The Renaissance Misfire]({{ site.baseurl }}{% link _posts/2025/06/2025-06-16-renaissance-misfire.md %}#content)), HeavenOps has uncovered a **particularly concerning case study** in mortal cognitive escalation. Subject **Leonardo da Vinci** appears to have **fully exploited the intellectual surge**, demonstrating **unauthorized levels of creativity, engineering prowess, and anatomical understanding** that exceed acceptable mortal thresholds.
 
 Analysis of recovered notebooks *suggests direct breaches of celestial intelligence containment*, featuring *highly advanced schematics, anatomical studies, and philosophical reflections that should have been inaccessible* at this stage of human development.  
 

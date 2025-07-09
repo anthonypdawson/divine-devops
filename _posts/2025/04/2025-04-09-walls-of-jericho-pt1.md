@@ -4,6 +4,7 @@ title: 'The Walls of Jericho Incident Pt. 1'
 date: 2025-04-09
 tags: [jericho, uriel, slack, incident]
 category: divine-incident-report
+summary: "Slack log: Jericho perimeter breached by legacy automation. Uriel rolls back."
 ---
 
 Try not to panic, especially on Slack

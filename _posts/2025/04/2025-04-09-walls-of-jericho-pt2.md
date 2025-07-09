@@ -4,6 +4,7 @@ title: 'The Walls of Jericho Incident Pt. 2'
 date: 2025-04-09
 tags: [celestial-support, incident, jericho, michael, slack, uriel]
 category: divine-incident-report
+summary: "Support log: Jericho walls downed by trumpet bug. Uriel files CVE and issues patch."
 ---
 
 Try not to panic..

@@ -8,7 +8,7 @@ image: /assets/images/icons/system_logs.webp
 category: divine-debugging-chronicles
 ---
 
-*See also: [Genesis x ChatGPT]({{ site.baseurl }}{% post_url 2025-04-01-genesis-chatgpt %})*
+*See also: [Genesis x ChatGPT]({{ site.baseurl }}{% post_url 2025/04/2025-04-01-genesis-chatgpt %})*
 
 ## Genesis Patch Log: v1.0.2
 

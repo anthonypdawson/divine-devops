@@ -4,6 +4,7 @@ title: "git log — sin-processing-server"
 date: 2025-04-07
 tags: [gabriel, gitlog, logs, lucifer, metatron, michael, microservices, sins, uriel]
 category: divine-debugging-chronicles
+summary: "Commit log: HeavenOps patches, refactors, and temptations in sin-processing-server."
 ---
 
 ```text

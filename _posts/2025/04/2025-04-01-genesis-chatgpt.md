@@ -95,7 +95,7 @@ Vegetation online.
 
 ---
 
-*See also: [Genesis Patch Log: The Serpent Incident]({{ site.baseurl }}{% post_url 2025-04-02-genesis_patch_log_serpent_incident %})*
+*See also: [Genesis Patch Log: The Serpent Incident]({{ site.baseurl }}{% post_url 2025/04/2025-04-02-genesis_patch_log_serpent_incident %})*
 
 ---
 
