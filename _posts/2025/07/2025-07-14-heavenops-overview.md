@@ -30,7 +30,7 @@ Once upon a time, miracles were deployed manually by prophets with questionable 
     -   `main` (sacredly stable prophecies)
     -   `staging` (angelic playground)
     -   `hotfix` (rapid-response miracles like turning water into wine at overbooked weddings)
--   **Git Hooks:** **`pre-deploy.bless`** ensures all commits are spiritually pure and don’t summon eldritch horrors.
+-   **Git Hooks:** <a href="{{ site.baseurl }}/assets/misc/pre-deploy.bless" target="_blank" rel="noopener"><strong>pre-deploy.bless</strong></a> ensures all commits are spiritually pure and don’t summon eldritch horrors.
 
 ---
 
@@ -50,17 +50,17 @@ Every miracle undergoes strict automation—no more rogue divine interventions.
 #### 📜 **Prophecy Version Control**
 
 -   Use **semantic prophecy tagging** (`v2.0.1-apocalypse-beta`) to avoid misinterpretations.
--   **Prophecy diffs** (`prophecy-history.md`) prevent heretical fork attempts.
+-   **Prophecy diffs** (<a href="{{ site.baseurl }}/assets/misc/prophecy-history.md" target="_blank" rel="noopener">prophecy-history.md</a>) prevent heretical fork attempts.
 
 #### ⚖️ **Compliance & Documentation**
 
 -   All divine deployments must be signed off by **Uriel’s Bureaucratic Overlords**, ensuring miracles don’t contradict ancient changelogs.
--   Unauthorized angelic API calls are logged in **Metatron’s Incident Report** (yes, Michael, we know about the _unscheduled lightning strikes_).
--   Deprecated blessings go into **`deprecated-blessings.md`**, including "Handwriting on the Wall" (too vague) and "40-Year Wilderness Wandering" (bad UX).
+-   Unauthorized angelic API calls are logged in <a href="{{ site.baseurl }}/assets/misc/metatron-incident-report.md" target="_blank" rel="noopener"><strong>Metatron’s Incident Report</strong></a> (yes, Michael, we know about the <em>unscheduled lightning strikes</em>).
+-   Deprecated blessings go into <a href="{{ site.baseurl }}/assets/misc/deprecated-blessings.md" target="_blank" rel="noopener"><code>deprecated-blessings.md</code></a>, including "Handwriting on the Wall" (too vague) and "40-Year Wilderness Wandering" (bad UX).
 
 #### 🔄 **Automated Celestial Rollbacks**
 
--   Failed interventions trigger **Divine Incident Response Protocol** (`rollback-holy-fire.yml`), restoring faith buffers before mass panic.
+-   Failed interventions trigger <a href="{{ site.baseurl }}/assets/misc/rollback-holy-fire.yml" target="_blank" rel="noopener"><strong>Divine Incident Response Protocol</strong> (rollback-holy-fire.yml)</a>, restoring faith buffers before mass panic.
 -   **Saintly Observability Dashboards** track **Prayer Throughput**, **Faith Latency**, and **Sin Quota Consumption** (yes, someone overcommitted _again_).
 
 #### 🤝 **Collaborative AngelOps**
@@ -86,7 +86,7 @@ Even celestial systems aren’t immune to unexpected failures. When divine inter
 
 #### ⚡ **Incident Response Protocol (<a href="{{ site.baseurl }}/assets/misc/faith-failover.yml" target="_blank" rel="noopener">faith-failover.yml</a>)**
 
-1. **Immediate Containment:** Redirect all non-urgent prayers to **Deferred Miracles Processing** (<a href="{{ site.baseurl }}/assets/misc/miracle-backlog.md" target="_blank" rel="noopener">miracle-backlog.md</a>).
+1. **Immediate Containment:** Redirect all non-urgent prayers to <a href="{{ site.baseurl }}/assets/misc/miracle-backlog.md" target="_blank" rel="noopener"><strong>Deferred Miracles Processing</strong> (miracle-backlog.md)</a>.
 2. **Mitigation:** Spin up additional **Ethereal Kubernetes Pods** to handle priority interventions.
 3. **Resolution:** Adjust **miracle request prioritization algorithms** to prevent overcommitment on low-impact blessings (e.g., avoiding multiple miracles for the same sports match).
 
