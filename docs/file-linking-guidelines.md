@@ -41,7 +41,7 @@ layout: terminal_post
 ## 5. Linking Between Posts
 - **Always use Jekyll's `{% post_url %}` tag** to link between posts:
   ```markdown
-  [Post Title]({% post_url YYYY-MM-DD-post-filename %})
+  [Post Title]({{ site.baseurl }}{% post_url YYYY-MM-DD-post-filename %})
   ```
 - This automatically generates the correct URL regardless of permalink structure and validates the link at build time.
 - **Do not** manually construct post URLs - use `{% post_url %}` instead.
