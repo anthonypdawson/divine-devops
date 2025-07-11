@@ -38,7 +38,15 @@ layout: terminal_post
   ```
 - **Important:** The visible link text and the link href should both match the in-universe filename (e.g., `linting-angels.yml`), omitting the final `.md` extension, since Jekyll removes `.md` from URLs when generating the site. The actual file in the repo should still be named with `.md` (e.g., `linting-angels.yml.md`).
 
-## 5. Example
+## 5. Linking Between Posts
+- **Always use Jekyll's `{% post_url %}` tag** to link between posts:
+  ```markdown
+  [Post Title]({% post_url YYYY-MM-DD-post-filename %})
+  ```
+- This automatically generates the correct URL regardless of permalink structure and validates the link at build time.
+- **Do not** manually construct post URLs - use `{% post_url %}` instead.
+
+## 6. Example
 To document and link to a config file:
 1. Create `assets/misc/faith-failover.yml.md` with front matter and YAML code block.
 2. In your post, link as:
