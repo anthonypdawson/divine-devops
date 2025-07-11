@@ -4,9 +4,11 @@ description: 'A parody universe blending humor, tech, religious themes and lore 
 author: 'divinedevops@poopnet.info'
 baseurl: '/divine-devops'
 url: 'https://anthonypdawson.github.io'
+permalink: /:title/
 theme: minima
 # theme: jekyll-theme-console
 layout: terminal_post
+future: false
 sass:
     sass_dir: _sass
     style: 'compressed'
@@ -33,3 +35,4 @@ exclude:
     - 'Gemfile*'
     - '*.bak'
     - 'scripts'
+    - 'docs'
