@@ -12,7 +12,7 @@ related_incident: exodus-logistics
 
 # 🌵 #exodus-logistics-chaos (Incident #EX-1300)
 
-*This thread is a follow-up to the main incident report: [Historical Mismanagement: The Exodus Logistics Disaster](exodus-logistics.md)*
+*This thread is a follow-up to the main incident report: [Historical Mismanagement: The Exodus Logistics Disaster]({% post_url 2025-07-09-exodus-logistics %})*
 
 🧵 **Thread: Logistics Postmortem — 40-Year Wandering**
 

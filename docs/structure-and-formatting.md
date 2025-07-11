@@ -29,6 +29,7 @@
       ```
 - **Do not use strong emphasis (e.g., `**`) in headings (`h1`, `h2`, `h3`, etc.) as it looks visually identical to regular headings.**
 - Use plain Markdown heading syntax (e.g., `#`, `##`, `###`) for consistency.
+- **Note:** When using `layout: terminal_post`, do not include an `# H1` heading at the start of your content, as the layout automatically displays the post title from the front matter.
 
 ## Blockquotes for Commentary
 - Use `>` blockquote formatting for in-character commentary, especially from Uriel-404 or other “reviewers.”
