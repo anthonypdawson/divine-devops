@@ -2,6 +2,7 @@
 title: "Doubting Thomas: QA Won't Close the Resurrection Ticket"
 date: 2025-07-09 12:30:00
 layout: terminal_post
+image: "/assets/images/posts/doubting-thomas-qa.webp"
 summary: "HeavenOps incident report documenting QA engineer Thomas's refusal to approve resurrection deployment without tactile verification protocols."
 tags: [thomas, qa, testing, resurrection, devops, heavenops, incident-report, verification]
 ---
