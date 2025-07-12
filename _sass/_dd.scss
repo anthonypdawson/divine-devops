@@ -281,8 +281,8 @@ a:hover .post-title-link {
 }
 
 .posts li img {
-    max-width: 75%;
-    max-height: 300px;
+    max-width: 85%;
+    max-height: 500px;
     width: auto;
     height: auto;
     display: block;
@@ -292,7 +292,7 @@ a:hover .post-title-link {
 }
 
 .posts li img.title-image {
-    height: 3em;
+    height: 4em;
     /* Adjust to match or slightly exceed title height */
     max-width: 8em;
     /* Prevents the image from being too wide */
