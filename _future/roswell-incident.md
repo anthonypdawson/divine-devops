@@ -116,43 +116,36 @@ Date: Mon Jul 7 23:45:00 1947 +0000
 
 {% include slack-thread-message.html 
    user="Gabriel" 
-   avatar="👼" 
    time="Today at 14:32"
    text="Umm... guys? The probe is not responding to commands 😅" %}
 
 {% include slack-thread-message.html 
    user="Michael" 
-   avatar="👨‍💼" 
    time="Today at 14:33"
    text="Define \"not responding\"" %}
 
 {% include slack-thread-message.html 
    user="Gabriel" 
-   avatar="👼" 
    time="Today at 14:33"
    text="It's... on the ground. In pieces. Surrounded by humans with cameras." %}
 
 {% include slack-thread-message.html 
    user="Michael" 
-   avatar="👨‍💼" 
    time="Today at 14:34"
    text="😱 WHAT DID YOU DEPLOY?!" %}
 
 {% include slack-thread-message.html 
    user="Gabriel" 
-   avatar="👼" 
    time="Today at 14:34"
    text="experimental-divine-probe:v1.0.0<br>But I think there was a small config issue..." %}
 
 {% include slack-thread-message.html 
    user="Uriel" 
-   avatar="🔥" 
    time="Today at 14:35"
    text="\"Small config issue\" - it crashed into a MILITARY BASE" %}
 
 {% include slack-thread-message.html 
    user="Gabriel" 
-   avatar="👼" 
    time="Today at 14:36"
    text="At least it wasn't the Vatican again? 🤷‍♂️" %}
 
@@ -164,7 +157,6 @@ Date: Mon Jul 7 23:45:00 1947 +0000
 
 {% include slack-thread-message.html 
    user="Raphael" 
-   avatar="📢" 
    time="Today at 14:45"
    text="On it. \"It was just a weather balloon for... weather... ballooning.\"" %}
 
