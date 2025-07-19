@@ -8,69 +8,7 @@
 
 <body>
     {% include banner.html %}
-    <div class="posts">
-        <ul>
-            {% assign recent_posts = site.posts | slice: 0, 2 %}
-            {% assign older_posts = site.posts | slice: 2, site.posts.size %}
-            {% for post in recent_posts %}
-            <li class="post-summary-container" style="max-width:40em;">
-                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">
-                    <div class="post-flex">
-                        {% unless post.image contains 'images/posts/' %}
-                        {% if post.image %}
-                        <img class="title-image" src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
-                        {% else %}
-                        <img class="title-image" src="{{ '/assets/images/icons/default.webp' | relative_url }}" alt="Default post image">
-                        {% endif %}
-                        {% endunless %}
-                        <div class="post-list-main">
-                            <div class="post-list-text">
-                                <em><small class="date">{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
-                                {{ post.title }}
-                            </div>
-                            {% if post.image contains 'images/posts/' %}
-                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }} image"
-                                class="post-list-image">
-                            {% endif %}
-                        </div>
-                    </div>
-                    <br />
-                    <small class="post-summary">{{ post.summary }}</small>
-                </a>
-            </li>
-            {% endfor %}
-            {% for post in older_posts %}
-            <li class="post-summary-container" style="max-width:40em;">
-                <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">
-                    <div class="post-flex">
-                        {% unless post.image contains 'images/posts/' %}
-                        {% if post.image %}
-                        <img class="title-image" src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
-                        {% else %}
-                        <img class="title-image" src="{{ '/assets/images/icons/default.webp' | relative_url }}" alt="Default post image">
-                        {% endif %}
-                        {% endunless %}
-                        <div class="post-list-main">
-                            <div class="post-list-text">
-                                <em><small class="date">{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
-                                {{ post.title }}
-                            </div>
-                            {% if post.image contains 'images/posts/' %}
-                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }} image"
-                                class="post-list-image">
-                            {% endif %}
-                        </div>
-                    </div>
-                </a>
-                <br />
-                <small class="post-summary post-summary-truncate post-summary-fade js-expand-summary"
-                    data-full-summary="{{ post.summary | escape }}">{{ post.summary }}</small>
-            </li>
-            {% endfor %}
-        </ul>
-
-        </ul>
-    </div>
+    {% include post-list.html %}
     {% include footer.html %} {% include credit-footer.html %}
 </body>
 
