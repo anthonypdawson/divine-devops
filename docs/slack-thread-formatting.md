@@ -145,3 +145,22 @@ Each Slack message can include an avatar image for the user. The system attempts
 If a user-specific avatar is not found, the system automatically falls back to a default avatar image located at `/assets/images/slack/slack-avatar.webp`.
 
 > **Tip**: To add a custom avatar for a user, place a `.webp` image file in the `/assets/images/slack/` directory with the username as the filename (e.g., `gabriel.webp`).
+
+## Avatar Options
+
+- You can pass a custom avatar using the `avatar` parameter in the include.
+- The avatar can be a URL, a path to an image, or a text/emoji character (e.g., `avatar="😇"`).
+- If you pass an emoji or text, it will be displayed as the avatar for that message.
+- Example:
+  ```liquid
+  {% include slack-thread-message.html user="gabriel" avatar="😇" time="3:32pm" text="Did anyone check the quota limits?" %}
+  ```
+
+## Username Convention
+
+- **Always use all lowercase usernames** in Slack thread includes (e.g., `user="gabriel"`).
+- This ensures consistent styling and correct avatar image linking, especially on case-sensitive systems.
+- Example:
+  ```liquid
+  {% include slack-thread-message.html user="gabriel" time="3:32pm" text="Did anyone check the quota limits?" %}
+  ```
