@@ -1,4 +1,3 @@
-
 <div class="slack-msg">
   <div class="slack-header">
     <span class="slack-avatar">
@@ -16,7 +15,7 @@
           <img class="slack-avatar-img" src="{{ avatar_url }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar">
         </a>
       {% else %}
-        {% assign sanitized_user = include.user | split: '-' | first | split: '_' | first | split: '.' | first %}
+        {% assign sanitized_user = include.user | split: '-' | first | split: '_' | first | split: '.' | first | downcase %}
         {% assign avatar_url = site.baseurl | append: "/assets/images/slack/" | append: sanitized_user | append: ".webp" %}
         <a href="{{ avatar_url }}" target="_blank">
           <img class="slack-avatar-img" src="{{ avatar_url }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar">
