@@ -1,17 +1,29 @@
+
 <div class="slack-msg">
   <div class="slack-header">
-    <span class="slack-user {{ include.user | downcase }}">
-    {% if include.avatar_url %}
-      {% assign avatar_url = site.baseurl | append: include.avatar_url %}
-    {% else %}
-      {% assign sanitized_user = include.user | split: '-' | first | split: '_' | first | split: '.' | first %}
-      {% assign avatar_url = site.baseurl | append: "/assets/images/slack/" | append: sanitized_user | append: ".webp" %}
-    {% endif %}
-    <!-- Use the constructed avatar URL directly, and rely on the browser to handle missing files -->
-    <a href="{{ avatar_url }}" target="_blank"><img class="slack-avatar" src="{{ avatar_url }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar"></a>
-  </span>
-    <span class="slack-user {{ include.user | downcase }}">
-      {{ include.user }}</span>
+    <span class="slack-avatar">
+      {% if include.avatar %}
+        {% if include.avatar contains 'http' or include.avatar contains '/' %}
+          <a href="{{ include.avatar }}" target="_blank">
+            <img class="slack-avatar-img" src="{{ include.avatar }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar">
+          </a>
+        {% else %}
+          <span class="slack-avatar-emoji">{{ include.avatar }}</span>
+        {% endif %}
+      {% elsif include.avatar_url %}
+        {% assign avatar_url = site.baseurl | append: include.avatar_url %}
+        <a href="{{ avatar_url }}" target="_blank">
+          <img class="slack-avatar-img" src="{{ avatar_url }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar">
+        </a>
+      {% else %}
+        {% assign sanitized_user = include.user | split: '-' | first | split: '_' | first | split: '.' | first %}
+        {% assign avatar_url = site.baseurl | append: "/assets/images/slack/" | append: sanitized_user | append: ".webp" %}
+        <a href="{{ avatar_url }}" target="_blank">
+          <img class="slack-avatar-img" src="{{ avatar_url }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/slack/slack-avatar.webp';" alt="{{ include.user }}'s avatar">
+        </a>
+      {% endif %}
+    </span>
+    <span class="slack-user {{ include.user | downcase }}">{{ include.user }}</span>
     <span class="slack-time">{{ include.time }}</span>
   </div>
   <div class="slack-text">{{ include.text | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</div>
