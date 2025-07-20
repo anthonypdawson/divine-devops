@@ -140,10 +140,10 @@ Date: Day 7, 15:42:00 Creation Standard Time
 ---
 
 ## Related Incidents
-- [Cain Abel Case Study]({{ site.baseurl }}{% post_url 2025-05-06-cain_abel_case_study %}) - First documented sibling merge conflict
-- [Tower of Babel]({{ site.baseurl }}{% post_url 2025-04-10-genesis_chatgpt_babel_sequel %}) - Distributed system communication failure
-- [Belphegor Memory Leak Incident]({{ site.baseurl }}{% post_url 2025-05-22-incident-belphegor-memory-leak %}) - Uncontained resource consumption in the infernal cluster
-- [Renaissance Misfire]({{ site.baseurl }}{% post_url 2025-06-16-renaissance-misfire %}) - Unexpected side effects from creative deployment in prod
+- [Cain Abel Case Study]({{ site.baseurl }}{% post_url 2025/05/2025-05-06-cain_abel_case_study %}) - First documented sibling merge conflict
+- [Tower of Babel]({{ site.baseurl }}{% post_url 2025/04/2025-04-10-genesis_chatgpt_babel_sequel %}) - Distributed system communication failure
+- [Belphegor Memory Leak Incident]({{ site.baseurl }}{% post_url 2025/05/2025-05-22-incident-belphegor-memory-leak %}) - Uncontained resource consumption in the infernal cluster
+- [Renaissance Misfire]({{ site.baseurl }}{% post_url 2025/06/2025-06-16-renaissance-misfire %}) - Unexpected side effects from creative deployment in prod
 
 ---
 
