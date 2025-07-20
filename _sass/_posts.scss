@@ -136,3 +136,8 @@ div.content ul.remediation-list,
 .page-title {
   color: var(--cyan-color) !important;
 }
+
+// Prevent line breaks on angel names in roster tables
+.nowrap {
+  white-space: nowrap;
+}
