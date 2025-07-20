@@ -39,20 +39,20 @@ Welcome to the official HeavenOps Glyph Roster—a classified log of the angels 
 
 | Name         | Role                              | Specialization                | Notes                                      |
 |--------------|-----------------------------------|-------------------------------|--------------------------------------------|
-| <span class="nowrap">🧑‍💻 [**Raphael**]({{ site.baseurl }}/tags/raphael)</span>  | Code Custodian & Merge Angel      | Healing merge conflicts, code reviews | Known for miraculous bug fixes.            |
-| <span class="nowrap">🔥 [**Uriel**]({{ site.baseurl }}/tags/uriel)</span>    | Deployment Architect of Eternal Fire | Hotfixes, rollback rituals   | Deploys with fire—literally.               |
-| <span class="nowrap">📦 [**Gabriel**]({{ site.baseurl }}/tags/gabriel)</span>  | CI/CD Prophet, Messenger of Build Logs | Pipeline prophecy, notifications | Delivers build status with trumpet flair.  |
-| <span class="nowrap">🗂️ [**Michael**]({{ site.baseurl }}/tags/michael)</span>  | IAM Overlord & Permission Purifier | Access control, security audits | Defeated the root user in single combat.   |
-| <span class="nowrap">🌩️ [**Metatron**]({{ site.baseurl }}/tags/metatron)</span> | Voice of the Stack Trace          | Logging, error translation    | Converts cryptic errors to divine wisdom.  |
-| <span class="nowrap">🧙‍♂️ [**Rasputin**]({{ site.baseurl }}/tags/rasputin)</span> | Rogue Debugger from Shadow Namespace | Unorthodox troubleshooting   | Once debugged a production miracle.        |
-| <span class="nowrap">🐍 [**The Serpent**]({{ site.baseurl }}/tags/serpent)</span> | Unstable Dev Whisperer (Revoked) | Social engineering, chaos    | Access revoked after forbidden commit.     |
-| <span class="nowrap">🎶 [**Sandalphon**]({{ site.baseurl }}/tags/sandalphon)</span> | Release Manager                      | Production launches, deployment coordination | Orchestrates go-lives with angelic precision—never misses a deploy window, except during solar eclipses. |
-| <span class="nowrap">🥧 [**Zadkiel**]({{ site.baseurl }}/tags/zadkiel)</span>    | Incident Response Angel              | Postmortems, blameless retrospectives         | Appears only after midnight outages, always brings comfort food.           |
-| <span class="nowrap">⚰️ [**Azrael**]({{ site.baseurl }}/tags/azrael)</span>     | Legacy System Decommissioner         | Service sunsetting, data migration            | Guides old code to a peaceful end—sometimes with a eulogy.             |
-| <span class="nowrap">👁️ [**Remiel**]({{ site.baseurl }}/tags/remiel)</span>     | Monitoring & Observability           | Uptime, alerts, dashboards                    | Watches over the flock of running services, occasionally sends cryptic alerts.    |
-| <span class="nowrap">🎨 [**Haniel**]({{ site.baseurl }}/tags/haniel)</span>     | UX Evangelist                        | User happiness, accessibility, design         | Advocates for joy in every interface, rumored to have invented dark mode.          |
-| <span class="nowrap">☁️ [**Ariel**]({{ site.baseurl }}/tags/ariel)</span>      | Cloud Infrastructure Guardian        | Resource provisioning, scaling                | Ensures the heavens auto-scale gracefully, but dislikes vendor lock-in.     |
-| <span class="nowrap">👶 [**Intern Cherub**]({{ site.baseurl }}/tags/intern)</span> | Wildcard/Intern                    | Miscellaneous, coffee runs                    | Still learning YAML, but brings celestial energy to every standup.         |
+| <span class="nowrap">🧑‍💻 [**Raphael**]({{ site.baseurl }}/archive/#raphael)</span>  | Code Custodian & Merge Angel      | Healing merge conflicts, code reviews | Known for miraculous bug fixes.            |
+| <span class="nowrap">🔥 [**Uriel**]({{ site.baseurl }}/archive/#uriel)</span>    | Deployment Architect of Eternal Fire | Hotfixes, rollback rituals   | Deploys with fire—literally.               |
+| <span class="nowrap">📦 [**Gabriel**]({{ site.baseurl }}/archive/#gabriel)</span>  | CI/CD Prophet, Messenger of Build Logs | Pipeline prophecy, notifications | Delivers build status with trumpet flair.  |
+| <span class="nowrap">🗂️ [**Michael**]({{ site.baseurl }}/archive/#michael)</span>  | IAM Overlord & Permission Purifier | Access control, security audits | Defeated the root user in single combat.   |
+| <span class="nowrap">🌩️ [**Metatron**]({{ site.baseurl }}/archive/#metatron)</span> | Voice of the Stack Trace          | Logging, error translation    | Converts cryptic errors to divine wisdom.  |
+| <span class="nowrap">🧙‍♂️ [**Rasputin**]({{ site.baseurl }}/archive/#rasputin)</span> | Rogue Debugger from Shadow Namespace | Unorthodox troubleshooting   | Once debugged a production miracle.        |
+| <span class="nowrap">🐍 [**The Serpent**]({{ site.baseurl }}/archive/#serpent)</span> | Unstable Dev Whisperer (Revoked) | Social engineering, chaos    | Access revoked after forbidden commit.     |
+| <span class="nowrap">🎶 [**Sandalphon**]({{ site.baseurl }}/archive/#sandalphon)</span> | Release Manager                      | Production launches, deployment coordination | Orchestrates go-lives with angelic precision—never misses a deploy window, except during solar eclipses. |
+| <span class="nowrap">🥧 [**Zadkiel**]({{ site.baseurl }}/archive/#zadkiel)</span>    | Incident Response Angel              | Postmortems, blameless retrospectives         | Appears only after midnight outages, always brings comfort food.           |
+| <span class="nowrap">⚰️ [**Azrael**]({{ site.baseurl }}/archive/#azrael)</span>     | Legacy System Decommissioner         | Service sunsetting, data migration            | Guides old code to a peaceful end—sometimes with a eulogy.             |
+| <span class="nowrap">👁️ [**Remiel**]({{ site.baseurl }}/archive/#remiel)</span>     | Monitoring & Observability           | Uptime, alerts, dashboards                    | Watches over the flock of running services, occasionally sends cryptic alerts.    |
+| <span class="nowrap">🎨 [**Haniel**]({{ site.baseurl }}/archive/#haniel)</span>     | UX Evangelist                        | User happiness, accessibility, design         | Advocates for joy in every interface, rumored to have invented dark mode.          |
+| <span class="nowrap">☁️ [**Ariel**]({{ site.baseurl }}/archive/#ariel)</span>      | Cloud Infrastructure Guardian        | Resource provisioning, scaling                | Ensures the heavens auto-scale gracefully, but dislikes vendor lock-in.     |
+| <span class="nowrap">👶 [**Intern Cherub**]({{ site.baseurl }}/archive/#intern)</span> | Wildcard/Intern                    | Miscellaneous, coffee runs                    | Still learning YAML, but brings celestial energy to every standup.         |
 
 ---
 
