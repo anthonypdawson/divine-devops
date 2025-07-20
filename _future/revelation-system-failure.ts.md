@@ -248,6 +248,11 @@ async function main() {
 main().catch(console.error);
 ```
 ---
+
+## Execution & System Log
+
+Below: The final Revelation Event Handler run command and its output log, capturing the last moments of the old universe and the transition to New Heaven and New Earth.
+
 ```sh
 > ts-node revelation_system_failure.ts
 
@@ -316,5 +321,11 @@ main().catch(console.error);
 [SYSTEM] Revelation sequence complete.
 ```
 ---
+
+### Configuration Files
+
+#### [<code><b>revelation-status.yaml</b></code>]({{ site.baseurl }}/assets/misc/revelation-status.yaml#content)
+_Summary: The final status manifest from the Revelation Event Handler, capturing the last moments before New Heaven and New Earth deployment._
+
 
 > Note: The Revelation Event Handler is a one-time-use system. Ensure all souls are properly backed up before initiating the sequence. Unauthorized tampering may result in eternal consequences.
