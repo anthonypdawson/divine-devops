@@ -1,13 +1,12 @@
 ---
 layout: terminal_post
-title: "The 12 DevEvangelists — Apostles Team Log"
+title: "The 12 DevEvangelists — Apostles Team"
 date: 2025-04-06
 tags: [apostles, evangelists, james, jesus, judas, logs, markdown, matthew, peter]
 category: divine-team-dynamics
 summary: "Official HeavenOps log: The 12 DevEvangelists, assigned to Project Kingdom Startup v1.0, with personnel roles, specializations, and incident notes as recorded by the Celestial Scribe."
 ---
 
-# The 12 DevEvangelists  
 **Team: Kingdom Startup v1.0** — *Founder: Jesus of Nazareth*
 
 | Name              | Role                       | Specialization                 | Notes                                   |

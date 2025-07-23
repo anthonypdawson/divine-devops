@@ -56,7 +56,7 @@ Welcome to the official HeavenOps Glyph Roster—a classified log of the angels 
 
 ---
 
-> *Roster maintained by the Celestial Scribe. For full incident logs, see [apostles team log]({{ site.baseurl }}{% post_url 2025/04/2025-04-06-apostles_team_log %}).*
+> *Roster maintained by the Celestial Scribe. For the non-celestial, see [apostles team]({{ site.baseurl }}{% post_url 2025/04/2025-04-06-apostles_team_log %}).*
 
 ---
 
