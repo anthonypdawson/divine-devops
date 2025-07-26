@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Roswell Incident Report: The Forbidden Merge That Crashed Into Earth"
-date: 2025-07-18 08:00:00
+date: 2025-08-01 08:00:00
 tags: [incident, deployment, rollback, ci-cd, extraterrestrial, conspiracy, cover-up, gabriel, michael, uriel, raphael]
 summary: "HeavenOps incident report #042: How a failed CI/CD deployment from the Aeon Dev Cluster became history's most famous 'weather balloon' cover-up."
 image: /assets/images/posts/roswell-incident.webp
