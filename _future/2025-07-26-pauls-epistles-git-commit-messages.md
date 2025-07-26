@@ -51,7 +51,6 @@ Philemon,
 Onesimus has passed all background checks and is now restored to the trusted contributor list. Please update your access controls accordingly.
 
 ---
----
 
 > _To the Church at Galatia, subject: `refactor: remove legacy law checks, enable grace feature flag`_
 
@@ -73,6 +72,13 @@ Documentation is out of date. Please update your README.md to reflect the new ju
 - All epistles are signed off with `git commit --signoff`.
 - Merge conflicts are resolved with prayer and apostolic authority.
 - CI/CD pipeline: Continuous Intercession / Continuous Discipleship.
+- Add `.gitignore`:  
+    - ```plaintext
+      false_teachings/
+      envy/
+      boasting/
+      ```
+
 
 ---
 
