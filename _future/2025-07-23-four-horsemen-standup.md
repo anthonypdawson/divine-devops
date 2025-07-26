@@ -4,7 +4,7 @@ summary: "Incident postmortem: When War, Famine, Pestilence, and Death took over
 layout: terminal_post
 tags: [incident, apocalypse, four-horsemen, devops, parody, ops, postmortem]
 date: 2025-07-23
-image: "/assets/images/posts/four-horsemen-standup.webp"
+image: "/assets/images/posts/four-horsemen-zoom.webp"
 image_alt: "The Four Horsemen of the Apocalypse running a DevOps standup meeting"
 ---
 
