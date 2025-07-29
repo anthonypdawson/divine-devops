@@ -4,7 +4,7 @@ date: 2025-07-29 12:00:00
 layout: terminal_post
 tags: [myth, procrustes, devops, velocity, parody]
 summary: "Procrustes enforces uniform velocity in the temple of DevOps, stretching or cutting teams to fit the iron bed of the sprint."
-image: /assets/images/posts/procrustean-bed.png
+image: /assets/images/posts/procrustean-bed.webp
 ---
 # 🛏️ Stretching the Sprint Until It Snaps  
 ### *Procrustean DevOps and the Tyranny of Uniform Velocity*
