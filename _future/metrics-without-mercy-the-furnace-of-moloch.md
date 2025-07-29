@@ -2,7 +2,7 @@
 title: "Metrics without Mercy: The Furnace of Moloch"
 date: 2025-07-29 12:00:00
 layout: terminal_post
-tags: [moloch, metrics, devops, parody, burnout]
+tags: [moloch, metrics, devops, parody, burnout, uriel]
 summary: "Moloch, the ancient devourer, returns as the god of metrics—demanding dashboards, KPIs, and the sacrifice of developer joy."
 image: /assets/images/posts/moloch-metrics-furnace.webp
 ---
@@ -63,6 +63,11 @@ The god of metrics is powerful—but he is not inevitable.
 
 ---
 
+**Uriel-404 Commentary:**
+> Recommendation: Spin up a new cohort. Set OKRs to `faith through flame.` Retry.
+
+---
+
 ## 📝 Incident Report: The Day of the Dashboard
 
 > _Incident: Team Lambda attempted to appease Moloch by doubling their deployment frequency. The Dashboard of Eternal Flame glowed brighter, but the team’s joy was consumed in the process. 
@@ -73,3 +78,6 @@ The god of metrics is powerful—but he is not inevitable.
 > _“You can’t outpace Moloch. But you can refuse to race.”_
 
 Join the resistance. Burn the altar. Build with mercy.
+
+---
+
