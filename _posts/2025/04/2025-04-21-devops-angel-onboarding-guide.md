@@ -5,7 +5,7 @@ date: 2025-04-21
 tags: [angelic-hr, documentation, gabriel, heavenops, michael, onboarding, uriel]
 summary: "A comprehensive onboarding guide for new DevOps angels joining the HeavenOps team."
 image: /assets/images/icons/default.webp
-category: hr-announcements
+category: heavenops-hr
 ---
 
 **Welcome, newly incarnated DevOps Seraph!**  

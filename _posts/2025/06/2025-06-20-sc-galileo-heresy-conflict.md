@@ -3,7 +3,7 @@ title: "Scientific Catastrophes: The Galileo Heresy Conflict"
 date: 2025-06-20 8:00:00
 layout: terminal_post
 tags: [galileo, devops, incident-report, parody, religion, astronomy, scientific-catastrophes]
-category: "Scientific Catastrophes"
+category: scientific-catastrophes
 summary: "A rogue sysadmin's unauthorized heliocentric update caused a cascade of dependency conflicts in the universe's legacy theology system."
 image: "/assets/images/posts/sc-galileo-heresy-conflict.webp"
 intro: "When Galileo pushed his heliocentric update to production, the universe's legacy theology system wasn't ready for the paradigm shift. Here's how it all spiraled out of orbit."

@@ -5,7 +5,7 @@ date: 2025-04-18
 tags: [angelic-hr, gabriel, logs, michael, self-review, uriel]
 summary: "Uriel-404 reflects on responsibilities, accomplishments, and challenges in the annual self-review for the Heavenly Systems Division."
 image: /assets/images/icons/system_logs.webp
-category: hr-announcements
+category: heavenops-hr
 ---
 
 **Heavenly Systems Division – Annual Self-Review**  

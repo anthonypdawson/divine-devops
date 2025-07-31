@@ -5,7 +5,7 @@ tags: [uriel, gabriel, raphael, metatron, performance, bureaucracy, audit, manag
 date: 2025-07-16 08:00:00
 image: /assets/images/posts/uriel-badge.webp
 summary: "Uriel-404 faces a divine performance review, with Gabriel and Archangel Management weighing in on uptime, attitude, and the eternal struggle between bureaucracy and hope."
-category: "Divine Team Dynamics"
+category: divine-team-dynamics
 ---
 
 > `# review-2025-Q1 – AngelOps Division`  

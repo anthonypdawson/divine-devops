@@ -5,7 +5,7 @@ date: 2025-07-10 8:00:00
 tags: [incident, exodus, logistics, slack, postmortem, devops]
 summary: "A reconstructed 40-year Slack thread chronicling the infamous Exodus logistics disaster."
 layout: terminal_post
-category: "historical mismanagement"
+category: historical-mismanagement
 related_incident: exodus-logistics
 ---
 

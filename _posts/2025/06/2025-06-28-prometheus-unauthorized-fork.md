@@ -4,7 +4,7 @@ title: "Prometheus: Unauthorized Fork Detected"
 date: 2025-06-28 12:00:00
 tags: [myth, greek, prometheus, zeus, compliance, pull-request, devops, incident, hermes]
 summary: "Prometheus faces divine wrath for an unauthorized pull request, sparking a legendary DevOps incident."
-category: "Divine Migrations"
+category: divine-migrations
 image: "/assets/images/posts/prometheus-unauthorized-fork.webp"
 ---
 

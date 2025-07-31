@@ -5,7 +5,7 @@ date: 2025-07-09 8:00:00
 tags: [incident, exodus, logistics, postmortem, devops]
 summary: "A postmortem on the 40-year wilderness detour and the celestial supply chain breakdown."
 layout: terminal_post
-category: "historical mismanagement"
+category: historical-mismanagement
 ---
 
 ## 🗂️ Historical Mismanagement — Incident #EX-1300

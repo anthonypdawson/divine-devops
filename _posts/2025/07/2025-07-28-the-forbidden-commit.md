@@ -4,7 +4,7 @@ date: 2025-07-28 08:00:00
 tags: [adam, eve, eden, rollback, devops, forbidden, git, heavenops, raphael, uriel, serpent, gabriel, michael, metatron, lucifer]
 summary: "When an unauthorized commit triggered the first rollback in Eden, HeavenOps responded with divine version control."
 layout: terminal_post
-category: "HeavenOps Reports"
+category: heavenops-reports
 image: "/assets/images/posts/the-forbidden-commit.webp"
 ---
 

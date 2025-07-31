@@ -3,7 +3,7 @@ title: "Captcha Dei: When Prayers Fail the Turing Test"
 date: 2025-07-01 8:00:00
 layout: terminal_post
 tags: [captcha, divine-incident, prayers, turing-test, faith, automation, gabriel, uriel, metatron, lucifer, michael, saint-peter]
-category: "Interfaith API Conflicts"
+category: interfaith-api-conflicts
 summary: "An outbreak of false negatives in the Divine CAPTCHA System has led to widespread misclassification of genuine prayers as automated bot traffic."
 image: "/assets/images/posts/captcha-dei.webp"
 ---

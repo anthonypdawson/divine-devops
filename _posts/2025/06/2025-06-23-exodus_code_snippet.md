@@ -3,7 +3,7 @@ layout: terminal_post
 title: "Exodus Code Snippet"
 date: 2025-06-23 08:00:00
 tags: [exodus, typescript, migration, plague]
-category: "Sacred Source"
+category: sacred-source
 summary: "A TypeScript snippet illustrating the Exodus migration process, complete with plagues and sea-splitting."
 intro: "A TypeScript implementation of the Exodus migration, featuring divine interventions like plagues and sea-splitting to ensure a successful journey."
 image: "/assets/images/posts/exodus-code-snippet.webp"
