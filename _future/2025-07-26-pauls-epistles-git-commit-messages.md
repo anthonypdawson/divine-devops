@@ -2,6 +2,7 @@
 title: "Paul’s Epistles: Git Commit Messages to the Churches"
 date: 2025-07-26 12:00:00
 layout: terminal_post
+category: divine-team-dynamics
 tags: [paul, epistles, git, parody, unstable-builds]
 summary: "Paul, the original distributed DevOps engineer, dispatches longform commit messages to remote church teams running unstable builds."
 ---

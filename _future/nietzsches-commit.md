@@ -2,6 +2,7 @@
 title: "Nietzsche’s Commit: kill(god_instance)"
 summary: "Incident report: abrupt termination of god_instance, cosmic P1 outage, and existential impact on distributed human nodes."
 layout: terminal_post
+category: historical-mismanagement
 tags: [incident, philosophy, nietzsche, devops, outage, parody, heavenops]
 date: 1882-01-01
 image: "/assets/images/posts/nietzsches-commit.webp"

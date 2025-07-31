@@ -4,14 +4,6 @@ A collection of real and imagined entities who haunt the digital realms of devel
 
 ---
 
-## 🔥 Belial — Demon of Lawless Logic
-- **Origin**: *Dictionnaire Infernal*
-- **Debugging Domain**: Infinite loops, rogue processes, lawless conditional chains
-- **Summoning Ritual**: Run a script with no exit condition at 3:33 AM on Friday
-- **Sigil**: A snake consuming a `while(true)` loop
-
----
-
 ## 🐍 Asmodeus — Compiler of Lustful Errors
 - **Origin**: Traditional demonology, builder of Solomon's Temple
 - **Debugging Domain**: Premature optimization, unreadable one-liners

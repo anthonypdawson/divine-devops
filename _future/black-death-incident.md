@@ -1,5 +1,6 @@
 ---
 layout: terminal_post
+category: scientific-catastrophes
 title: "Incident Report – The Black Death (1347-1351)"
 date: 2025-06-07 15:00:00
 tags: [blackdeath, plague, incident, downtime, uriel, europe, medieval, rollback, historical]

@@ -1,5 +1,6 @@
 ---
 layout: terminal_post
+category: prophetic-misinterpretations
 title: "Genesis ChatGPT Flood Purge"
 date: 2025-05-17 12:00:03
 tags: [genesis, flood, git, merge, logs]

@@ -2,6 +2,7 @@
 title: "Metrics without Mercy: The Furnace of Moloch"
 date: 2025-07-29 12:00:00
 layout: terminal_post
+category: mythological-system-failures
 tags: [moloch, metrics, devops, parody, burnout, uriel]
 summary: "Moloch, the ancient devourer, returns as the god of metrics—demanding dashboards, KPIs, and the sacrifice of developer joy."
 image: /assets/images/posts/moloch-metrics-furnace.webp

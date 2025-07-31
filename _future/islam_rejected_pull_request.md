@@ -1,5 +1,6 @@
 ---
 layout: terminal_post
+category: interfaith-api-conflicts
 title: 'Islam Rejected Pull Request'
 date: 2025-05-17 12:00:03
 tags: [pullrequest, islam, conflict, branches]

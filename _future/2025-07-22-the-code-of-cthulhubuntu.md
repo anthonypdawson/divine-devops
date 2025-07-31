@@ -1,5 +1,6 @@
 ---
 layout: terminal_post
+category: sacred-source
 title: "The Code of Cthulhubuntu"
 summary: "Incident report: eldritch package install triggers forbidden daemon protocol, reality segmentation, and Uriel-404 intervention."
 date: 2025-07-22
