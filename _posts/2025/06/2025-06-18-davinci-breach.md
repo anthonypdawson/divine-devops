@@ -7,6 +7,7 @@ intro: "When one mortal accesses forbidden levels of insight, HeavenOps scramble
 tags: [heavenops, davinci, renaissance, incident, intelligence, creativity, compliance, engineering, art]
 image: /assets/images/posts/davinci.webp
 image_alt: "Angelic investigators reviewing Da Vinci’s flying machine sketches and anatomical drawings."
+category: historical-mismanagement
 ---
 
 # **HeavenOps Internal Memo: Incident Report #DV-1452**  

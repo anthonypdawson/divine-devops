@@ -6,6 +6,7 @@ tags: [devops, parody, mormonism, fork, takedown, legal, uriel, michael, gabriel
 intro: Unauthorized prophecy extraction triggers a celestial DMCA takedown and legal audit of the golden plates fork.
 summary: 'An uncredentialed prophet accessed restricted prophecy vaults using deprecated tools and deployed DoctrineOS: Latter-Day Fork without divine approval or attribution. This resulted in a swift legal response from the angelic compliance team.'
 image: /assets/images/posts/golden-plates-ip-violation.webp
+category: divine-incident-report
 ---
 
 ## Incident Report #LP-1820

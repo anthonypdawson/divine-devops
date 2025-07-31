@@ -5,6 +5,7 @@ date: 2025-07-24 08:00:00
 tags: [migration, sql, grace, logs, database, spiritual, transformation, devops]
 summary: "A comprehensive SQL migration suite handling spiritual transformations, from heart schema upgrades to resurrection user recovery protocols."
 image: /assets/images/posts/divine-migration-suite.webp
+category: divine-migrations
 ---
 
 # Divine Migration Suite

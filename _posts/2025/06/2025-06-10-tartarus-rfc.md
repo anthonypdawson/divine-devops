@@ -12,6 +12,7 @@ intro: Tartarus, the primordial containment zone, faces a long-overdue migration
 tags: [rfc, tartarus, heavenops, migration, afterlife, metatron, uriel]
 image: /assets/images/posts/tartarus-migration.webp
 image_alt: "Diagram of Tartarus migration into the Celestial Punishment Framework"
+category: afterlife-queue-management-failures
 ---
 <div class="rfc-meta">
   <span class="rfc-icon" aria-label="RFC Icon">📜</span>

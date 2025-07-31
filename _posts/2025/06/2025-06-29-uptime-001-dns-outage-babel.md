@@ -5,6 +5,7 @@ date: 2025-06-29 8:00:00
 tags: [uptime, babel, incident, biblical, uriel, gabriel, god, devops, language, dns, postmortem]
 image: /assets/images/posts/uptime-001-dns-outage-babel.webp
 summary: "Uriel recounts the infamous Babel DNS outage, where a single deployment fractured global communication and left the team scrambling to debug a divine protocol meltdown."
+category: historical-mismanagement
 ---
 
 <!-- Topic: Ask Me About My Uptime -->

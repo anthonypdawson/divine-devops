@@ -7,6 +7,7 @@ intro: "When an angelic intern authorized too much inspiration, HeavenOps faced 
 tags: [heavenops, renaissance, michelangelo, gutenberg, machiavelli, incident, compliance, creativity, bureaucracy, art, science]
 image: /assets/images/posts/renaissance.webp
 image_alt: "Angels in chaos as mortals paint, invent, and print books during the Renaissance."
+category: historical-mismanagement
 ---
 
 # **HeavenOps Internal Memo: Incident Report #RNS-1492**  

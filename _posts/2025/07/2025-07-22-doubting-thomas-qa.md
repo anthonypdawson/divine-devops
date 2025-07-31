@@ -5,6 +5,7 @@ layout: terminal_post
 image: "/assets/images/posts/doubting-thomas-qa.webp"
 summary: "HeavenOps incident report documenting QA engineer Thomas's refusal to approve resurrection deployment without tactile verification protocols."
 tags: [thomas, qa, testing, resurrection, devops, heavenops, incident-report, verification]
+category: divine-incident-report
 ---
 
 *HeavenOps Incident Report #1127 - Post-Resurrection Deployment QA Blockage*

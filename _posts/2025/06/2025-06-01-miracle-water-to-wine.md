@@ -5,6 +5,7 @@ date: 2025-06-01 08:00:00
 summary: "A miracle deployment at Cana: Jesus transforms water to wine in prod, bypassing pipelines and impressing QA with a perfect release."
 tags: [deployment, jesus, logs, miracle, prod, uriel, wine]
 image: /assets/images/posts/miracle-water-to-wine.webp
+category: miracle-reports
 ---
 
 > ## 🚨 Miracle alert

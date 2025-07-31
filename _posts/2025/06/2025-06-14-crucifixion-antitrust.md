@@ -6,6 +6,7 @@ tags: [uriel, jesus, rome, parody, devops, religion, incident-report, compliance
 intro: Roman compliance agents investigate and deplatform Yeshua of Nazareth for anticompetitive miracles and unlicensed theological disruption during Passover Cycle 33 CE.
 summary: "ROMSEC (Roman Spiritual Enforcement Commission) audits Yeshua of Nazareth for unauthorized miracles, unregistered messianic claims, and disruption of the Judean belief ecosystem."
 image: /assets/images/posts/crucifixion.webp
+category: divine-incident-report
 ---
 
 ```log

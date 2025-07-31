@@ -30,4 +30,8 @@ Below is a list of all unique, standardized categories currently used in the pro
 - theological-architectures
 - eternal-resource-allocation-issues
 
+- miracle-reports
+
+- divine-compliance
+
 _All categories are now lowercase and hyphenated for consistency._

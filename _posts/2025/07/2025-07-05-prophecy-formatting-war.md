@@ -7,6 +7,7 @@ intro: "A heated debate erupts in #divine-compliance as Metatron and Uriel battl
 tags: [slack, prophecy, formatting, yaml, governance, metatron, uriel, gabriel, lucifer, michael]
 image: /assets/images/posts/prophecy-formatting-war.webp
 image_alt: "Celestial Slack thread debating prophecy formatting standards"
+category: divine-compliance
 ---
 
 # **Slack Thread: The Prophecy Formatting War**

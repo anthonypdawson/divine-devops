@@ -6,6 +6,7 @@ tags: [gabriel, git, lucifer, michael, permissions, pr, pullrequest, rebellion]
 intro: "Pull Request #666 represents one of the most audacious attempts at privilege escalation in divine history."
 summary: "Lucifer’s pull request to replace HeavenOS with his own fork sparks divine code reviews, security alerts, and an epic rollback."
 image: /assets/images/posts/merge-666.webp
+category: divine-incident-report
 ---
 
 <div class="sidebar-snark">

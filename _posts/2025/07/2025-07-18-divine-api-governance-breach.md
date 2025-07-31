@@ -7,6 +7,7 @@ intro: "Audit logs indicate numerous unauthorized miracle invocations, potential
 tags: ["api", "miracle", "governance", "gabriel", "metatron", "uriel"]
 image: /assets/images/posts/divine-api-governance-breach.webp
 image_alt: "Celestial dashboard showing unauthorized API calls"
+category: divine-compliance
 ---
 
 ## 🌐 Incident Report: Unapproved API Call Surge
