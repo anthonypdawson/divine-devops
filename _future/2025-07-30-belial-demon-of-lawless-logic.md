@@ -45,17 +45,16 @@ echo "running cleanup.sh" && while true; do echo "Cleaning..."; done
 --- 
 
 ### Uriel’s Annotation:
- “Belial was last quarantined in a Docker container in 2012.
-  He escaped when Jenkins restarted without warning.
-  Status: Contained again—allegedly.”
+ “Belial was last quarantined in a Docker container in 2012.  He escaped when Jenkins restarted without warning.  
+Status: Contained again—allegedly.”
 
 ---
 
-☠️ Current Risk Level: HIGH
-🔁 Recommended Response:
+☠️ Current Risk Level: HIGH  
+🔁 Recommended Response:  
 
-• `kill -9`
-• Sacrificial coffee
+• `kill -9`  
+• Sacrificial coffee  
 • Full restart with verbose logging enabled
 
 ---
