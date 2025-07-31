@@ -6,6 +6,7 @@ tags: [profiles, slack, angels, apostles, devops, parody, heavenops]
 date: 2025-07-29 8:00:00
 image: "/assets/images/posts/slack-profiles.webp"
 image_alt: "Slack profiles for Divine DevOps team members"
+category: heavenops-hr
 ---
 
 [← See the full celestial HeavenOps Roster]({{ site.baseurl }}{% post_url 2025/07/2025-07-29-heavenops-roster %})
