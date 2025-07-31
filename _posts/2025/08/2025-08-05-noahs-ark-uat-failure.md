@@ -1,7 +1,8 @@
 ---
 layout: terminal_post
+category: divine-incident-report
 title: "Noah's Ark UAT Failure: The Great Regression Flood"
-date: 2025-07-01 08:00:00
+date: 2025-08-05 08:00:00
 tags: [incident, testing, regression, flood, noah, ark, qa, divine-uat, rollback, raphael, ariel, thomas]
 summary: "HeavenOps incident report #043: How a failed User Acceptance Test led to the most famous rollback in history."
 image: /assets/images/posts/noahs-ark-uat-failure.webp

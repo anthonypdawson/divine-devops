@@ -2,8 +2,9 @@
 title: "Postmortem: The Day the Four Horsemen Ran the Standup"
 summary: "Incident postmortem: When War, Famine, Pestilence, and Death took over the ops standup, chaos reigned and the team scrambled to mitigate the apocalypse."
 layout: terminal_post
+category: incident-reports
 tags: [incident, apocalypse, four-horsemen, devops, parody, ops, postmortem]
-date: 2025-07-23
+date: 2025-08-03 08:00:00
 image: "/assets/images/posts/four-horsemen-zoom.webp"
 image_alt: "The Four Horsemen of the Apocalypse running a DevOps standup meeting"
 ---
