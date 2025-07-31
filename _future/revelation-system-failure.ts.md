@@ -3,7 +3,7 @@ layout: terminal_post
 title: "revelation_system_failure.ts"
 date: 2025-05-17 12:00:03
 tags: [apocalypse, revelation, typescript, system, failure, logs]
-category: "Sacred Source"
+category: sacred-source
 summary: "A TypeScript implementation of the Revelation Event Handler, managing the final system shutdown and transition to New Heaven and New Earth."
 image: /assets/images/posts/code-post.webp
 ---

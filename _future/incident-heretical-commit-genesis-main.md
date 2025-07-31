@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Incident Report: Heretical Commit to genesis-main"
 tags: [incident, devops, heresy, uriel, code-review, genesis, audit]
-category: "Sacred Source"
+category: sacred-source
 date: 2025-05-17 12:00:03
 summary: "An unauthorized commit to the genesis-main branch triggers a critical incident and a full audit of creation protocols."
 intro: "When the fabric of creation is tampered with, even the smallest unauthorized change can ripple across the cosmos. This incident report delves into a critical breach of the `genesis-main` branch, where divine safeguards were bypassed, leading to chaos in the celestial codebase."

@@ -4,7 +4,7 @@ date: 2025-07-04 12:00:00
 tags: [devops, heavenops, ci/cd, angels, miracles, compliance, automation, metatron, uriel]
 summary: "How HeavenOps revolutionized miracle delivery with robust CI/CD, compliance, and automation."
 layout: terminal_post
-category: "HeavenOps Reports"
+category: heavenops-reports
 image: "/assets/images/posts/divine-devops-overview.webp"
 ---
 
