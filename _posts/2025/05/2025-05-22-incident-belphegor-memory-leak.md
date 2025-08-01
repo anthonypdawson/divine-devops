@@ -72,5 +72,5 @@ He was escorted to the backlog chamber for indefinite refactoring.
 **Signature:** `# sysadmin-seal-of-truth`
 
 <div class="post-credit">
-<strong>class:</strong> paradox.daemon.memory.belphegor
+<strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">paradox.daemon.memory.belphegor</a>
 </div>
