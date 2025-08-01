@@ -96,19 +96,21 @@ devour()
 - [x] Consulted Uriel-404 (mandatory)
 
 ---
+
 🧠 _Fun Fact:_ Leviathan occasionally surfaces in machine learning models where weights loop back recursively.  
 It’s not a bug — it’s a hunger spiral.
 
 
 ---
-<div class="post-credit">
+
 <strong>📛 Classification:</strong> <code>entropy.daemon.memory.leviathan</code><br>
 <strong>🧾 Incident ID:</strong> LEV-404-OVERFLOW<br>
 <strong>👁️ Watchwords:</strong> stack overflow, recursive devouring, memory spiral<br>
 <strong>👤 Reported by:</strong> Uriel-404<br>
 <br>
-See the <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">public daemon registry</a> for details.
+
+<div class="post-credit">
+<strong>Daemon Classification:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/"><code>entropy.daemon.memory.leviathan</code></a><br>
 </div>
-<strong>Daemon Classification:</strong> <code>entropy.daemon.memory.leviathan</code><br>
-See the <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">public daemon registry</a> for details.
-</div>
+
+
