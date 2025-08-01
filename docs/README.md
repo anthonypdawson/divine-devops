@@ -12,8 +12,8 @@ Welcome to the documentation hub. Below you'll find links to all major docs, gui
 
 ## Key Documentation
 
-- [Daemon Registry](/docs/daemon-registry/)
-- [All Categories Used](/docs/all-categories/)
+- [Daemon Registry](/assets/reference/daemon-registry.md)
+- [All Categories Used](/docs/all-categories.md)
 - [File Linking Guidelines](/docs/file-linking-guidelines.md)
 - [Structure & Formatting Conventions](/docs/structure-and-formatting.md)
 - [Referencing Project Files](/docs/referencing-project-files.md)
