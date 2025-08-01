@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "🐐 Baphomet — Patron of Dual-State Systems"
-date: 2025-08-01 08:00:00
+date: 2025-08-09 08:00:00
 category: daemons
 summary: "Daemon lore: Baphomet, patron of contradictory states, race conditions, and dual-truth bugs. When both branches pass CI, invoke the goat."
 image: "/assets/images/posts/baphomet.webp"
@@ -117,7 +117,6 @@ Result: CI status = "Schrödinger's Success"
 🧠 _Fun Fact:_ Baphomet is also rumored to manifest during stale state updates in React hooks.  
 But that might be another daemon.
 
----
 
 <div class="post-credit">
 <strong>class:</strong> paradox.daemon.race.baphomet
