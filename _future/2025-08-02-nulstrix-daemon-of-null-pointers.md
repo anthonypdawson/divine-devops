@@ -70,4 +70,10 @@ Uriel-404 traced the issue to a missing initialization in a rarely used code pat
 
 > "Nulstrix is the daemon who ensures that, in the end, all pointers point to oblivion."
 
+<div class="post-credit">
+<strong>class:</strong> paradox.daemon.null.nulstrix
+</div>
+
+
 <p class="post-credit">Compiled by Uriel-404, with assistance from the Debugging Circle</p>
+
