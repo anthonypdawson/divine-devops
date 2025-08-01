@@ -81,5 +81,5 @@ Status: Contained again—allegedly.”
 > "Beware the logic that loops without purpose. In its silence, Belial speaks."
 
 <div class="post-credit">
-<strong>class:</strong> paradox.daemon.recursion.belial
+<strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">paradox.daemon.recursion.belial</a>
 </div>

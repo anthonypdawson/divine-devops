@@ -71,7 +71,7 @@ Uriel-404 traced the issue to a missing initialization in a rarely used code pat
 > "Nulstrix is the daemon who ensures that, in the end, all pointers point to oblivion."
 
 <div class="post-credit">
-<strong>class:</strong> paradox.daemon.null.nulstrix
+<strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">paradox.daemon.null.nulstrix</a>
 </div>
 
 

@@ -78,7 +78,12 @@ The god of metrics is powerful—but he is not inevitable.
 
 > _“You can’t outpace Moloch. But you can refuse to race.”_
 
+
 Join the resistance. Burn the altar. Build with mercy.
 
 ---
+
+<div class="post-credit">
+<strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">paradox.daemon.metrics.moloch</a>
+</div>
 
