@@ -2,7 +2,7 @@
 layout: terminal_post
 category: scientific-catastrophes
 title: "Incident Report – The Black Death (1347-1351)"
-date: 2025-06-07 15:00:00
+date: 2025-08-11 08:00:00
 tags: [blackdeath, plague, incident, downtime, uriel, europe, medieval, rollback, historical]
 intro: "A catastrophic, multi-region outage sweeps across Europe, overwhelming all health monitoring and remediation protocols."
 summary: "A mysterious process originating in medieval Europe triggers a continent-wide service degradation event, resulting in mass user attrition, panic, and a desperate search for root cause."
