@@ -1,7 +1,6 @@
 ---
 title: "Daemon Registry"
 layout: terminal_post
-permalink: /assets/reference/daemon-registry/
 ---
 
 # 🕯️ Daemon Registry
@@ -17,6 +16,7 @@ A classified index of paradoxical entities haunting the sacred stacks, compiled 
 | `paradox.daemon.recursion.belial` | Lawless logic | Infinite loops, recursive traps | Belial | Banished (for now) |
 | `paradox.daemon.null.nulstrix` | Null references | Segfaults, memory corruption | Nulstrix | Uncontained |
 | `paradox.daemon.memory.belphegor` | Memory leaks | Eternal allocation, stale configs | Belphegor | Quarantined |
+| `paradox.daemon.metrics.moloch` | Metrics & dashboards | Sacrificial KPIs, burnout, relentless measurement | Moloch | Active |
 
 ---
 
