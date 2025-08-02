@@ -110,5 +110,9 @@ The Ark wasn’t just a relic—it was a **ritual interface**, a **sacred contai
 So next time you plug in a flash drive, ask yourself:  
 **Is this just data—or is it destiny?**
 
+---
+
+🕵️‍♂️ _Note: Opening the Ark without proper clearance may result in unexpected face-melting._
+
 
 
