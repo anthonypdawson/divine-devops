@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Post</title>
+  <style>
+    #random-post-content { max-width: 800px; margin: 2em auto; padding: 1em; border: 1px solid #ccc; border-radius: 8px; background: #fff; }
+    #random-refresh { margin: 1em auto; display: block; }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">Random Post</h1>
+  <button id="random-refresh">Show Another Random Post</button>
+  <div id="random-post-content">Loading...</div>
+  <script>
+    async function loadRandomPost() {
+      const contentDiv = document.getElementById('random-post-content');
+      contentDiv.textContent = 'Loading...';
+      try {
+        const res = await fetch('/random?mode=json');
+        const data = await res.json();
+        if (data.url) {
+          const postRes = await fetch(data.url);
+          if (postRes.ok) {
+            const html = await postRes.text();
+            // Extract main content (optional: adjust selector for your layout)
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+            // Try to find the main post content
+            let postContent = tempDiv.querySelector('.post-content') || tempDiv.querySelector('article') || tempDiv;
+            contentDiv.innerHTML = postContent.innerHTML;
+          } else {
+            contentDiv.textContent = 'Could not load post.';
+          }
+        } else {
+          contentDiv.textContent = 'No random post found.';
+        }
+      } catch (e) {
+        contentDiv.textContent = 'Error loading post.';
+      }
+    }
+    document.getElementById('random-refresh').onclick = loadRandomPost;
+    loadRandomPost();
+  </script>
+</body>
+</html>

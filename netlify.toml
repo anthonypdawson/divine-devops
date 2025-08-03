@@ -1,5 +1,5 @@
 [build]
-  command = "bundle exec jekyll build"
+  command = "bundle exec jekyll build && cp _site/sitemap.xml"
   publish = "_site"
 
 [build.environment]
@@ -10,7 +10,12 @@ directory = "netlify/functions"
 
 [[redirects]]
   from = "/random"
-  to = "/netlify/functions/random-post"
+  to = "/.netlify/functions/random-post"
+  status = 200
+
+[[redirects]]
+  from = "/prophecy"
+  to = "/.netlify/functions/prophecy"
   status = 200
 
 # Uncomment and customize for custom domains
@@ -21,8 +26,8 @@ directory = "netlify/functions"
 
 # Add more settings as needed for plugins, environment variables, or redirects.
 
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
+#[[plugins]]
+#  package = "@netlify/plugin-lighthouse"
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
