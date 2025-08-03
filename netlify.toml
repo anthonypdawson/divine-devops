@@ -25,10 +25,4 @@ directory = "netlify/functions"
   package = "@netlify/plugin-lighthouse"
 
 [[plugins]]
-  package = "@netlify/plugin-inline-functions"
-
-[[plugins]]
   package = "@netlify/plugin-sitemap"
-
-[[plugins]]
-  package = "@netlify/plugin-cache"

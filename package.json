@@ -1,8 +1,9 @@
 {
   "devDependencies": {
+    "@netlify/plugin-lighthouse": "^6.0.1",
+    "@netlify/plugin-sitemap": "^0.8.1",
     "emmet": "^2.4.11"
   },
-
   "scripts": {
     "lint:css": "stylelint \"**/*.{css,scss}\"",
     "lint:html": "htmlhint \"_site/**/*.html\"",
