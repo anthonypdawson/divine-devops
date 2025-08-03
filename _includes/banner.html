@@ -7,7 +7,7 @@
   <p class="center">{{ site.description }}</p>
   <p class="center" style="font-size:0.9em;color:#666;margin-top:0.5em;" id="prophecy-header"></p>
   <script>
-    fetch('/.netlify/functions/prophecy')
+    fetch('/prophecy')
       .then(response => response.json())
       .then(data => {
         if (data.verse) {
