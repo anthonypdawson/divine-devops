@@ -8,7 +8,7 @@ When including project files (such as YAML workflows, configuration files, or co
 - Wrap the file contents in a fenced code block with the appropriate language tag (e.g., <code>```yaml</code> for YAML files).
 
 ### 2. Reference Files in Posts and Docs
-- In your posts, link to the file using the path and the original file extension for aesthetics (e.g., `[linting-angels.yml](/divine-devops/assets/misc/linting-angels.yml)`), even if the actual file is `.yml.md`.
+- In your posts, link to the file using the path and the original file extension for aesthetics (e.g., `[linting-angels.yml](/assets/misc/linting-angels.yml)`), even if the actual file is `.yml.md`.
 - This keeps links clean and familiar for readers, while the `.md` extension ensures the file is published.
 
 ### 3. Example Formatting
