@@ -2,6 +2,10 @@ source "https://rubygems.org"
 # Hello! This is where you manage which Jekyll version is used to run.
 # For GitHub Flavored Markdown support
 gem "kramdown-parser-gfm"
+
+# For Ruby 3.4+ compatibility
+gem "base64"
+gem "bigdecimal"
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
