@@ -1,0 +1,17 @@
+[build]
+  command = "jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+
+[[redirects]]
+
+
+# Uncomment and customize for custom domains
+#[[headers]]
+#  for = "/assets/*"
+#  [headers.values]
+#    Cache-Control = "public, max-age=31536000"
+
+# Add more settings as needed for plugins, environment variables, or redirects.
