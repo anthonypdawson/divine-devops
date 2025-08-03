@@ -2,7 +2,7 @@ title: 'Divine DevOps'
 name: 'Divine DevOps'
 description: 'A parody universe blending humor, tech, religious themes and lore with DevOps culture.'
 author: 'divinedevops@poopnet.info'
-permalink: /:title/
+permalink: /posts/:title/
 url: 'https://www.divinedevops.com'
 theme: minima
 # theme: jekyll-theme-console
