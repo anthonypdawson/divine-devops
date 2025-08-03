@@ -26,8 +26,8 @@ directory = "netlify/functions"
 
 # Add more settings as needed for plugins, environment variables, or redirects.
 
-#[[plugins]]
-#  package = "@netlify/plugin-lighthouse"
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
