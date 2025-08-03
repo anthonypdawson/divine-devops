@@ -5,6 +5,9 @@
 [build.environment]
   JEKYLL_ENV = "production"
 
+[functions]
+directory = "netlify/functions"
+
 # Uncomment and customize for custom domains
 #[[headers]]
 #  for = "/assets/*"
