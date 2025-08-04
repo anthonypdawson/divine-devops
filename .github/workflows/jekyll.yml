@@ -8,16 +8,10 @@ name: Deploy Jekyll site to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Runs daily at 9:00 AM and 1:00 PM UTC
-  schedule:
-    - cron: '0 9 * * *'
-    - cron: '0 13 * * *'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
