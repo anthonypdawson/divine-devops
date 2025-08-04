@@ -14,8 +14,9 @@
           document.getElementById('prophecy-header').textContent = data.verse;
         }
       })
-      .catch(() => {
+      .catch((err) => {
         document.getElementById('prophecy-header').textContent = '';
+        console.error('Failed to fetch prophecy:', err);
       });
   </script>
   {% include share-buttons.html %}
