@@ -1,11 +1,11 @@
-<img src="assets/images/divine-banner-short.webp" alt="Divine DevOps Universe Banner" style="max-width: 100%; margin-bottom: 1.5em; border-radius: 10px; box-shadow: 0 0 18px #40c9ff55;" />
 
 # Divine DevOps Universe
 
 Welcome to the **Divine DevOps Universe** — a satirical blend of DevOps, biblical lore, and mythological mischief. Explore humorous posts, scripts, and creative content at the intersection of technology, religion, and modern software culture.
 
 ---
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9d9ed3e-96c9-48db-addf-cebf6a15b2c1/deploy-status?branch=netlify)](https://app.netlify.com/projects/divinedevops/deploys)
+---
 ## 📖 Overview
 
 This project parodies DevOps practices, workflows, and tools through the lens of ancient stories and modern tech. Each post mixes humor and technical insight, drawing inspiration from scripture, myth, and the realities of software development.
