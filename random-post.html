@@ -54,6 +54,8 @@
         }
       } catch (e) {
         contentDiv.textContent = 'Error loading post.';
+        console.error('Error loading random post:', e);
+
       }
     }
     document.getElementById('random-refresh').onclick = loadRandomPost;
