@@ -4,7 +4,7 @@
 Welcome to the **Divine DevOps Universe** — a satirical blend of DevOps, biblical lore, and mythological mischief. Explore humorous posts, scripts, and creative content at the intersection of technology, religion, and modern software culture.
 
 ---
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f9d9ed3e-96c9-48db-addf-cebf6a15b2c1/deploy-status?branch=netlify)](https://app.netlify.com/projects/divinedevops/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9d9ed3e-96c9-48db-addf-cebf6a15b2c1/deploy-status)](https://app.netlify.com/projects/divinedevops/deploys)
 ---
 ## 📖 Overview
 
