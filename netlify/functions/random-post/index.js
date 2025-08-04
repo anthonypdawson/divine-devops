@@ -39,12 +39,15 @@ exports.handler = async function(event, context) {
   const mode = event.queryStringParameters && event.queryStringParameters.mode;
   if (mode === 'redirect') {
     // Redirect to the random post
-    return {
-      statusCode: 302,
-      headers: {
-        Location: randomUrl
-      }
-    };
+    // Remove any query string from the random post URL and append #content
+    const cleanUrl = randomUrl.split('?')[0];
+    const urlWithAnchor = cleanUrl.includes('#') ? cleanUrl : `${cleanUrl}#content`;
+      return {
+        statusCode: 302,
+        headers: {
+          Location: urlWithAnchor,
+        },
+      };
   } else {
     // Return JSON for AJAX usage
     return {
