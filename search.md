@@ -10,6 +10,29 @@ permalink: /search/
   <title>Divine Query Interface</title>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <style>
+      .search-input-wrapper {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        max-width: 600px;
+        margin: 0 auto 0 auto;
+      }
+
+      #divine-query {
+        width: 100%;
+        flex: 1;
+      }
+
+      #clear-search {
+        margin-left: 0.5em;
+        background: #222;
+        color: #ffd700;
+        border: none;
+        font-size: 1.2em;
+        padding: 0.2em 0.6em;
+        border-radius: 3px;
+        cursor: pointer;
+      }
       .search-selected {
         background: #333 !important;
         border-left: 3px solid #ffd700 !important;
@@ -79,10 +102,27 @@ permalink: /search/
 <body>
 
   <h1>🔍 Divine Query Interface</h1>
-  <input id="divine-query" type="text" placeholder="Speak, mortal. What do you seek?" />
+  <div class="search-input-wrapper">
+    <input id="divine-query" type="text" placeholder="Speak, mortal. What do you seek?" />
+    <button id="clear-search" title="Clear search" style="display:none;">✕</button>
+  </div>
   <div id="search-results"><p>Search the divine records</p></div>
 
   <script>
+    const queryInput = document.getElementById('divine-query');
+    const clearBtn = document.getElementById('clear-search');
+
+    queryInput.addEventListener('input', function(e) {
+      clearBtn.style.display = e.target.value ? 'inline-block' : 'none';
+    });
+
+    clearBtn.addEventListener('click', function() {
+      queryInput.value = '';
+      clearBtn.style.display = 'none';
+      selectedIndex = -1;
+      renderResults([]);
+      queryInput.focus();
+    });
     let fuse;
 
     fetch('/lore.json')
@@ -143,6 +183,12 @@ permalink: /search/
         e.preventDefault();
         selectedIndex = (selectedIndex - 1 + currentResults.length) % currentResults.length;
         renderResults(currentResults);
+        if (selectedIndex === 0) {
+          const h1 = document.querySelector('h1');
+          if (h1) {
+            h1.scrollIntoView({ block: 'start', behavior: 'smooth' });
+          }
+        }
       } else if (e.key === 'Enter' && selectedIndex >= 0) {
         const item = currentResults[selectedIndex].item;
         window.location.href = item.url;
