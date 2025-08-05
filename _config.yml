@@ -23,6 +23,7 @@ include:
     - _redirects
     - robots.txt
     - sitemap.xml
+    - lore.json    
 exclude:
     - vendor
     - node_modules
