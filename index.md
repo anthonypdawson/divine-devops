@@ -1,6 +1,8 @@
 ---
 layout: home_with_banner
 title: Welcome
+pagination:
+  enabled: true
 ---
 
 # Divine DevOps Universe

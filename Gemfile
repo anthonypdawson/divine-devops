@@ -6,6 +6,9 @@ gem "kramdown-parser-gfm"
 # For Ruby 3.4+ compatibility
 gem "base64"
 gem "bigdecimal"
+
+gem 'logger'
+gem 'jekyll-paginate-v2'
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
