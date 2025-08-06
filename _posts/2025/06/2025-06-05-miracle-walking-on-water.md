@@ -4,6 +4,7 @@ title: 'Miracle: Walking on Water: Gravity Patch Override'
 date: 2025-06-05 08:00:00
 summary: 'Jesus overrides gravity to walk on water, baffling physics and sysadmins alike in a one-user miracle event.'
 tags: [jesus, miracle, ocean, override, physics, uriel]
+category: miracle-reports
 image: /assets/images/posts/miracle-walking-on-water.webp
 ---
 

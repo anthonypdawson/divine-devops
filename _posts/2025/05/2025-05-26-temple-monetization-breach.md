@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Issue #777 – Temple Monetization Breach"
 date: 2025-05-26 12:00:03
 tags: [audit, issue, jesus, judas, matthew, messiahos, peter, slack, temple]
+category: divine-incident-report
 summary: "A security audit exposes unauthorized monetization in the temple, leading to a legendary system purge and Slack drama."
 image: /assets/images/posts/temple-breach.webp
 ---

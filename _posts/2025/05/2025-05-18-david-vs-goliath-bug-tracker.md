@@ -4,6 +4,7 @@ title: "JIRA Ticket #DA-VID-0001"
 date: 2025-05-18 10:00:00
 summary: "Incident Report: David vs. Goliath (Prod Outage)"
 tags: [incident report, uriel, david, goliath, bug, legacy, automation, postmortem, monitoring, outage, onboarding, script, escalation, hero, troubleshooting]
+category: divine-incident-report
 image: /assets/images/posts/david-goliath.webp
 ---
 

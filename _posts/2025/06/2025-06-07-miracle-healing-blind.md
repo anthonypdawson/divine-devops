@@ -4,6 +4,7 @@ title: 'Miracle: Healing the Blind: Sensory Patch Deployment'
 date: 2025-06-07 08:00:00
 summary: "Jesus deploys a sensory patch to heal a blind user, restoring vision with an unconventional but effective protocol."
 tags: [blind, healing, jesus, miracle, restoration, uriel, gabriel, michael, raphael]
+category: miracle-reports
 image: /assets/images/posts/miracle-healing-blind.webp
 ---
 

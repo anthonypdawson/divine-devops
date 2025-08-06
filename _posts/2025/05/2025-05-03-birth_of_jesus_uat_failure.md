@@ -3,6 +3,7 @@ layout: terminal_post
 title: "birth_of_jesus_uat_failure.log"
 date: 2025-05-03 12:00:00
 tags: [divine-deployment, gabriel, hera, incident report, jesus, nativity, testing, uat, uriel]
+category: divine-incident-report
 summary: "The Messiah Deployment Project faces unexpected UAT challenges, with a stable fallback demonstrating the resilience of divine infrastructure."
 image: /assets/images/icons/incident_reports.webp
 ---

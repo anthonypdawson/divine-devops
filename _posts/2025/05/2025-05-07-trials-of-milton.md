@@ -3,6 +3,7 @@ layout: terminal_post
 title: "The Trials of Milton-WDMS"
 date: 2025-05-07 12:00:00
 tags: [deprecated-services, job, milton, office-space]
+category: scientific-catastrophes
 summary: "A back-office worker faces systemic neglect and undefined roles while maintaining deprecated services in the divine infrastructure."
 image: /assets/images/icons/default.webp
 ---

@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Papal Interference Causing Message Queue Latency"
 date: 2025-05-23 12:00:03
 tags: [queues, pope, bottleneck, uriel, raphael, incident report, external-user]
+category: divine-incident-report
 summary: "An external user ('pope_user') caused major message queue delays by manually intercepting and reviewing urgent requests."
 image: /assets/images/posts/pope.webp
 ---

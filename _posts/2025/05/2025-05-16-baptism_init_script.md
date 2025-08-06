@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Baptism Init Script"
 date: 2025-05-16 10:00:00
 tags: [baptism, shell, init, ritual, automation, faith]
+category: divine-migrations
 summary: "A shell script designed to automate the process of spiritual rebirth, purging sins and installing essential virtues."
 image: /assets/images/icons/system_logs.webp
 ---

@@ -3,6 +3,7 @@ layout: terminal_post
 title: 'The Ten Commandments of Clean Code'
 date: 2025-05-13 09:30:00
 tags: [clean-code, commandments, refactor, code-review, best-practices, software-development, humor]
+category: divine-rfc-request-for-comment
 summary: "A set of guiding principles delivered to developers to ensure clarity, maintainability, and order in the codebase."
 image: /assets/images/icons/default.webp
 ---

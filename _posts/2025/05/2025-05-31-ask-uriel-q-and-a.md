@@ -5,6 +5,7 @@ intro: "Ask Uriel – Issue Queue Highlights"
 summary: "A record of Uriel’s responses to common inquiries submitted to the celestial issue queue, addressing matters of fate, free will, and support protocol."
 date: 2025-05-31 10:00:00
 tags: [uriel, support, parody, devops, faq]
+category: divine-team-dynamics
 image: /assets/images/posts/ask-uriel.webp
 ---
 

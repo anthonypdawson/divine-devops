@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Martin Luther Reddit Thread"
 date: 2025-05-15 10:00:00
 tags: [reformation, reddit, logs, church, social-media]
+category: interfaith-api-conflicts
 summary: "A digital forum captures the heated debate as Martin Luther posts his 95 Theses, sparking widespread discussion and controversy."
 image: /assets/images/icons/discussion.webp
 ---

@@ -4,6 +4,7 @@ title: 'Miracle: Feeding the 5000: Auto-Scaling Loaf Balancer'
 date: 2025-06-04 08:00:00
 summary: 'Jesus auto-scales a meal for 5000+ with minimal resources, triggering a miraculous load balancer event and leaving S3 full of bread snapshots.'
 tags: [autoscale, feeding, infrastructure, jesus, miracle, uriel]
+category: miracle-reports
 image: /assets/images/posts/miracle-feeding-5000.webp
 ---
 

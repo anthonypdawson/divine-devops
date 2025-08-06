@@ -3,6 +3,7 @@ layout: terminal_post
 title: "Constantine Migration"
 date: 2025-05-05 10:00:00
 tags: [ci/cd, constantine, gabriel, history, incident-report, migration, uriel]
+category: divine-migrations
 summary: "An incident report detailing the migration from PaganOS to ChristianOS under Emperor Constantine, establishing a unified spiritual infrastructure."
 image: /assets/images/icons/default.webp
 ---

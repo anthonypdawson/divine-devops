@@ -5,6 +5,7 @@ date: 2025-07-14 8:00:00
 summary: 'How HeavenOps revolutionized miracle delivery with robust CI/CD, compliance, and automation.'
 intro: 'From manual miracles to containerized interventions, HeavenOps ensures every act of divine intervention is scalable, compliant, and occasionally hilarious.'
 tags: [heavenops, devops, ci-cd, automation, miracles, compliance, uriel, metatron, gabriel, michael]
+category: general-divine-operations
 image: /assets/images/posts/heavenops-overview.webp
 image_alt: 'Celestial DevOps dashboard with angels deploying miracles via CI/CD'
 ---
