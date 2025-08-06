@@ -36,17 +36,12 @@
       <a href="{{ paginator.last_page_path | relative_url }}#post-list" aria-label="Last page">&raquo;&raquo;</a>
     {% endif %}
 
-    <div class="pagination-total" style="margin-top:0.5em;font-size:1.1em;">
-      {{ site.posts | size }} total posts
-    </div>
+    <script src="/assets/js/scroll-utils.js"></script>
     <script>
       // Smooth scroll to post list if hash is present
       document.addEventListener('DOMContentLoaded', function() {
         if (window.location.hash === '#post-list') {
-          var el = document.getElementById('post-list');
-          if (el) {
-            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }
+          scrollToElement('#post-list');
         }
       });
     </script>

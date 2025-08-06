@@ -9,6 +9,7 @@ permalink: /search/
   <meta charset="UTF-8">
   <title>Divine Query Interface</title>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="/assets/js/scroll-utils.js"></script>
   <style>
       .search-input-wrapper {
         display: flex;
@@ -146,7 +147,7 @@ permalink: /search/
         const categoryList = item.categories.join(', ');
         return `
           <div class="${selectedIndex === idx ? 'search-selected' : ''}" data-result-idx="${idx}">
-            <a href="${item.url}" style="text-decoration: none;">
+            <a href="${item.url}#content" style="text-decoration: none;">
               ${item.title}
             </a>
             <p>${item.summary}</p>
@@ -159,10 +160,7 @@ permalink: /search/
 
       // Scroll selected result into view
       if (selectedIndex >= 0) {
-        const selectedDiv = document.querySelector(`#search-results div[data-result-idx='${selectedIndex}']`);
-        if (selectedDiv) {
-          selectedDiv.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-        }
+        scrollToElement(`#search-results div[data-result-idx='${selectedIndex}']`, { block: 'nearest', behavior: 'smooth' });
       }
     }
 
@@ -184,10 +182,7 @@ permalink: /search/
         selectedIndex = (selectedIndex - 1 + currentResults.length) % currentResults.length;
         renderResults(currentResults);
         if (selectedIndex === 0) {
-          const h1 = document.querySelector('h1');
-          if (h1) {
-            h1.scrollIntoView({ block: 'start', behavior: 'smooth' });
-          }
+          scrollToElement('h1', { block: 'start', behavior: 'smooth' });
         }
       } else if (e.key === 'Enter' && selectedIndex >= 0) {
         const item = currentResults[selectedIndex].item;
