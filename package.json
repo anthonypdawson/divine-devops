@@ -3,6 +3,7 @@
     "@netlify/plugin-lighthouse": "^6.0.1",
     "@netlify/plugin-sitemap": "^0.8.1",
     "emmet": "^2.4.11",
+    "netlify": "^23.1.1",
     "node-fetch": "^3.3.2",
     "xml2js": "^0.6.2"
   },
