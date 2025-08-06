@@ -19,6 +19,7 @@ collections:
 plugins:
     - jekyll-feed
     - jekyll-sitemap
+    - jekyll-paginate-v2
 include:
     - _redirects
     - robots.txt
@@ -37,3 +38,16 @@ exclude:
     - '*.bak'
     - 'scripts'
     - 'docs'
+
+pagination:
+  enabled: true
+  per_page: 20
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+  # The path for paginated pages
+  pagination_path: '/page/:num/'

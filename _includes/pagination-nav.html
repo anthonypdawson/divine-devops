@@ -1,0 +1,53 @@
+  <div class="pagination" style="text-align:center;">
+    {%- assign first_trail = paginator.page_trail[0].num -%}
+    {%- assign last_trail = paginator.page_trail | last | map: 'num' | first -%}
+    {%- assign last_page = paginator.total_pages -%}
+
+
+    <!-- First page link and Previous page link (hide on first page) -->
+    {% if paginator.page > 1 %}
+      <a href="{{ paginator.first_page_path | relative_url }}#post-list" aria-label="First page">&laquo;&laquo;</a>
+      <a href="{{ paginator.previous_page_path | relative_url }}#post-list" aria-label="Previous page">&lt;</a>
+    {% endif %}
+
+    <!-- Ellipsis before page trail -->
+    {% if first_trail > 2 %}
+      <span class="pagination-ellipsis">&hellip;</span>
+    {% endif %}
+
+    <!-- Page trail -->
+    {% for trail in paginator.page_trail %}
+      {% if trail.num == paginator.page %}
+        <span class="current-page">{{ trail.num }}</span>
+      {% else %}
+        <a href="{{ trail.path | relative_url }}#post-list">{{ trail.num }}</a>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Ellipsis after page trail -->
+    {% if last_trail < last_page - 1 %}
+      <span class="pagination-ellipsis">&hellip;</span>
+    {% endif %}
+
+
+    <!-- Next page link and Last page link (hide on last page) -->
+    {% if paginator.page < paginator.total_pages %}
+      <a href="{{ paginator.next_page_path | relative_url }}#post-list" aria-label="Next page">&gt;</a>
+      <a href="{{ paginator.last_page_path | relative_url }}#post-list" aria-label="Last page">&raquo;&raquo;</a>
+    {% endif %}
+
+    <div class="pagination-total" style="margin-top:0.5em;font-size:1.1em;">
+      {{ site.posts | size }} total posts
+    </div>
+    <script>
+      // Smooth scroll to post list if hash is present
+      document.addEventListener('DOMContentLoaded', function() {
+        if (window.location.hash === '#post-list') {
+          var el = document.getElementById('post-list');
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    </script>
+  </div>
