@@ -1,0 +1,53 @@
+/* Colorful log block styles for Babel Sequel and similar posts */
+pre.colorful-log {
+  background: #000 !important;
+  color: #00ff00;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  font-family: 'Fira Mono', 'Fira Code', monospace;
+  font-size: 1em;
+  margin: 1.5em 0;
+  line-height: 1.6;
+  overflow-x: auto;
+  box-shadow: 0 0 12px #40c9ff33;
+  display: block;
+}
+
+pre > code.language-log {
+  background: transparent !important;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+}
+
+pre.colorful-log span,
+pre > code.language-log span {
+  background: transparent !important;
+  display: inline;
+}
+
+.colorful-log .log-header    { color: #ffd700; font-weight: bold; }
+.colorful-log .log-god       { color: #87ceeb; }
+.colorful-log .log-human     { color: #ffb347; }
+.colorful-log .log-cmd       { color: #b0e0e6; }
+.colorful-log .log-info      { color: #8fbc8f; }
+.colorful-log .log-success   { color: #00fa9a; }
+.colorful-log .log-warning   { color: #ffa500; }
+.colorful-log .log-error     { color: #ff6347; }
+.colorful-log .log-fork      { color: #dda0dd; }
+.colorful-log .log-critical  { color: #ff4500; font-weight: bold; }
+.colorful-log .log-action    { color: #00bfff; font-weight: bold; }
+.colorful-log .log-output    { color: #bdb76b; }
+
+pre {
+  padding: 0.5em;
+}
+code.language-plaintext  {
+  font-family: 'Fira Mono', 'JetBrains Mono', 'Source Code Pro', 'Fira Code', 'Consolas', 'Menlo', 'Monaco', monospace !important;
+  border: 2px solid #40c9ff44;
+  border-radius: 10px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}

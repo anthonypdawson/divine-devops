@@ -1,0 +1,41 @@
+[dev]
+  framework = "#custom"
+  command = "bundle exec jekyll serve --port 55555"
+  targetPort = 55555
+
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+
+[functions]
+directory = "netlify/functions"
+
+[[redirects]]
+  from = "/random"
+  to = "/.netlify/functions/random-post"
+  status = 200
+
+[[redirects]]
+  from = "/prophecy"
+  to = "/.netlify/functions/prophecy"
+  status = 200
+
+# Uncomment and customize for custom domains
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/lore.json"
+  [headers.values]
+    Content-Type = "application/json"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"

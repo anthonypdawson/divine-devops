@@ -1,0 +1,150 @@
+.slack-log {
+    font-family: 'Fira Mono', 'Menlo', 'Consolas', monospace;
+    background: #222;
+    color: #eee;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #333;
+}
+
+.slack-header {
+    display: flex;
+    align-items: center; /* Vertically center username and time */
+    gap: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+.slack-text {
+    margin-left: 0.2em;
+    font-size: 1em !important;
+    color: #ccc;
+    margin-bottom: 0.5em;
+}
+
+.slack-msg {
+    margin: 0.2em 0;
+    line-height: 1.5;
+}
+
+.slack-msg .slack-time {
+    font-size: 0.9em;
+    margin-right: 0.5em;
+}
+
+.slack-user {
+    align-self: center; /* Vertically center the username */
+    font-weight: bold;
+    font-size: 1.5em; /* Ensure the font size matches the avatar */
+    color: var(--cyan-color); // default color for usernames
+    letter-spacing: 0.02em;
+}
+
+.slack-time {
+    align-self: center; /* Vertically center the time */
+    color: #aaa;
+    font-size: 0.9em; /* Keep the font size smaller for subtlety */
+    font-weight: normal;
+    opacity: 0.8;
+    margin-left: 0.3em;
+    margin-right: 0.5em; /* Maintain spacing */
+}
+
+.slack-user[class*="god"] {
+    color: #ffd700; /* Gold for God */
+}
+
+.slack-user[class*="moses"] {
+    color: #40c9ff; /* Light Blue for Moses */
+}
+
+.slack-user[class*="bush"] {
+    color: #ff5e00; /* Orange for Burning Bush */
+}
+
+.slack-user[class*="uriel"] {
+    color: #9b59b6; /* Purple for Uriel and related usernames */
+}
+
+.slack-user[class*="aaron"] {
+    color: #1abc9c; /* Teal for Aaron and related usernames */
+}
+
+.slack-user[class*="jesus"] {
+    color: #2ecc71; /* Green for Jesus and related usernames */
+}
+
+.slack-user[class*="lucifer"] {
+    color: #ff6666; /* Light Red for Lucifer */
+}
+
+.slack-user[class*="michael"] {
+    color: #e74c3c; /* Red for Michael and related usernames */
+}
+
+.slack-user[class*="gabriel"] {
+    color: #3498db; /* Blue for Gabriel and related usernames */
+}
+
+.slack-user.jonah {
+    color: yellowgreen; /* Yellow-Green for Jonah */
+}
+
+.slack-user[class*="jonah"] {
+    color: yellowgreen; /* Yellow-Green for Jonah */
+}
+
+.slack-user.peter, .slack-user.st\.peter {
+    color: #1E90FF; /* Dodger Blue for Peter and St. Peter */
+}
+
+.slack-user[class*="judas"] {
+    color: #8B0000; /* Dark Red for Judas */
+}
+
+.slack-user[class*="john"] {
+    color: #4169E1; /* Royal Blue for John */
+}
+
+.slack-user[class*="thomas"] {
+    color: #FF8C00; /* Dark Orange for Thomas */
+}
+
+.slack-user[class*="andrew"] {
+    color: #32CD32; /* Lime Green for Andrew */
+}
+
+.slack-msg.system {
+    color: #ff5ec7;
+    font-style: italic;
+}
+
+.slack-reaction {
+    margin-left: 2em;
+    color: #ffb347;
+    font-size: 0.95em;
+}
+
+.slack-channel {
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #4a90e2;
+}
+
+.slack-msg:nth-child(even) {
+    background: #131313; /* Darker background for odd messages */
+}
+
+.slack-msg:nth-child(odd) {
+    background: #303030; /* Slightly lighter background for even messages */
+}
+
+// Styles for Slack user avatars, including sizing, border, and layout adjustments.
+.slack-avatar {
+    align-self: flex-end; /* Align the avatar to the bottom of the flex container */
+    width: 36px;
+    height: 36px;
+    border-radius: 50%; /* Ensure the avatar is circular */
+    background-color: currentColor; /* Matches the username color */
+}
+

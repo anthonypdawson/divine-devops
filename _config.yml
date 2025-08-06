@@ -1,0 +1,39 @@
+title: 'Divine DevOps'
+name: 'Divine DevOps'
+description: 'A parody universe blending humor, tech, religious themes and lore with DevOps culture.'
+author: 'divinedevops@poopnet.info'
+permalink: /posts/:title/
+url: 'https://www.divinedevops.com'
+theme: minima
+# theme: jekyll-theme-console
+layout: terminal_post
+future: false
+sass:
+    sass_dir: _sass
+    style: 'compressed'
+    sourcemap: 'development'
+collections:
+  future:
+    output: true
+    permalink: /future/:name/
+plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+include:
+    - _redirects
+    - robots.txt
+    - sitemap.xml
+    - lore.json    
+exclude:
+    - vendor
+    - node_modules
+    - '_unpublished'
+    - '_backup'
+    - 'README.md'
+    - '*.sh'
+    - '*.yml'
+    - '*.json'
+    - 'Gemfile*'
+    - '*.bak'
+    - 'scripts'
+    - 'docs'

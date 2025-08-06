@@ -1,0 +1,61 @@
+<div id="share-buttons-container">
+    <div id="share-buttons">
+        <!-- Facebook -->
+        <div
+            class="facebook"
+            title="Share this on Facebook"
+            onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ site.url | absolute_url }}{{ path | url_encode }}');"
+        >
+            <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"
+                />
+            </svg>
+        </div>
+
+        <!-- Twitter -->
+        <div
+            class="twitter"
+            title="Share this on Twitter"
+            onclick="window.open('https://twitter.com/intent/tweet?url={{ site.url | absolute_url }}{{ pageurl | url_encode }}&text={{ page.title | url_encode }}');"
+        >
+            <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1684 408q-67 98-162 167 ... (shortened for brevity)" />
+            </svg>
+        </div>
+
+        <!-- LinkedIn -->
+        <div
+            class="linkedin"
+            title="Share this on LinkedIn"
+            onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url={{ site.url | absolute_url }}{{ pageurl | url_encode }}&title={{ page.title | url_encode }}');"
+        >
+            <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122 ... (shortened for brevity)" />
+            </svg>
+        </div>
+
+        <!-- Reddit -->
+        <div
+            class="reddit"
+            title="Share this on Reddit"
+            onclick="window.open('https://www.reddit.com/submit?url={{ site.url | absolute_url }}{{ pageurl | url_encode }}&title={{ page.title | url_encode }}');"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="14px">
+                <path d="M12.594 19.094c-0.863 0-1.556-0.694-1.556-1.538 ... (shortened for brevity)" />
+            </svg>
+        </div>
+
+        <!-- Email -->
+        <div
+            class="mail"
+            title="Share this through Email"
+            onclick="window.open('mailto:?subject={{ page.title | url_encode }}&body={{ site.url | absolute_url }}{{ pageurl | url_encode }}');"
+        >
+            <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47 ... (shortened for brevity)" />
+            </svg>
+        </div>
+    </div>
+    <p class="about-link"><a href="{{ 'about/' | relative_url }}">About this site</a></p>
+</div>

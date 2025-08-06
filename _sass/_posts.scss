@@ -1,0 +1,143 @@
+/* Post-specific styles for Divine DevOps Universe */
+
+.post-intro {
+    text-align: center;
+    color: var(--intro-color);
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+.post-summary {
+    max-width: 40em;
+    margin-top: 0.7em;
+    display: block;
+    word-break: break-word;
+    color: #666;
+}
+
+/* --- Fix mid-word breaks and improve word wrapping --- */
+.post-content {
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.post-content h1, .content h1,
+.post-content h2, .content h2,
+.post-content h3, .content h3,
+.post-content h4, .content h4 {
+  color: var(--cyan-color) !important;
+}
+
+.post-content li,
+.content li {
+  font-size: 0.75em;
+  margin-bottom: 0.4em;
+}
+
+.content strong {
+  font-weight: bold;
+}
+.content strong,
+.markdown-body strong {
+    color: var(--highlight-text-color);
+}
+.content em {
+  background-color: #000;
+  font-weight: 500;
+}
+
+.bold-identifier {
+    color: var(--bold-identifier-color);
+    font-weight: bold;
+}
+.content a {
+  text-decoration: underline !important;
+}
+div.content ul.remediation-list,
+.content ul.remediation-list,
+.remediation-list {
+  font-size: 0.75em !important;
+  color: var(--highlight-text-color, #ebd300);
+  margin-left: 1.2em;
+  margin-bottom: 1.2em;
+  list-style: disc inside;
+}
+
+.post-credit {
+  text-align: right;
+  font-size: 0.85em;
+  color: #888;
+  margin-top: 2em;
+  font-style: italic;
+}
+
+.lessons-learned {
+  background: var(--highlight-bg-color, #000);
+  border-left: 3px solid #40c9ff;
+  border-radius: 4px;
+  margin: 1.2em 0;
+  padding: 0.7em 1em 0.7em 0.9em;
+  box-shadow: 0 0 4px #40c9ff22;
+  color: var(--highlight-text-color, #ebd300);
+  font-size: 0.97em;
+  font-family: 'Fira Code', 'Fira Code VF', monospace;
+}
+.lessons-learned ul {
+  margin: 0;
+  padding-left: 1em;
+  list-style: disc inside;
+}
+.lessons-learned li {
+  margin-bottom: 0.2em;
+  line-height: 1.4;
+}
+.lessons-learned code {
+  color: var(--highlight-string-color, #d14);
+  background: transparent;
+  border-radius: 2px;
+  padding: 0.05em 0.22em;
+  font-size: 0.96em;
+}
+
+/* RFC Metadata Block */
+.rfc-meta {
+  background: #181c22;
+  border-left: 4px solid #e67e22;
+  padding: 1em 1.5em;
+  margin-bottom: 2em;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  font-size: 1.05em;
+  color: #f7e7c4;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 6px;
+}
+
+/* RFC Risk/Mitigation Callout */
+.rfc-risk {
+  background: #23272e;
+  border-left: 4px solid #e67e22;
+  padding: 1em 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  color: #ffe6b3;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.sidebar-snark {
+  font-style: italic;
+  color: #666; /* A subtle gray for humorous tone */
+  margin-top: 10px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc; /* Optional: a visual cue for a sidebar */
+}
+
+.page-title {
+  color: var(--cyan-color) !important;
+}
+
+// Prevent line breaks on angel names in roster tables
+.nowrap {
+  white-space: nowrap;
+}

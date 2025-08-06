@@ -1,0 +1,72 @@
+<!-- Favicons -->
+<link rel="icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}" type="image/x-icon" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}" />
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/logo2-32x32.png' | relative_url }}" />
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/logo2-16x16.png' | relative_url }}" />
+<link rel="manifest" href="{{ '/assets/favicons/manifest.webmanifest' | relative_url }}" />
+<meta name="theme-color" content="#000000" />
+
+<!-- Viewport for Mobile Optimization -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- General SEO -->
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+<!-- Keywords -->
+<meta name="keywords" content="DevOps, parody, religion, tech culture, satire, software development, humor, biblical themes" />
+
+<title>{{ page.title | escape }} | Divine DevOps</title>
+<meta name="description" content="{{ page.summary | default: site.description | strip_html | truncate: 160 }}" />
+<meta name="author" content="Divine DevOps Team" />
+<meta name="robots" content="index, follow" />
+<meta
+    name="tags"
+    content="{{ page.tags | join: ', ' }}, chatgpt, memes, darkmode, terminal, bible, religion, devops,development, software,satire, parody"
+/>
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Divine DevOps" />
+<meta property="og:title" content="{{ page.title | escape }} | Divine DevOps" />
+<meta property="og:description" content="{{ page.summary | default: page.excerpt | strip_html | truncate: 160 }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:image" content="{{ page.image | default: '/assets/images/social-preview.webp' | relative_url }}" />
+<!--
+<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}" />
+<meta property="og:image" content="{{ '/assets/images/social-preview.webp' | relative_url }}" />
+-->
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | escape }} | Divine DevOps" />
+<meta name="twitter:description" content="{{ page.summary | default: page.excerpt | strip_html | truncate: 160 }}" />
+<meta name="twitter:image" content="{{ page.image | default: '/assets/images/social-preview.webp' | relative_url }}" />
+<!--
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}" />
+<meta name="twitter:image" content="{{ '/assets/images/social-preview.webp' | relative_url }}" />
+-->
+
+<!-- Schema.org Markup for Rich Snippets -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ page.title | escape }}",
+        "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
+        "author": {
+            "@type": "Person",
+            "name": "Divine DevOps Team"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Divine DevOps",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ '/assets/favicons/logo2-32x32.png' | relative_url }}"
+            }
+        },
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "url": "{{ page.url | absolute_url }}"
+    }
+</script>

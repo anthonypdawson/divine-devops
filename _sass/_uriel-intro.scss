@@ -1,0 +1,28 @@
+/* _sass/_uriel-intro.scss */
+.uriel-intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  gap: 1em;
+
+  .uriel-image {
+    flex: 0 0 auto;
+    
+    img {
+      width: 64px;
+      border-radius: 25%;
+    }
+  }
+
+  .uriel-quote {
+    flex: 1;
+    text-align: center ;
+    font-style: italic;
+    
+    blockquote {
+      font-size: 1.0em;
+      margin: 0;
+    }
+  }
+}

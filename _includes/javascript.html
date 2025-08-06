@@ -1,0 +1,50 @@
+<script src="{{ '/assets/js/colorful-log.js' | relative_url}}"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.js-expand-summary').forEach(function (el) {
+            // Set initial cursor
+            el.style.cursor = 'zoom-in';
+            el.addEventListener('click', function () {
+                if (el.classList.contains('post-summary-truncate')) {
+                    el.classList.remove('post-summary-truncate', 'post-summary-fade');
+                    el.textContent = el.getAttribute('data-full-summary');
+                    el.style.cursor = 'zoom-out';
+                } else {
+                    el.classList.add('post-summary-truncate', 'post-summary-fade');
+                    var summary = el.getAttribute('data-full-summary') || el.textContent;
+                    // Only show the first line before a line break
+                    var firstLine = summary.split(/\r?\n|<br\s*\/?\s*>/)[0].trim();
+                    el.textContent = firstLine;
+                    el.style.cursor = 'zoom-in';
+                }
+            });
+        });
+    });
+
+    // For collapsible tags in archive
+    document.addEventListener('DOMContentLoaded', function () {
+        var btn = document.getElementById('toggle-tags');
+        var box = document.getElementById('tag-collapsible');
+        if (btn && box) {
+            btn.style.display = 'block';
+            btn.addEventListener('click', function () {
+                box.classList.toggle('open');
+                btn.textContent = box.classList.contains('open') ? 'Hide tags' : 'Show all tags';
+            });
+        }
+        // On mobile, collapse by default
+        if (window.innerWidth <= 600 && box) {
+            box.classList.remove('open');
+            btn.textContent = 'Show all tags';
+        } else if (box) {
+            box.classList.add('open');
+            btn.style.display = 'none';
+        }
+    });
+    document.addEventListener('keydown', function (e) {
+        // Adjust the key combo as desired
+        if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'k') {
+            window.location.href = '/assets/misc/notracking.html'; // Change to your secret URL
+        }
+    });
+</script>

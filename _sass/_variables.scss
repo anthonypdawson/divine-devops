@@ -1,0 +1,33 @@
+/* Root Variables */
+:root {
+    --background-color: #000;
+    --blockquote-bg-color: #1d1d1d;
+    --text-color: #00ff00;
+    --text-color-darker: #00cc00; /* Slightly darker than --text-color */
+    --bold-text-color: #40c9ff;
+    /* --bold-text-color: #ffd700; gold */
+    /* --bold-text-color: #ffe066; bright yellow */
+    --link-color: cyan;
+    --link-hover-color: white;
+    --border-color: #111;
+    --box-shadow-color: rgba(136, 247, 136, 0.15);
+    --table-border-color: #e8e8e8;
+    --table-header-bg-color: #001101;
+    --table-header-border-color: #dedede;
+    --table-header-border-bottom-color: #c9c9c9;
+    --table-row-bg-color: #001a03;
+    --highlight-bg-color: #000000;
+    --highlight-text-color: #ac9c0c;
+    --light-highlight-text-color: #ebd300;
+    --highlight-comment-color: #998;
+    --highlight-error-color: #a61717;
+    --highlight-error-bg-color: #e3d2d2;
+    --highlight-keyword-color: #458;
+    --highlight-number-color: #099;
+    --highlight-string-color: #d14;
+    --highlight-variable-color: #008080;
+    --header-color: #40c9ff;
+    --bold-identifier-color: #40c9ff;
+    --intro-color: cyan;
+    --cyan-color: cyan;
+}

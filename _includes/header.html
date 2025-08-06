@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }}</title>
+
+<!-- Favicons -->
+<link rel="icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/logo2-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/logo2-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ '/assets/favicons/manifest.webmanifest' | relative_url }}">
+<meta name="theme-color" content="#000000">
+
+<!-- Feed -->
+{% feed_meta %}
+
+{% include seo-head.html %}
+
+<link rel="preload" as="image" href="{{ '/assets/images/divine-banner-short.webp' | relative_url }}" type="image/webp">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% include javascript.html %}
+{% include gtag.html %}

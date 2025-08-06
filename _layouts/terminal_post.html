@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="site-content">
+
+<head>
+
+  <title>{{ page.title }}</title>
+  {% include header.html %}
+</head>
+
+<body>
+  {% include banner.html %}
+
+
+  {% if page.image %}
+  {% if page.image contains '/icons/' %}
+  <h1 id="content" class="icon-title-flex">
+    <img class="small-post-image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | append: ' image' }}">
+    <span class="page-title">{{ page.title }}</span>
+  </h1>
+  {% if page.category %}
+    <p class="center category-link">
+      Category: <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}">{{ page.category }}</a>
+    </p>
+  {% endif %}
+  <p class="center"><em>{{ page.date }}</em></p>
+  <p class="post-intro">{{ page.intro }}</p>
+  {% else %}
+  <h1 id="content" class="page-title">{{ page.title }}</h1>
+  {% if page.category %}
+    <p class="center category-link">
+      Category: <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}">{{ page.category }}</a>
+    </p>
+  {% endif %}
+  <p class="center"><em>{{ page.date }}</em></p>
+  {% if page.intro %}
+  <p class="post-intro">{{ page.intro }}</p>
+  {% endif %}
+  <a href="{{ page.image | relative_url }}" target="_blank"><img class="large-post-image" src="{{ page.image | relative_url }}"
+      alt="{{ page.image_alt | default: page.title | append: ' image' }}"></a>
+  {% endif %}
+  {% else %}
+  <h1 id="content" class="page-title">{{ page.title }}</h1>
+  <p class="center"><em>{{ page.date }}</em></p>
+
+  {% endif %}
+
+  <div id="content" class="content">{{ content }}</div>
+  <br />
+
+  <!-- Tags -->
+  {%- if page.tags -%} {% for tag in page.tags %}
+  <a href="{{site.baseurl}}/archive/#{{tag | slugize}}"> #{{ tag }} </a>
+  {% endfor %} {%- endif -%}
+
+  <!-- Nav buttons -->
+  <div class="nav">
+    <a href="{{ '' |relative_url }}/">← Back to index</a>
+    <a href="#">↑ Top</a>
+  </div>
+  <br />
+  <div id="confessions" class="giscus-confession-booth">
+    <h2 class="center">🕊️ Confession Booth</h2>
+    <p class="center"><em>Share your devops sins, miracles, or seek absolution below.</em></p>
+    <span style="color:#ebd300;font-size:1.1em;">All comments are anonymous to the angels (but not to GitHub).</span>
+    <div style="margin: 1.5em 0; display: flex; flex-direction: column; align-items: center; gap: 1em;">
+      <a href="mailto:divinedevopsuniverse@gmail.com?subject=DevOps%20Confession" class="confession-email-btn"
+        style="display:inline-block;padding:0.6em 1.2em;background:#23ff04;color:#181c1f;font-weight:bold;border-radius:6px;text-decoration:none;box-shadow:0 0 8px #23ff0455,0 0 4px #40c9ff55;">Email
+        a Private Confession</a>
+
+      <div style="width: 100%">
+        {% include giscus.html %}
+      </div>
+    </div>
+  </div>
+  <br />
+  {% include credit-footer.html %}
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+_site
+_unpublished
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+node_modules
+"Phone Link"
+/.vscode
+.DS_Store
+*.bak
+*.png
+*.jpg
+*.jpeg
+
+# Local Netlify folder
+.netlify
