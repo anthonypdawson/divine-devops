@@ -3,8 +3,9 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 9 * * *' # Runs daily at 9:00 UTC
+    paths:
+      - '.github/gh-pages-redirect.html'
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -22,9 +23,3 @@ jobs:
           keep_files: false
           force_orphan: true
 
-  netlify-build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger Netlify Build Hook
-        run: |
-          curl -X POST "https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_BUILD_HOOK_ID }}"
