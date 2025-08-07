@@ -1,6 +1,6 @@
 ---
 title: "Procrustean DevOps and the Tyranny of Uniform Velocity"
-date: 2025-08-07 08:00:00
+date: 2025-08-07
 layout: terminal_post
 category: mythological-system-failures
 tags: [myth, procrustes, devops, velocity, parody]
