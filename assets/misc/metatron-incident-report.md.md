@@ -6,10 +6,10 @@ layout: terminal_post
 
 A running log of all unauthorized API calls, compliance breaches, and incident reviews.
 
-| Date       | Angel    | Incident Description                | Status      |
-|------------|----------|-------------------------------------|-------------|
-| 2025-07-01 | Michael  | Unscheduled lightning strike        | Resolved    |
-| 2025-06-28 | Gabriel  | Unauthorized blessing deployment    | Under Review|
-| 2025-06-15 | Uriel    | API call outside change window      | Resolved    |
+| Date                                      | Angel    | Incident Description                | Status      |
+|-------------------------------------------|----------|-------------------------------------|-------------|
+| In the seventh month, on the first day     | Michael  | Unscheduled lightning strike        | Resolved    |
+| In the sixth month, on the twenty-eighth day | Gabriel  | Unauthorized blessing deployment    | Under Review|
+| In the sixth month, on the fifteenth day   | Uriel    | API call outside change window      | Resolved    |
 
 For full details, see the compliance-logs/ directory.
