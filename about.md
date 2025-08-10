@@ -40,7 +40,7 @@ permalink: /about/
 <p class='center' style="margin-bottom: 5em; margin-top: 5em;">Explore the ancient logs, sacred pull requests, and sysadmin prophecies that shaped the cosmos.</p>
 
 
-<p class="center" style="margin-bottom: 10em;">
+<p class="center">
 Source: <a href="https://github.com/anthonypdawson/divine-devops" target="_blank" rel="noopener noreferrer">GitHub</a> |
 Powered by
 <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> |
