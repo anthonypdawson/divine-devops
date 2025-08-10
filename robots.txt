@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://anthonypdawson.github.io/divine-devops/sitemap.xml
+Disallow: /future/
+Sitemap: https://divinedevops.com/divine-devops/sitemap.xml
