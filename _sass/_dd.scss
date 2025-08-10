@@ -473,5 +473,9 @@ code {
     margin: 0;
     padding: 0;
 }
-
+.shimmer-text {
+  text-shadow: 0 0 8px #2f76fc, 0 0 2px #fffc67;
+  animation: shimmer-flicker 4s linear infinite;
+  /* No background or background-size */
+}
 /* Post-specific styles moved to _posts.scss */
