@@ -3,7 +3,7 @@ title: "Elijah vs. Prophets of Baal: Cloud Provider Showdown"
 date: 2025-07-20 8:00:00
 layout: terminal_post
 image: /assets/images/posts/elijah-vs-baal-cloud-showdown.webp
-summary: "A DevOps parody where rival cloud providers compete to deploy fire via CLI, and only one team’s pipeline is truly divine."
+summary: "From the sacred logs: When the prophets of BaalStack summoned their cloud rituals, only ElijahCloud’s faith-driven pipeline called down fire from the heavens. Witness the legendary incident report where mortal DevOps met the divine SLA."
 tags: [elijah, baal, cloud, devops, parody, old-testament, cli, showdown]
 category: divine-incident-report
 ---
