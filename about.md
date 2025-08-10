@@ -4,6 +4,13 @@ permalink: /about/
 ---
 
 <style>
+body.about-parallax {
+	background-image: url('/assets/images/tiled-glyphs3.png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-position: 0 0;
+	background-attachment: fixed;
+}
 .prophecy-flicker {
 	display: inline-block;
 	background: linear-gradient(90deg, #222 0%, #2a2a2a 20%, #444 40%, #2a2a2a 60%, #222 80%, #222 100%);
@@ -28,6 +35,12 @@ permalink: /about/
 	100% { background-position: 200% 0; opacity: 0.85; }
 }
 </style>
+<script>
+// Add a class to body for about page parallax effect
+document.addEventListener('DOMContentLoaded', function() {
+	document.body.classList.add('about-parallax');
+});
+</script>
 
 <h1 class="prophecy-flicker" style="display:block; margin-left:auto; margin-right:auto; text-align:center;">Not for mortals' eyes</h1>
 <p class="center">I am the archivist of Divine DevOps—a reliquary of sacred lore, technical satire, and communal storytelling.</P>  
