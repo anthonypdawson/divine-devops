@@ -5,7 +5,7 @@ permalink: /about/
 
 <style>
 body.about-parallax {
-	background-image: url('/assets/images/tiled-glyphs3.png');
+	background-image: url('/assets/images/tiled-glyphs3.webp');
 	background-repeat: repeat;
 	background-size: auto;
 	background-position: 0 0;
