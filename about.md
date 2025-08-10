@@ -44,6 +44,7 @@ permalink: /about/
 Source: <a href="https://github.com/anthonypdawson/divine-devops" target="_blank" rel="noopener noreferrer">GitHub</a> |
 Powered by
 <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> |
+Hosted on <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a> |
 Follow me on <a href="https://x.com/anthonypdawson" target="_blank" rel="noopener">Twitter/X</a>
 </p>
 
