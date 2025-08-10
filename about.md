@@ -34,7 +34,17 @@ body.about-parallax {
 	90% { opacity: 0.7; }
 	100% { background-position: 200% 0; opacity: 0.85; }
 }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+
+.about-main {
+	font-family: 'Cenzel Decorative', cursive;
+	text-align: center;
+	font-size: clamp(0.8em, 2vw, 1.35em) !important;
+}
+
 </style>
+
 <script>
 // Add a class to body for about page parallax effect
 document.addEventListener('DOMContentLoaded', function() {
@@ -43,23 +53,37 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <h1 class="prophecy-flicker" style="display:block; margin-left:auto; margin-right:auto; text-align:center;">Not for mortals' eyes</h1>
-<p class="center">I am the archivist of Divine DevOps—a reliquary of sacred lore, technical satire, and communal storytelling.</P>  
-<p class="center">Here, search engines whisper prophecy. Pagination partitions the sacred.  </p>
-<p class="center">Every keystroke is a ritual. Every bug, a beast to be named.  </p>
-<br />
-<p class="center">This site is not optimized. It is consecrated.</p>
-<p class="center">I preserve what others discard. I ritualize what others automate.</p>
-
-<p class='center' style="margin-bottom: 5em; margin-top: 5em;">Explore the ancient logs, sacred pull requests, and sysadmin prophecies that shaped the cosmos.</p>
 
 
-<p class="center">
-Source: <a href="https://github.com/anthonypdawson/divine-devops" target="_blank" rel="noopener noreferrer">GitHub</a> |
-Powered by
-<a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> |
-Hosted on <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a> |
-Follow me on <a href="https://x.com/anthonypdawson" target="_blank" rel="noopener">Twitter/X</a>
-</p>
+<div class="about-main center" style="margin-bottom: 3em;">
+	<a href="/assets/images/about-page-1.webp" target="_blank" rel="noopener noreferrer">
+		<img src="/assets/images/about-page-1.webp" alt="I am the archivist of Divine DevOps—a reliquary of sacred lore, technical satire, and communal storytelling. Here, search engines whisper prophecy. Pagination partitions the sacred. Every keystroke is a ritual. Every bug, a beast to be named." style="max-width:35%;height:auto;display:inline-block;vertical-align:middle;" />
+	</a>
+	<a href="/assets/images/about-page-2.webp" target="_blank" rel="noopener noreferrer">
+		<img src="/assets/images/about-page-2.webp" alt="This site is not optimized. It is consecrated. I preserve what others discard. I ritualize what others automate." style="max-width:35%;height:auto;display:inline-block;vertical-align:middle;" />
+	</a>
+	<span style="display:block; margin-bottom: 2.5em; margin-top: 2.5em;">Explore the ancient logs, sacred pull requests, and sysadmin prophecies that shaped the cosmos.</span>
+</div>
+
+
+<table class="center" style="margin-left:auto;margin-right:auto;border:none;background:none;width:auto;">
+	<tr style="border:none;background:none;">
+		<td style="border:none;padding:0.2em 1em 0.2em 0;background:none;">Source</td>
+		<td style="border:none;padding:0.2em 0;background:none;"><a href="https://github.com/anthonypdawson/divine-devops" target="_blank" rel="noopener noreferrer">GitHub</a></td>
+	</tr>
+	<tr style="border:none;background:none;">
+		<td style="border:none;padding:0.2em 1em 0.2em 0;background:none;">Powered by</td>
+		<td style="border:none;padding:0.2em 0;background:none;"><a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></td>
+	</tr>
+	<tr style="border:none;background:none;">
+		<td style="border:none;padding:0.2em 1em 0.2em 0;background:none;">Hosted on</td>
+		<td style="border:none;padding:0.2em 0;background:none;"><a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a></td>
+	</tr>
+	<tr style="border:none;background:none;">
+		<td style="border:none;padding:0.2em 1em 0.2em 0;background:none;">Follow me</td>
+		<td style="border:none;padding:0.2em 0;background:none;"><a href="https://x.com/anthonypdawson" target="_blank" rel="noopener">Twitter/X</a></td>
+	</tr>
+</table>
 
 <hr />
 <p style='font-size: smallest;' class='right'>This site is a parody and should not be taken seriously.</p>
