@@ -4,13 +4,6 @@ permalink: /about/
 ---
 
 <style>
-body.about-parallax {
-	background-image: url('/assets/images/tiled-glyphs3.webp');
-	background-repeat: repeat;
-	background-size: auto;
-	background-position: 0 0;
-	background-attachment: fixed;
-}
 .prophecy-flicker {
 	display: inline-block;
 	background: linear-gradient(90deg, #222 0%, #2a2a2a 20%, #444 40%, #2a2a2a 60%, #222 80%, #222 100%);
@@ -38,7 +31,7 @@ body.about-parallax {
 
 
 .about-main {
-	font-family: 'Cenzel Decorative', cursive;
+	font-family: 'Cenzel Decorative';
 	text-align: center;
 	font-size: clamp(0.8em, 2vw, 1.35em) !important;
 }
