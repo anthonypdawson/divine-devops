@@ -9,7 +9,13 @@ body {
     font-family: 'Fira Code', 'Fira Code VF', monospace;
     padding: 2em;
 }
-
+body.about-parallax {
+	background-image: url('/assets/images/tiled-glyphs3.webp');
+	background-repeat: repeat;
+	background-size: auto;
+	background-position: 0 0;
+	background-attachment: fixed;
+}
 /* Links */
 a {
     color: var(--link-color);
@@ -114,33 +120,6 @@ hr {
     text-overflow: initial !important;
 }
 
-.post-summary-truncate {
-    /* Remove nowrap and ellipsis for word wrapping */
-    white-space: normal !important;
-    overflow: visible !important;
-    text-overflow: initial !important;
-}
-
-.post-summary-truncate.post-summary-fade {
-    /* Restore fade for truncated older post summaries */
-    background: linear-gradient(to right, rgba(102, 102, 102, 0.95) 60%, rgba(153, 153, 153, 0.05) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    /* Diagonal fade for supporting browsers */
-    -webkit-mask-image: linear-gradient(to bottom right,
-            rgba(0, 0, 0, 1) 60%,
-            rgba(0, 0, 0, 0.2) 85%,
-            rgba(0, 0, 0, 0) 100%);
-    mask-image: linear-gradient(to bottom right,
-            rgba(0, 0, 0, 1) 60%,
-            rgba(0, 0, 0, 0.2) 85%,
-            rgba(0, 0, 0, 0) 100%);
-    white-space: nowrap !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-}
-
 /* Div Containers */
 div.archive {
     column-count: 6;
@@ -209,6 +188,7 @@ div.content {
 }
 
 div.posts {
+    background-color: #00000054 !important;
     box-sizing: border-box;
     box-shadow: 0 0 25px var(--box-shadow-color);
     border: 1px solid var(--border-color);
