@@ -38,12 +38,7 @@ permalink: /about/
 
 </style>
 
-<script>
-// Add a class to body for about page parallax effect
-document.addEventListener('DOMContentLoaded', function() {
-	document.body.classList.add('about-parallax');
-});
-</script>
+
 
 <h1 class="prophecy-flicker" style="display:block; margin-left:auto; margin-right:auto; text-align:center;">Not for mortals' eyes</h1>
 
