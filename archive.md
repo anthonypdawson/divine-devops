@@ -5,7 +5,6 @@ permalink: /archive/
 ---
 
 <div>Search through all posts by tag</div>
-<hr />
 
 {% assign min_size = 1.0 %}
 {% assign max_size = 2.2 %}

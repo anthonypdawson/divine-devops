@@ -7,7 +7,7 @@
   {% include header.html %}
 </head>
 
-<body>
+<body class="parallax">
   {% include banner.html %}
 
 
@@ -15,7 +15,7 @@
   {% if page.image contains '/icons/' %}
   <h1 id="content" class="icon-title-flex">
     <img class="small-post-image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | append: ' image' }}">
-    <span class="page-title">{{ page.title }}</span>
+    <span class="page-title shimmer-text">{{ page.title }}</span>
   </h1>
   {% if page.category %}
     <p class="center category-link">
@@ -25,7 +25,7 @@
   <p class="center"><em>{{ page.date }}</em></p>
   <p class="post-intro">{{ page.intro }}</p>
   {% else %}
-  <h1 id="content" class="page-title">{{ page.title }}</h1>
+  <h1 id="content" class="page-title shimmer-text">{{ page.title }}</h1>
   {% if page.category %}
     <p class="center category-link">
       Category: <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}">{{ page.category }}</a>
@@ -39,7 +39,7 @@
       alt="{{ page.image_alt | default: page.title | append: ' image' }}"></a>
   {% endif %}
   {% else %}
-  <h1 id="content" class="page-title">{{ page.title }}</h1>
+  <h1 id="content" class="page-title shimmer-text">{{ page.title }}</h1>
   <p class="center"><em>{{ page.date }}</em></p>
 
   {% endif %}

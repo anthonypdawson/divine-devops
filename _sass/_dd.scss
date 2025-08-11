@@ -9,7 +9,13 @@ body {
     font-family: 'Fira Code', 'Fira Code VF', monospace;
     padding: 2em;
 }
-
+body.parallax {
+	background-image: url('/assets/images/tiled-glyphs3.webp');
+	background-repeat: repeat;
+	background-size: auto;
+	background-position: 0 0;
+	background-attachment: fixed;
+}
 /* Links */
 a {
     color: var(--link-color);
@@ -209,6 +215,7 @@ div.content {
 }
 
 div.posts {
+    background-color: rgba(10, 10, 10, 0.80);
     box-sizing: border-box;
     box-shadow: 0 0 25px var(--box-shadow-color);
     border: 1px solid var(--border-color);
@@ -466,5 +473,9 @@ code {
     margin: 0;
     padding: 0;
 }
-
+.shimmer-text {
+  text-shadow: 0 0 8px #2f76fc, 0 0 2px #fffc67;
+  animation: shimmer-flicker 4s linear infinite;
+  /* No background or background-size */
+}
 /* Post-specific styles moved to _posts.scss */

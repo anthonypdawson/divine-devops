@@ -82,6 +82,8 @@ p {
 @media (max-width: 767px) and (min-width: 480px) {
     body {
         font-size: 1rem;
+        background-size: 50% !important; // smaller tiles on mobile
+
     }
     h1 {
         font-size: 1.8rem;
@@ -164,7 +166,11 @@ p {
     div.archive {
         column-count: 2;
     }
-    
+
+    body {
+        background-size: 50% !important; // smaller tiles on mobile
+
+    }
     /* Tag collapsible functionality */
     #tag-collapsible {
         display: none;
@@ -215,6 +221,8 @@ p {
 @media (max-width: 479px) {
     body {
         font-size: 0.8rem;
+        background-size: 50% !important; // smaller tiles on mobile
+
     }
     h1 {
         font-size: 1.4rem;
