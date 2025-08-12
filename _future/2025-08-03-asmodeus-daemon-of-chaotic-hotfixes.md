@@ -74,8 +74,6 @@ A full rollback, followed by a week of code archaeology and a new team policy: "
 
 > _"Let chaos reign, for order is but a fragile branch in the storm of hotfixes."_
 
----
-
 
 *Beware Asmodeus, for his fixes are swift, but his bugs are eternal.*
 
