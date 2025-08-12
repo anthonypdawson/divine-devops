@@ -1,7 +1,7 @@
 ---
 title: "Paul’s Epistles: Git Commit Messages to the Churches"
 image: "/assets/images/posts/pauls-epistles.webp"
-date: 2025-07-26 08:00:00
+date: 2025-08-19 08:00:00
 layout: terminal_post
 category: divine-team-dynamics
 tags: [paul, epistles, git, parody, unstable-builds]
