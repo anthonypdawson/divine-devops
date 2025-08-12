@@ -1,6 +1,6 @@
 ---
 title: "Asmodeus: Daemon of Chaotic Hotfixes"
-date: 2025-08-20 08:00:00
+date: 2025-08-03 08:00:00
 layout: terminal_post
 category: daemons
 summary: "Asmodeus, daemon of chaos, tempts developers to patch in prod, refactor recklessly, and sow disorder in the codebase."
