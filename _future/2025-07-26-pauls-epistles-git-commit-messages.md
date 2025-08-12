@@ -76,9 +76,14 @@ Your codebase is reverting to deprecated law checks. I urge you to enable the gr
 
 Documentation is out of date. Please update your README.md to reflect the new justification by faith workflow. Pull requests welcome.
 
+---
+
+<div style="text-align:center; font-style:italic; color:#40c9ff; margin-bottom:2em;">
+  Distributed epistles across sacred nodes. Paul commits to the Gentiles.
+</div>
 <img src="/assets/images/posts/pauls-epistles2.webp" class="med-post-image" alt="Paul's Epistles Illustration"  />
 
----
+
 ### Notes
 - All epistles are signed off with `git commit --signoff`.
 - Merge conflicts are resolved with prayer and apostolic authority.
