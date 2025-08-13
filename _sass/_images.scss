@@ -18,6 +18,14 @@ img.large-post-image {
     display: block;
     margin: 1em auto;
 }
+img.med-post-image {
+    border: none !important;
+    box-shadow: none !important;
+    max-height: 400px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
 
 img.small-post-image {
     border: none !important;
