@@ -1,4 +1,3 @@
-
 name: Trigger Netlify Build
 on:
   schedule:
@@ -8,6 +7,9 @@ jobs:
   netlify-build:
     runs-on: ubuntu-latest
     steps:
+      - name: Print UTC date/time for debug
+        run: |
+          echo "Workflow triggered at: $(date -u)"
       - name: Trigger Netlify Build Hook
         run: |
           curl -X POST "https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_BUILD_HOOK_ID }}"
