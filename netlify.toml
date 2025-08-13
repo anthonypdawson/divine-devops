@@ -1,6 +1,6 @@
 [dev]
   framework = "#custom"
-  command = "bundle exec jekyll serve --port 55555"
+  command = "bundle exec jekyll serve --port 55555 --future"
   targetPort = 55555
 
 [build]
