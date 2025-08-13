@@ -1,16 +1,16 @@
 ---
-title: "Ark of the Covenant: Sacred Chest or Cosmic USB?"
+title: "Ark of the Covenant: Sacred Chest or Cosmic USB drive?"
 layout: terminal_post
 date: 2025-08-13 08:00:00
 category: artifacts
-summary: "Exploring the Ark: divine payload container, cosmic USB, and the ultimate interface between heaven and humanity."
+summary: "Exploring the Ark: divine payload container, cosmic USB drive, and the ultimate interface between heaven and humanity."
 tags: [ark, covenant, artifacts, parody, devops, uriel]
 image: "/assets/images/posts/ark.webp"
-image_alt: "Stylized Ark of the Covenant as a cosmic USB device."
+image_alt: "Stylized Ark of the Covenant as a cosmic USB drive."
 ---
 
 
-# 🔌 Ark of the Covenant: Sacred Chest or Cosmic USB?
+# 🔌 Ark of the Covenant: Sacred Chest or Cosmic USB Device?
 
 > *“And they shall make an ark of acacia wood… and in it you shall put the testimony which I shall give you.”*  
 > — Exodus 25:10–16  
