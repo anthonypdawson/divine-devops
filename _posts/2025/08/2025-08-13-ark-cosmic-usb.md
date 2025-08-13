@@ -1,7 +1,7 @@
 ---
 title: "Ark of the Covenant: Sacred Chest or Cosmic USB drive?"
 layout: terminal_post
-date: 2025-08-13 08:00:00
+date: 2025-08-13
 category: artifacts
 summary: "Exploring the Ark: divine payload container, cosmic USB drive, and the ultimate interface between heaven and humanity."
 tags: [ark, covenant, artifacts, parody, devops, uriel]
