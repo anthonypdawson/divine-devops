@@ -19,10 +19,10 @@ In the ever-evolving realm of celestial infrastructure, HeavenOps has revolution
 
 ### **2. Celestial CI/CD Pipeline**
 The divine software release lifecycle follows structured phases:
-1. **Divine Linting ([linting-angels.yml](/divine-devops/assets/misc/linting-angels.yml))** – Ensures prophecy syntax correctness.
+1. **Divine Linting ([linting-angels.yml](/assets/misc/linting-angels.yml))** – Ensures prophecy syntax correctness.
 2. **Unit Testing (via Archangel QA)** – Evaluates miracle viability before production.
-3. **Holy Verification ([miracle-validation.yml](/divine-devops/assets/misc/miracle-validation.yml))** – Confirms alignment with celestial compliance.
-4. **Continuous Deployment ([cloud-of-glory-deploy.yml](/divine-devops/assets/misc/cloud-of-glory-deploy.yml))** – Releases miracles via the **Ethereal Kubernetes** cluster.
+3. **Holy Verification ([miracle-validation.yml](/assets/misc/miracle-validation.yml))** – Confirms alignment with celestial compliance.
+4. **Continuous Deployment ([cloud-of-glory-deploy.yml](/assets/misc/cloud-of-glory-deploy.yml))** – Releases miracles via the **Ethereal Kubernetes** cluster.
 
 ### **3. Best Practices**
 #### 📜 **Prophecy Version Control**
