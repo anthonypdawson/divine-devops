@@ -246,6 +246,9 @@ p {
         font-size: 0.7rem;
     }
     
+    div.content {
+        padding: 0px !important;
+    }
     .banner {
         width: 100% !important;
         margin: 0 !important;
@@ -280,9 +283,12 @@ p {
     }
 }
 
-/* Extra small screens (max-width: 300px) */
-@media (max-width: 300px) {
+/* Extra small screens (max-width: 320px) */
+@media (max-width: 320px) {
     div.archive {
         column-count: 1;
+    }
+    div.content {
+        padding: 0px !important;
     }
 }
