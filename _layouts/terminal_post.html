@@ -60,20 +60,30 @@
   <br />
     {% include credit-footer.html %}
     <hr />
-  <div id="confessions" class="giscus-confession-booth">
+  <form name="comment" method="POST" data-netlify="true" id="confessions" class="confession-booth">
     <h2 class="center">🕊️ Confession Booth</h2>
     <p class="center"><em>Share your devops sins, miracles, or seek absolution below.</em></p>
     <span style="color:#ebd300;font-size:1.1em;">All comments are anonymous to the angels (but not to GitHub).</span>
     <div style="margin: 1.5em 0; display: flex; flex-direction: column; align-items: center; gap: 1em;">
       <a href="mailto:divinedevopsuniverse@gmail.com?subject=DevOps%20Confession" class="confession-email-btn"
         style="display:inline-block;padding:0.6em 1.2em;background:#23ff04;color:#181c1f;font-weight:bold;border-radius:6px;text-decoration:none;box-shadow:0 0 8px #23ff0455,0 0 4px #40c9ff55;">Email
-        a Private Confession</a>
-
-      <div style="width: 100%">
-        {% include giscus.html %}
-      </div>
+        a Private Confession</a>      
     </div>
-  </div>
+
+      <input type="hidden" name="form-name" value="comment">
+      <p>
+        <label>Your Name (optional):<br>
+          <input type="text" name="name">
+        </label>
+      </p>
+      <p>
+        <label>Your Comment:<br>
+          <textarea name="message" required></textarea>
+        </label>
+      </p>
+      <button type="submit">Submit</button>
+    </form>
+
 </body>
 
 </html>
