@@ -1,9 +1,9 @@
-const fetch = require('node-fetch');
+const fetch = (...args) => import('node-fetch').then(mod => mod.default(...args));
 
 exports.handler = async function(event, context) {
 
   const NETLIFY_API_TOKEN = process.env.NETLIFY_API_TOKEN; // Set this in Netlify dashboard
-  const SITE_ID = process.env.SITE_ID_VAR; // Set this in Netlify dashboard
+  const SITE_ID = process.env.SITE_ID_VAR;
 
   const response = await fetch(`https://api.netlify.com/api/v1/sites/${SITE_ID}/submissions`, {
     headers: {
