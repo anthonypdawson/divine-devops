@@ -9,7 +9,7 @@
   min-height: 350px;
 }
 
-.giscus-confession-booth {
+.confession-booth {
   margin: 2.5em auto 1.5em auto;
   padding: 1.2em 1em 1.5em 1em;
   border-radius: 8px;
@@ -17,16 +17,106 @@
   background: #181c1f;
   font-family: 'Fira Code', 'Fira Code VF', monospace;
   text-align: center;
+  height: auto;
 }
 
-.giscus-confession-booth h2 {
+.confession-booth h2 {
   color: #23ff04;
   margin-bottom: 0.2em;
   text-shadow: 0 0 8px #40c9ff55, 0 0 4px #23ff0455;
 }
 
-.giscus-confession-booth p {
+.confession-booth p {
   color: #ebd300;
   font-size: 1.05em;
   margin-bottom: 1.2em;
+}
+.confession-booth input[type="text"],
+.confession-booth textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.confession-booth button[type="submit"] {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background: #23ff04;
+  color: #181c1f;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 0 8px #23ff0455,0 0 4px #40c9ff55;
+}
+.confession-booth button[type="submit"]:hover {
+  background: #40c9ff;
+  color: #fff;
+}
+
+/* Match confession-booth width and centering */
+.comments-section {
+  margin: 2.5em auto 1.5em auto;
+  padding: 1.2em 1em 1.5em 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 24px #23ff0455, 0 0 18px #40c9ff22;
+  background: #181c1f;
+  font-family: 'Fira Code', 'Fira Code VF', monospace;
+  text-align: left;
+  max-width: 650px;
+  width: 100%;
+}
+
+
+.comments-section h3 {
+  color: #23ff04;
+  margin-bottom: 0.5em;
+  text-align: center;
+  text-shadow: 0 0 8px #40c9ff55, 0 0 4px #23ff0455;
+}
+
+.comment {
+  background: #23272b;
+  border-radius: 6px;
+  margin-bottom: 1.2em;
+  padding: 1em 1em 0.7em 1em;
+  box-shadow: 0 0 8px #23ff0455, 0 0 4px #40c9ff22;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.3em;
+}
+
+.comment-name {
+  color: #ebd300;
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+.comment-date {
+  color: #40c9ff;
+  font-size: 0.95em;
+}
+
+.comment-message {
+  color: #fff;
+  font-size: 1.05em;
+  white-space: pre-line;
+  margin-top: 0.2em;
+}
+
+.confession-email-btn {
+  display: inline-block;
+  padding: 0.45em 0.9em;
+  font-size: 0.8em;
+  background: #23ff04;
+  color: #181c1f;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 0 8px #23ff0455, 0 0 4px #40c9ff55;
 }
