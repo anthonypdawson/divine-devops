@@ -4,7 +4,7 @@ exports.handler = async function(event, context) {
 
 
   const NETLIFY_API_TOKEN = process.env.NETLIFY_API_TOKEN; // Set this in Netlify dashboard
-  const SITE_ID = process.env.SITE_ID_VAR;
+  const SITE_ID = process.env.SITE_ID;
 
   // Validate required environment variables
   if (!NETLIFY_API_TOKEN || !SITE_ID) {
