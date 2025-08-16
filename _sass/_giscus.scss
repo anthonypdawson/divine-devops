@@ -107,6 +107,9 @@
   font-size: 1.05em;
   white-space: pre-line;
   margin-top: 0.2em;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  max-width: 100%;
 }
 
 .confession-email-btn {
