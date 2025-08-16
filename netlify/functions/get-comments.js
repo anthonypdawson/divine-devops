@@ -19,9 +19,13 @@ exports.handler = async function(event, context) {
   }
 
   const submissions = await response.json();
-  // Filter for your comment form if needed
+
+  // Get post identifier from query string
+  const postId = event.queryStringParameters && event.queryStringParameters.post;
+
+  // Filter for your comment form and current post
   const comments = submissions
-    .filter(sub => sub.form_name === 'comment')
+    .filter(sub => sub.form_name === 'comment' && (!postId || sub.data.post === postId))
     .map(sub => ({
       name: sub.data.name || 'Anonymous',
       message: sub.data.message,

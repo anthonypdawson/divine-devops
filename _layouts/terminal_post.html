@@ -69,7 +69,8 @@
         a Private Confession</a>      
     </div>
 
-      <input type="hidden" name="form-name" value="comment">
+  <input type="hidden" name="form-name" value="comment">
+  <input type="hidden" name="post" value="{{ page.url }}">
       <p>
         <label>Your Name (optional):<br>
           <input type="text" name="name">
@@ -94,7 +95,8 @@
     <script>
       async function fetchComments() {
         try {
-          const res = await fetch('/.netlify/functions/get-comments');
+          const postId = encodeURIComponent(window.location.pathname);
+          const res = await fetch('/.netlify/functions/get-comments?post=' + postId);
           if (!res.ok) throw new Error('Failed to fetch comments');
           const comments = await res.json();
           const list = document.getElementById('comments-list');
