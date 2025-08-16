@@ -112,6 +112,7 @@
             </div>
           `).join('');
         } catch (err) {
+          console.error('Error fetching comments:', err);
           document.getElementById('comments-list').innerHTML = '<p class="center">Error loading comments.</p>';
         }
       }
