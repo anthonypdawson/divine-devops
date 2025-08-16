@@ -5,7 +5,7 @@ title: "The Code of Cthulhubuntu"
 summary: "Incident report: eldritch package install triggers forbidden daemon protocol, reality segmentation, and Uriel-404 intervention."
 date: 2025-08-17
 tags: [devops, incident, eldritch, uriel, logs, parody, cthulhu]
-image: "/assets/images/posts/chtulhubuntu.webp"
+image: "/assets/images/posts/chtulhubuntu-animated.webp"
 image_alt: "Eldritch DevOps daemon summoning script"
 ---
 

@@ -4,7 +4,7 @@ title: "Belial: Demon of Lawless Logic"
 date: 2025-07-30 08:00:00
 category: daemons
 tags: [debugging, demons, logic, infinite-loops, uriel, myths]
-image: "/assets/images/posts/belial.webp"
+image: "/assets/images/posts/belial-animated.webp"
 ---
 
 > **📛 Classification:** Runtime-Class Threat  
