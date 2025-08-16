@@ -1,6 +1,7 @@
 ---
 layout: terminal_post
 title: "Thank You!"
+show_comments: false
 permalink: /thank-you/
 ---
 

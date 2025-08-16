@@ -60,66 +60,83 @@
   <br />
     {% include credit-footer.html %}
     <hr />
-  <form name="comment" method="POST" data-netlify="true" id="confessions" class="confession-booth" action="/thank-you/">
-    <h2 class="center">🕊️ Confession Booth</h2>
-    <p class="center"><em>Share your devops sins, miracles, or seek absolution below.</em></p>
-    <span style="color:#ebd300;font-size:1.1em;">All comments are anonymous to the angels (but not to GitHub).</span>
-    <div style="margin: 1.5em 0; display: flex; flex-direction: column; align-items: center; gap: 1em;">
-      <a href="mailto:divinedevopsuniverse@gmail.com?subject=DevOps%20Confession" class="confession-email-btn">Email
-        a Private Confession</a>      
-    </div>
-
-  <input type="hidden" name="form-name" value="comment">
-  <input type="hidden" name="post" value="{{ page.url }}">
-      <p>
-        <label>Your Name (optional):<br>
-          <input type="text" name="name">
-        </label>
-      </p>
-      <p>
-        <label>Your Comment:<br>
-          <textarea name="message" required></textarea>
-        </label>
-      </p>
-      <button type="submit">Submit</button>
-
-    </form>
-
-    <div id="comments-section" class="comments-section">
-      <h3 class="center">🗨️ Recent Comments</h3>
-      <div id="comments-list">
-        <p class="center">Loading comments...</p>
+  {% if page.show_comments != false %}
+    <form name="comment" method="POST" data-netlify="true" id="confessions" class="confession-booth" action="/thank-you/">
+      <h2 class="center">🕊️ Confession Booth</h2>
+      <p class="center"><em>Share your devops sins, miracles, or seek absolution below.</em></p>
+      <span style="color:#ebd300;font-size:1.1em;">All comments are anonymous to the angels (but not to GitHub).</span>
+      <div style="margin: 1.5em 0; display: flex; flex-direction: column; align-items: center; gap: 1em;">
+        <a href="mailto:divinedevopsuniverse@gmail.com?subject=DevOps%20Confession" class="confession-email-btn">Email
+          a Private Confession</a>      
       </div>
-    </div>
 
-    <script>
-      async function fetchComments() {
-        try {
-          const postId = encodeURIComponent(window.location.pathname);
-          const res = await fetch('/.netlify/functions/get-comments?post=' + postId);
-          if (!res.ok) throw new Error('Failed to fetch comments');
-          const comments = await res.json();
-          const list = document.getElementById('comments-list');
-          if (!comments.length) {
-            list.innerHTML = '<p class="center">No comments yet. Be the first to confess!</p>';
-            return;
-          }
-          list.innerHTML = comments.map(c => `
-            <div class="comment">
-              <div class="comment-header">
-                <span class="comment-name">${c.name}</span>
-                <span class="comment-date">${new Date(c.date).toLocaleString()}</span>
+        <input type="hidden" name="form-name" value="comment">
+        <input type="hidden" name="post" value="{{ page.url }}">
+        <p>
+          <label>Your Name (optional):<br>
+            <input type="text" name="name">
+          </label>
+        </p>
+        <p>
+          <label>Your Comment:<br>
+            <textarea name="message" required></textarea>
+          </label>
+        </p>
+        <button type="submit">Submit</button>
+
+      </form>
+
+      <div id="comments-section" class="comments-section">
+        <h3 class="center">🗨️ Recent Comments</h3>
+        <div id="comments-list">
+          <p class="center">Loading comments...</p>
+        </div>
+      </div>
+
+      <script>
+        async function fetchComments() {
+          try {
+            const postId = encodeURIComponent(window.location.pathname);
+            const res = await fetch('/.netlify/functions/get-comments?post=' + postId);
+            if (!res.ok) throw new Error('Failed to fetch comments');
+            const comments = await res.json();
+            const list = document.getElementById('comments-list');
+            if (!comments.length) {
+              list.innerHTML = '<p class="center">No comments yet. Be the first to confess!</p>';
+              return;
+            }
+            function escapeHtml(str) {
+              return str.replace(/[&<>'"`=\/]/g, function(s) {
+                const entityMap = {
+                  '&': '&amp;',
+                  '<': '&lt;',
+                  '>': '&gt;',
+                  '"': '&quot;',
+                  "'": '&#39;',
+                  '/': '&#x2F;',
+                  '`': '&#x60;',
+                  '=': '&#x3D;'
+                };
+                return entityMap[s] || s;
+              });
+            }
+            list.innerHTML = comments.map(c => `
+              <div class="comment">
+                <div class="comment-header">
+                  <span class="comment-name">${escapeHtml(c.name)}</span>
+                  <span class="comment-date">${new Date(c.date).toLocaleString()}</span>
+                </div>
+                <div class="comment-message">${escapeHtml(c.message)}</div>
               </div>
-              <div class="comment-message">${c.message.replace(/</g, '&lt;')}</div>
-            </div>
-          `).join('');
-        } catch (err) {
-          console.error('Error fetching comments:', err);
-          document.getElementById('comments-list').innerHTML = '<p class="center">Error loading comments.</p>';
+            `).join('');
+          } catch (err) {
+            console.error('Error fetching comments:', err);
+            document.getElementById('comments-list').innerHTML = '<p class="center">Error loading comments.</p>';
+          }
         }
-      }
-      document.addEventListener('DOMContentLoaded', fetchComments);
-    </script>
+        document.addEventListener('DOMContentLoaded', fetchComments);
+      </script>
+  {% endif %}
 
 </body>
 
