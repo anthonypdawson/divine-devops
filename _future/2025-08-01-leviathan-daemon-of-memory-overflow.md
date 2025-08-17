@@ -4,7 +4,7 @@ title: "🌀 Leviathan — Daemon of Memory Overflow"
 date: 2025-08-01
 category: daemons
 summary: "Daemon alert: Leviathan, entropy-bound serpent, devours memory in recursive silence. Debug with caution — it remembers everything."
-image: "/assets/images/posts/leviathan.webp"
+image: "/assets/images/posts/leviathan-animated.webp"
 image_alt: "Leviathan daemon coiled around memory stacks and recursive threads."
 tags: [devops, daemon, leviathan, memory, entropy, recursion, parody, uriel]
 ---
@@ -112,5 +112,8 @@ It’s not a bug — it’s a hunger spiral.
 <div class="post-credit">
 <strong>Daemon Classification:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/"><code>entropy.daemon.memory.leviathan</code></a><br>
 </div>
+
+
+> 🗨️ [Confess your memory leaks or share your Leviathan debugging triumphs in the Confession Booth.](#confessions)
 
 

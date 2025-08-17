@@ -83,3 +83,8 @@ Status: Contained again—allegedly.”
 <div class="post-credit">
 <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">paradox.daemon.recursion.belial</a>
 </div>
+
+
+> 🗨️ [Confess your infinite loops or share your Belial debugging victories in the Confession Booth.](#confessions)
+
+

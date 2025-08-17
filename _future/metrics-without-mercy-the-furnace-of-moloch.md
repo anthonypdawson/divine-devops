@@ -5,7 +5,7 @@ layout: terminal_post
 category: daemons
 tags: [moloch, metrics, devops, parody, burnout, uriel]
 summary: "Moloch, the ancient devourer, returns as the god of metrics—demanding dashboards, KPIs, and the sacrifice of developer joy."
-image: /assets/images/posts/moloch-metrics-furnace.webp
+image: /assets/images/posts/moloch-animated.webp
 ---
 
 # 🔥 Metrics Without Mercy: Worshipping at the Furnace of Moloch

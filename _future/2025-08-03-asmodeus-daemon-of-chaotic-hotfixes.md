@@ -5,7 +5,7 @@ layout: terminal_post
 category: daemons
 summary: "Asmodeus, daemon of chaos, tempts developers to patch in prod, refactor recklessly, and sow disorder in the codebase."
 tags: [asmodeus, daemon, chaos, hotfix, refactor, devops, parody]
-image: "/assets/images/posts/asmodeus.webp"
+image: "/assets/images/posts/asmodeus-animated.webp"
 image_alt: "A horned daemon gleefully juggling broken code and burning hotfixes."
 ---
 
@@ -82,3 +82,7 @@ A full rollback, followed by a week of code archaeology and a new team policy: "
 <div class="post-credit">
 <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">chaos.daemon.hotfix.asmodeus</a>
 </div>
+
+> 🗨️ [Confess your chaotic hotfixes or share your daemon debugging miracles in the Confession Booth.](#confessions)
+
+

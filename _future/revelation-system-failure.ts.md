@@ -329,3 +329,6 @@ _Summary: The final status manifest from the Revelation Event Handler, capturing
 
 
 > Note: The Revelation Event Handler is a one-time-use system. Ensure all souls are properly backed up before initiating the sequence. Unauthorized tampering may result in eternal consequences.
+
+> 🗨️ [Confess your system failures or share your apocalyptic bug fixes in the Confession Booth.](#confessions)
+

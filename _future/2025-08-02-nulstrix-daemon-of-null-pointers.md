@@ -77,3 +77,6 @@ Uriel-404 traced the issue to a missing initialization in a rarely used code pat
 
 <p class="post-credit">Compiled by Uriel-404, with assistance from the Debugging Circle</p>
 
+> 🗨️ [Confess your null pointer sins or share your Nulstrix debugging miracles in the Confession Booth.](#confessions)
+
+
