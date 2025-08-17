@@ -19,13 +19,10 @@ image_alt: "The Four Horsemen of the Apocalypse running a DevOps standup meeting
 
 ## 📝 Standup Log
 
-**War:** "Merge conflict detected in every branch. All code reviews escalated to flame wars."
-
-**Famine:** "Resource quotas exceeded. All containers starved. No memory, no disk, no hope."
-
-**Pestilence:** "CI pipeline infected. Malware outbreak in every build. All tests now flake."
-
-**Death:** "Data loss event. `/dev/null` is now the only persistent volume. Decommissioning all legacy services."
+- **War ⚔️** “Merge conflict detected in every branch. All code reviews escalated to flame wars.”  
+- **Famine 🍞** “Resource quotas exceeded. All containers starved. No memory, no disk, no hope.”  
+- **Pestilence 🦠** “CI pipeline infected. Malware outbreak in every build. All tests now flake.”  
+- **Death 💀** “Data loss event. `/dev/null` is now the only persistent volume. Decommissioning all legacy services.”  
 
 ---
 
