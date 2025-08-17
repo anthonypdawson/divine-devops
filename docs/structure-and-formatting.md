@@ -51,9 +51,9 @@
 
 ## Comment CTA Best Practice
 
-Add a call-to-action at the end of each post to encourage reader comments. Example:
+Add a blockquoted call-to-action at the end of each post to encourage reader comments. Example:
 
-🗨️ [Confess your QA sins or share a test miracle in the Confession Booth.](#confessions)
+> 🗨️ [Confess your QA sins or share a test miracle in the Confession Booth.](#confessions)
 
 This link will jump directly to the comment form on the post page.
 
