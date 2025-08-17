@@ -98,6 +98,14 @@ Proceed only if you possess the Sacred Linter and the patience of a thousand cod
 
 ---
 
+## TL;DR
+- 100 % line coverage ≠ bug‑free code.
+- The only thing 100% coverage guarantees is a longer build time.
+- Don’t worship the coverage idol—pray for bug-free deploys instead.
+- Focus on critical paths—the road to deployment heaven, not the detour through the Valley of Deprecated Functions.
+
+---
+
 ### 🏆 Moral
 
 The true Grail is not perfect coverage, but the wisdom to know when enough is enough—and the courage to merge anyway.
@@ -106,3 +114,7 @@ The true Grail is not perfect coverage, but the wisdom to know when enough is en
 
 **Status**: Still lost.  
 **Recommendation**: Write fewer tests. But write real ones.
+
+---
+
+> 🗨️ [Confess your QA sins, share your test miracles, or offer a prayer for bug-free code below.](#confessions)
