@@ -18,6 +18,10 @@ A classified index of paradoxical entities haunting the sacred stacks, compiled 
 | `paradox.daemon.null.nulstrix` | Null references | Segfaults, memory corruption | Nulstrix | Uncontained |
 | `paradox.daemon.memory.belphegor` | Memory leaks | Eternal allocation, stale configs | Belphegor | Quarantined |
 | `paradox.daemon.system.moloch` | Metrics, automation, furnace logic | Ruthless optimization, sacrificial metrics | Moloch | Active |
+| `paradox.daemon.latency.lilith` | Latency spikes | Async chaos, unpredictable delays | Lilith | Uncontained |
+| `paradox.daemon.config.azazel` | Misconfigurations | Forbidden settings, config drift | Azazel | Active |
+| `paradox.daemon.deployment.abaddon` | Failed deploys | Rollback disasters, deployment failures | Abaddon | Banished |
+| `paradox.daemon.security.mammon` | Security flaws | Vulnerabilities, privilege escalation | Mammon | Quarantined |
 
 ---
 
@@ -37,3 +41,8 @@ To summon or banish a daemon, use the sacred CLI:
 daemonctl summon paradox.daemon.null.nulstrix
 daemonctl banish paradox.daemon.memory.belphegor
 ```
+
+
+---
+
+For the Angel Registry, see [Angel Registry]({{ site.baseurl }}/assets/reference/angel-registry/).
