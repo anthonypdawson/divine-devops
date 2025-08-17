@@ -54,13 +54,13 @@ The god of metrics is powerful—but he is not inevitable.
 
 ## 📈 Moloch’s Metrics
 
-| Metric                | Value           | Moloch’s Commentary           |
-|-----------------------|----------------|-------------------------------|
-| Deployments per Day   | Never Enough   | “Feed me more!”               |
-| Burnout Index         | Acceptable     | “Sacrifice is necessary.”     |
-| Dashboard Uptime      | 100%           | “The altar must always glow.” |
-| SLA Breaches          | Unforgivable   | “Heresy!”                     |
-| Happiness Score       | Irrelevant     | “Joy is not a metric.”        |
+| Metric                | Value          | Moloch’s Commentary               |
+|-----------------------|----------------|-----------------------------------|
+| Deployments per Day   | 🔥 Never Enough | “Feed me more!”                   |
+| Burnout Index         | 😴 Acceptable  | “Sacrifice is necessary.”         |
+| Dashboard Uptime      | 💡 100 %        | “The altar must always glow.”     |
+| SLA Breaches          | 🚨 Unforgivable | “Heresy!”                         |
+| Happiness Score       | ❌ Irrelevant   | “Joy is not a metric.”            |
 
 ---
 
@@ -83,7 +83,12 @@ Join the resistance. Burn the altar. Build with mercy.
 
 ---
 
+👉 Have you fallen into Moloch’s altar? Drop a comment below of the name of the metric that keeps you up at night!
+
+
 <div class="post-credit">
 <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">paradox.daemon.metrics.moloch</a>
 </div>
+
+
 
