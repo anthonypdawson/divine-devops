@@ -7,7 +7,7 @@ tags: [genesis, flood, git, merge, logs]
 ---
 
 ```log
-> git merge origin/earth --into origin/heaven
+> git merge origin/earth --onto origin/heaven
 
 [ERROR] Merge conflict:
 - morality.rules
