@@ -48,3 +48,13 @@
 ## Code/Log Blocks
 - Use fenced code blocks (with language, e.g., ```log or ```bash) for logs, commands, or system output.
 - Use the correct language identifier for code blocks for syntax highlighting.
+
+## Comment CTA Best Practice
+
+Add a call-to-action at the end of each post to encourage reader comments. Example:
+
+🗨️ [Confess your QA sins or share a test miracle in the Confession Booth.](#confessions)
+
+This link will jump directly to the comment form on the post page.
+
+Feel free to customize the wording and emoji to match the post’s theme.
