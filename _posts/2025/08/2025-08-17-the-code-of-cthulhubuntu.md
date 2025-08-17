@@ -57,3 +57,8 @@ image_alt: "Eldritch DevOps daemon summoning script"
 For those brave (or foolish) enough, see the actual [summon-cthulhubuntu.sh]({{ site.baseurl }}/assets/misc/summon-cthulhubuntu.sh) script in the forbidden archives.
 
 > Tagged under: forbidden_packages, unspeakable_errors, uriel, eldritch_ops
+
+---
+
+> 🗨️ [Share your eldritch code horrors or confess your forbidden shell scripts in the Confession Booth.](#confessions)
+

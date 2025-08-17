@@ -266,3 +266,7 @@ _Summary: Bash script for incident containment, memory adjustment, evidence subs
 ---
 
 > _Editor’s Note: No actual weather balloons were harmed in the making of this incident report. All merge conflicts depicted are entirely fictional (we hope)._
+
+> 🗨️ [Confess your incident coverups or share your cosmic bug fixes in the Confession Booth.](#confessions)
+
+

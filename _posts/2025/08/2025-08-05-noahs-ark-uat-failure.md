@@ -112,3 +112,7 @@ A failed User Acceptance Test (UAT) for the Ark deployment resulted in a global 
 ---
 
 > _Editor’s Note: No animals were harmed in the making of this incident report. All unicorns depicted are entirely fictional (we hope)._
+
+> 🗨️ [Confess your UAT failures or share your miraculous saves in the Confession Booth.](#confessions)
+
+

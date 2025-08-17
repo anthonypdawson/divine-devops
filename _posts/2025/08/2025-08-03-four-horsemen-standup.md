@@ -53,3 +53,7 @@ image_alt: "The Four Horsemen of the Apocalypse running a DevOps standup meeting
 ---
 
 > *Incident closed. Awaiting next cosmic deployment window.*
+
+---
+
+> 🗨️ [Confess your standup apocalypses or share your agile miracles in the Confession Booth.](#confessions)
