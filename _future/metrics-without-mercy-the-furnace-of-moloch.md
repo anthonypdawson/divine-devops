@@ -83,12 +83,13 @@ Join the resistance. Burn the altar. Build with mercy.
 
 ---
 
-👉 Have you fallen into Moloch’s altar? Drop a comment below of the name of the metric that keeps you up at night!
-
 
 <div class="post-credit">
 <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">paradox.daemon.metrics.moloch</a>
 </div>
+
+
+> 👉 [Have you fallen into Moloch’s altar? Drop a comment below of the name of the metric that keeps you up at night!](#confessions)
 
 
 
