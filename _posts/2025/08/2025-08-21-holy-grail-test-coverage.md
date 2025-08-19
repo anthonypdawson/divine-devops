@@ -23,17 +23,19 @@ Access Level: CI/CD Templar Class Only
 
 ### 📜 Description
 
-The legendary state of software quality — **100% test coverage** — stands as the unattainable summit of QA ambition. Not merely branch coverage. Not function coverage. We're talking divine, *all-seeing* coverage: every possible execution path, every improbable edge case, every race condition accounted for.
+<span class="dropcap">T</span>he legendary state of software quality — **100% test coverage** — stands as the unattainable summit of QA ambition. Not merely branch coverage. Not function coverage. We're talking divine, *all-seeing* coverage: every possible execution path, every improbable edge case, every race condition accounted for.
 
 A test suite so pure it runs itself.
 
-No flakiness.  
-No skipped tests.  
-No TODOs.  
-No "we'll write this later."  
-No lies.
+```
+- No flakiness.  
+- No skipped tests.  
+- No TODOs.  
+- No "we'll write this later."  
+- No lies.
+```
 
-It is whispered in sacred CI/CD scrolls that such a suite once existed, blessed by Saint Linus and audited by the Ghost of Uncle Bob. All bugs fled before its gaze. All regressions were smitten on merge.
+<span class="decorative">It is whispered in sacred CI/CD scrolls that such a suite once existed, blessed by Saint Linus and audited by the Ghost of Uncle Bob. All bugs fled before its gaze. All regressions were smitten on merge.</span>
 
 But one day, a junior dev added `--force` to a deploy script.  
 And the Grail was lost.
@@ -87,13 +89,14 @@ Let us pray for their CI pipelines.
 
 ### ⚠️ Warning
 
-Pursuing the Holy Grail of 100% test coverage may result in:
+Pursuing the Holy Grail of 100% test coverage may result in:   
+```
 - Endless refactoring quests
 - The summoning of ancient bugs
 - Loss of sanity points
 - CI/CD pipeline purgatory
 - The wrath of the QA Templars
-
+```
 Proceed only if you possess the Sacred Linter and the patience of a thousand code reviewers.
 
 ---
@@ -108,12 +111,12 @@ Proceed only if you possess the Sacred Linter and the patience of a thousand cod
 
 ### 🏆 Moral
 
-The true Grail is not perfect coverage, but the wisdom to know when enough is enough—and the courage to merge anyway.
+<span class="decorative">The true Grail is not perfect coverage, but the wisdom to know when enough is enough—and the courage to merge anyway.</span>
 
 ---
 
-**Status**: Still lost.  
-**Recommendation**: Write fewer tests. But write real ones.
+**Status**: <span class="decorative">Still lost.</span>  
+**Recommendation**: <span class="decorative">Write fewer tests. But write real ones.</span>  
 
 ---
 
