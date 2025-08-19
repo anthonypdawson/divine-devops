@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "The Holy Grail of QA: 100% Test Coverage"
-date: 2025-08-22 00:00:00
+date: 2025-08-21 00:00:00
 category: artifact
 tags: [qa, devops, parody, artifact, holy-grail, uriel, test-coverage]
 summary: "Legendary artifact. Said to grant its bearer perfect code and eternal deployment peace. Sought by QA Templars, lost to time and junior devs."

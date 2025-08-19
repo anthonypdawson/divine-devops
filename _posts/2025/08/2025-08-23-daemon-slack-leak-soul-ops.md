@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "💼 Daemon Slack Leak: Soul Acquisition Division"
-date: 2025-08-17
+date: 2025-08-23
 category: daemons
 tags: [daemon, slack, soul-ops, metrics, bureaucracy, mammon, belial, nulstrix, belphagor, patchrot, asmodeus, glitchriel]
 summary: "A leaked Slack thread from Hell’s Soul Acquisition Division, revealing the daily grind, torment metrics, and bureaucratic chaos among the daemons."

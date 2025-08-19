@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Nulstrix: Daemon of Null Pointers and Segmentation Faults"
-date: 2025-08-02 08:00:00
+date: 2025-08-24 08:00:00
 category: daemons
 tags: [debugging, daemons, null, pointers, segfault, uriel, myths]
 summary: "A profile of Nulstrix, the daemon responsible for null pointer exceptions, segmentation faults, and the silent corruption of memory."
