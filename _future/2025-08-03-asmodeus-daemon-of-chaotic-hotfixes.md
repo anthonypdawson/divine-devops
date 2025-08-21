@@ -83,6 +83,6 @@ A full rollback, followed by a week of code archaeology and a new team policy: "
 <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">chaos.daemon.hotfix.asmodeus</a>
 </div>
 
-> 🗨️ [Confess your chaotic hotfixes or share your daemon debugging miracles in the Confession Booth.](#confessions)
+> 🗨️ [Confess your chaotic hotfixes or share your daemon debugging miracles in the Confession Booth.](#confessions){: .comment-cta-link }
 
 

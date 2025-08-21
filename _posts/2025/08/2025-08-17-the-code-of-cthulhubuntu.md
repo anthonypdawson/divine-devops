@@ -60,5 +60,5 @@ For those brave (or foolish) enough, see the actual [summon-cthulhubuntu.sh]({{ 
 
 ---
 
-> 🗨️ [Share your eldritch code horrors or confess your forbidden shell scripts in the Confession Booth.](#confessions)
+> 🗨️ [Share your eldritch code horrors or confess your forbidden shell scripts in the Confession Booth.](#confessions){: .comment-cta-link }
 

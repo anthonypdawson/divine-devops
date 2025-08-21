@@ -114,6 +114,6 @@ It’s not a bug — it’s a hunger spiral.
 </div>
 
 
-> 🗨️ [Confess your memory leaks or share your Leviathan debugging triumphs in the Confession Booth.](#confessions)
+> 🗨️ [Confess your memory leaks or share your Leviathan debugging triumphs in the Confession Booth.](#confessions){: .comment-cta-link }
 
 

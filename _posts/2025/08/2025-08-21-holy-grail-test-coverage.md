@@ -120,4 +120,4 @@ Proceed only if you possess the Sacred Linter and the patience of a thousand cod
 
 ---
 
-> 🗨️ [Confess your QA sins, share your test miracles, or offer a prayer for bug-free code below.](#confessions)
+> 🗨️ [Confess your QA sins, share your test miracles, or offer a prayer for bug-free code below.](#confessions){: .comment-cta-link }

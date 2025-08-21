@@ -79,5 +79,5 @@ The DevOps of divinity face their biggest PR crisis yet. Stakeholder faith waver
 
 ---
 
-> 🗨️ [Confess your existential devops crises or share your commit philosophies in the Confession Booth.](#confessions)
+> 🗨️ [Confess your existential devops crises or share your commit philosophies in the Confession Booth.](#confessions){: .comment-cta-link }
 

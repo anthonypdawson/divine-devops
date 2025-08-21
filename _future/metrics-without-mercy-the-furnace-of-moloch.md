@@ -89,7 +89,7 @@ Join the resistance. Burn the altar. Build with mercy.
 </div>
 
 
-> 👉 [Have you fallen into Moloch’s altar? Drop a comment below of the name of the metric that keeps you up at night!](#confessions)
+> 👉 [Have you fallen into Moloch’s altar? Drop a comment below of the name of the metric that keeps you up at night!](#confessions){: .comment-cta-link }
 
 
 

@@ -122,6 +122,6 @@ But that might be another daemon.
 <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">paradox.daemon.race.baphomet</a>
 </div>
 
-> 🗨️ [Confess your dual-state devops dilemmas or share your system miracles in the Confession Booth.](#confessions)
+> 🗨️ [Confess your dual-state devops dilemmas or share your system miracles in the Confession Booth.](#confessions){: .comment-cta-link }
 
 

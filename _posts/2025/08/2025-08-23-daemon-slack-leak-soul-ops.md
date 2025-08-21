@@ -89,4 +89,4 @@ This internal Slack thread reveals the daily grind inside Hell’s Soul Acquisit
 
 ---
 
-> 🗨️ [Confess your bureaucratic torments or share your Daemon Slack stories in the Confession Booth.](#confessions)
+> 🗨️ [Confess your bureaucratic torments or share your Daemon Slack stories in the Confession Booth.](#confessions){: .comment-cta-link }

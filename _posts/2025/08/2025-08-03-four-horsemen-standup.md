@@ -56,4 +56,4 @@ image_alt: "The Four Horsemen of the Apocalypse running a DevOps standup meeting
 
 ---
 
-> 🗨️ [Confess your standup apocalypses or share your agile miracles in the Confession Booth.](#confessions)
+> 🗨️ [Confess your standup apocalypses or share your agile miracles in the Confession Booth.](#confessions){: .comment-cta-link }

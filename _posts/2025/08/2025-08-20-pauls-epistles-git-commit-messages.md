@@ -98,4 +98,4 @@ Documentation is out of date. Please update your README.md to reflect the new ju
 
 ---
 
-> 🗨️ [Confess your commit sins or share a miracle in the Confession Booth.](#confessions)
+> 🗨️ [Confess your commit sins or share a miracle in the Confession Booth.](#confessions){: .comment-cta-link }

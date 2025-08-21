@@ -85,4 +85,4 @@ notify --channel="#ops-alerts" --priority=critical
 <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/angel-registry/">archangel.devops.messaging.gabriel</a>
 </div>
 
-> 🗨️ [Share your signal miracles or express gratitude for Gabriel’s alerts in the Confession Booth.](#confessions)
+> 🗨️ [Share your signal miracles or express gratitude for Gabriel’s alerts in the Confession Booth.](#confessions){: .comment-cta-link }

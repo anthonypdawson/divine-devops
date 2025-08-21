@@ -85,6 +85,6 @@ Status: Contained again—allegedly.”
 </div>
 
 
-> 🗨️ [Confess your infinite loops or share your Belial debugging victories in the Confession Booth.](#confessions)
+> 🗨️ [Confess your infinite loops or share your Belial debugging victories in the Confession Booth.](#confessions){: .comment-cta-link }
 
 

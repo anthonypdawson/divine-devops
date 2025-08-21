@@ -79,5 +79,5 @@ image_alt: "Cartoon of Uriel and a medieval sysadmin debugging a rat-borne malwa
 
 <p class="post-credit">Compiled in collaboration with an automated celestial compliance assistant</p>
 
-> 🗨️ [Confess your incident response sins or share your disaster recovery miracles in the Confession Booth.](#confessions)
+> 🗨️ [Confess your incident response sins or share your disaster recovery miracles in the Confession Booth.](#confessions){: .comment-cta-link }
 

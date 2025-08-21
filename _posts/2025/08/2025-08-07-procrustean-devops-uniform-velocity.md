@@ -75,6 +75,6 @@ To escape the bed:
 
 > May your sprints be flexible, your metrics humane, and your teams never forced to fit the iron bed.
 
-> 🗨️ [Confess your velocity sins or share your uniform devops miracles in the Confession Booth.](#confessions)
+> 🗨️ [Confess your velocity sins or share your uniform devops miracles in the Confession Booth.](#confessions){: .comment-cta-link }
 
 

@@ -84,4 +84,4 @@ restore-db.sh --from-backup --no-downtime
 <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/angel-registry/">archangel.devops.defense.michael</a>
 </div>
 
-> 🗨️ [Share your uptime miracles or express gratitude for Michael’s interventions in the Confession Booth.](#confessions)
+> 🗨️ [Share your uptime miracles or express gratitude for Michael’s interventions in the Confession Booth.](#confessions){: .comment-cta-link }
