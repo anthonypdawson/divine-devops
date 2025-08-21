@@ -112,3 +112,15 @@
   text-decoration: none;
   box-shadow: 0 0 8px #23ff0455, 0 0 4px #40c9ff55;
 }
+
+.comment-cta-link,
+.comment-cta-link a,
+.comment-cta-link a:link,
+.comment-cta-link a:visited,
+.comment-cta-link a:hover,
+.comment-cta-link a:active {
+  color: var(--highlight-text-color) !important;
+  font-weight: bold;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
