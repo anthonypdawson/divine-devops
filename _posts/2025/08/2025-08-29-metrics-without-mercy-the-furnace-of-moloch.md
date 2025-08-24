@@ -71,7 +71,8 @@ The god of metrics is powerful—but he is not inevitable.
 
 ## 📝 Incident Report: The Day of the Dashboard
 
-> _Incident: Team Lambda attempted to appease Moloch by doubling their deployment frequency. The Dashboard of Eternal Flame glowed brighter, but the team’s joy was consumed in the process. 
+> _Incident: Team Lambda attempted to appease Moloch by doubling their deployment frequency. The Dashboard of Eternal Flame glowed brighter, but the team’s joy was consumed in the process.    
+ 
 > Postmortem revealed: “We met every metric, but lost our souls.”_
 
 ---
