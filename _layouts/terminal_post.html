@@ -10,7 +10,7 @@
 <body class="parallax">
   {% include banner.html %}
 
-
+  <div class="black-background">
   {% if page.image %}
   {% if page.image contains '/icons/' %}
   <h1 id="content" class="icon-title-flex">
@@ -35,15 +35,15 @@
   {% if page.intro %}
   <p class="post-intro">{{ page.intro }}</p>
   {% endif %}
+  </div>
   <a href="{{ page.image | relative_url }}" target="_blank"><img class="large-post-image" src="{{ page.image | relative_url }}"
       alt="{{ page.image_alt | default: page.title | append: ' image' }}"></a>
   {% endif %}
   {% else %}
   <h1 id="content" class="page-title shimmer-text">{{ page.title }}</h1>
   <p class="center"><em>{{ page.date }}</em></p>
-
   {% endif %}
-
+  
   <div id="content" class="content">{{ content }}</div>
   <br />
 

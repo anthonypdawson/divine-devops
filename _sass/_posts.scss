@@ -1,6 +1,9 @@
 /* Post-specific styles for Divine DevOps Universe */
+.black-background {
+  background-color: rgba(10, 10, 10, 0.85);
+}
 
-.post-intro {
+.post-intro {    
     text-align: center;
     color: var(--intro-color);
     margin-bottom: 1em;
