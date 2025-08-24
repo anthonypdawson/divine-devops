@@ -18,6 +18,8 @@ A classified index of paradoxical entities haunting the sacred stacks, compiled 
 | `paradox.daemon.memory.belphegor` | Memory leaks | Eternal allocation, stale configs | Belphegor | Quarantined |
 | `paradox.daemon.metrics.moloch` | Metrics & dashboards | Sacrificial KPIs, burnout, relentless measurement | Moloch | Active |
 | `chaos.daemon.hotfix.asmodeus` | Hotfix chaos | Unreviewed patches, prod-only bugs, midnight rollbacks | Asmodeus | Uncontained |
+| `passive.daemon.review.verrine` | Code review | Emoji-only comments, refuses to approve without explanation | Verrine | Active |
+| `obfuscate.daemon.docs.beleth` | Documentation | Markdown scrolls encrypted in corporate euphemism and ancient YAML | Beleth | Active |
 
 ---
 
