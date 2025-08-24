@@ -49,12 +49,45 @@
 - Use fenced code blocks (with language, e.g., ```log or ```bash) for logs, commands, or system output.
 - Use the correct language identifier for code blocks for syntax highlighting.
 
-## Comment CTA Best Practice
+
+
+## Daemon Post Formatting
+
+- Use `layout: terminal_post` in the YAML front matter.
+- Do not include an H1 heading at the start; the layout uses the title.
+- Structure the post with section headings (`###`, `####`) for lore, manifestations, rituals, incidents, etc.
+- At the end of the post, add a post-credit section linking to the daemon registry entry for the daemon:
+  ```html
+  <div class="post-credit">
+  <strong>class:</strong> <a href="{{ site.baseurl }}/assets/reference/daemon-registry/">passive.daemon.review.verrine</a>
+  </div>
+  ```
+### Registry File Sync Reminder
+
+Whenever you add, remove, or update a daemon entry, ensure both `docs/daemon-registry.md` (internal documentation) and `assets/reference/daemon-registry.md` (published universe) are updated together. This keeps the registry consistent for both contributors and readers.
+
+## Angel Post Formatting
+
+Angel posts should follow similar formatting conventions as daemon posts:
+
+- **YAML front matter** at the top for metadata and layout (e.g., title, date, tags, layout).
+- **Title** should include the angel's name and postfix (e.g., "Michael, Archangel of DevOps Defense").
+- **Post-credit registry link** at the bottom, referencing the angel registry.
+- **Confessions CTA**: Include a blockquoted call-to-action inviting readers to share stories of divine intervention, miraculous saves, or moments of unexpected clarity in DevOps. Use the `.comment-cta-link` class for styling.
+
+Refer to the daemon post formatting section above for detailed examples. Adapt the confessions CTA to fit the angelic theme.
+
+### Angel Registry File Sync Reminder
+
+For the angel registry, maintain only the published universe file (e.g., `assets/reference/angel-registry.md`). There is no need to keep a separate internal documentation file. Always update the in-universe doc when adding, removing, or editing angel entries.
+
+## Comment CTA Best Practice (All Posts)
 
 Add a blockquoted call-to-action at the end of each post to encourage reader comments. Example:
 
-> 🗨️ [Confess your QA sins or share a test miracle in the Confession Booth.](#confessions)
+```markdown
+> 🗨️ [Confess your QA sins or share a test miracle in the Confession Booth.](#confessions){: .comment-cta-link }
+```
 
 This link will jump directly to the comment form on the post page.
-
-Feel free to customize the wording and emoji to match the post’s theme.
+Feel free to customize the wording and emoji to match the post’s theme (e.g., for daemon posts, tailor the CTA to the daemon’s domain).
