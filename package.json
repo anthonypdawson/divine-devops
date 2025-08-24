@@ -5,7 +5,10 @@
     "emmet": "^2.4.11",
     "netlify": "^23.1.1",
     "node-fetch": "^3.3.2",
-    "xml2js": "^0.6.2"
+  "xml2js": "^0.6.2",
+  "@types/node": "^20.0.0",
+  "ts-node": "^10.9.2",
+  "typescript": "^5.0.0"
   },
   "scripts": {
     "lint:css": "stylelint \"**/*.{css,scss}\"",
@@ -13,6 +16,8 @@
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
     "optimize:images": "bash scripts/optimize-images.sh",
-    "check:links": "bash scripts/check-links.sh"
+    "check:links": "bash scripts/check-links.sh",
+  "audit:image-refs": "ts-node scripts/find_image_references_with_webp.ts",
+  "audit:images": "ts-node scripts/image_audit.ts"
   }
 }
