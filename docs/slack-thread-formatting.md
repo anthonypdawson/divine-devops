@@ -135,7 +135,7 @@ By following these guidelines, Slack threads can effectively enhance the narrati
 - The avatar image will be displayed as a rounded circle to match the Slack thread styling.
 - Example usage:
   ```liquid
-  {% include slack-thread-message.html user="uriel" time="9:42AM" text="Message content here." avatar_url="/path/to/avatar.png" %}
+  {% include slack-thread-message.html user="uriel" time="9:42AM" text="Message content here." avatar_url="/path/to/avatar.webp" %}
   ```
 
 ## Avatar Image Fallback
