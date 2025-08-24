@@ -1,5 +1,20 @@
 # Structure & Formatting Conventions
 
+## Preferred YAML Front Matter Order
+
+For posts, use the following key order in the YAML front matter for consistency:
+
+1. layout
+2. title
+3. date
+4. category
+5. tags
+6. summary
+7. image
+8. any other custom fields
+
+This order matches conventions in the project and helps keep metadata organized and readable.
+
 ## Lessons Learned Box (PR/Incident Posts)
 - Use a visually distinct `<div class="lessons-learned">` with a `<ul>` for “Lessons Learned” in PR or incident posts, but not in miracle/event posts.
 - Example:
