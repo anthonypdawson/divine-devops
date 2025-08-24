@@ -1,9 +1,10 @@
 ---
 layout: terminal_post
 title: "Belial: Demon of Lawless Logic"
-date: 2025-07-30 08:00:00
+date: 2025-08-26 08:00:00
 category: daemons
 tags: [debugging, demons, logic, infinite-loops, uriel, myths]
+summary: "Explores the chaotic influence of Belial, the daemon who thrives in environments where logic is twisted, rules are bent, and DevOps descends into lawless improvisation."
 image: "/assets/images/posts/belial-animated.webp"
 ---
 

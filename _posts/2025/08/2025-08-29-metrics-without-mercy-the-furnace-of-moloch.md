@@ -1,6 +1,6 @@
 ---
 title: "Metrics without Mercy: The Furnace of Moloch"
-date: 2025-07-29 12:00:00
+date: 2025-08-29 08:00:00
 layout: terminal_post
 category: daemons
 tags: [moloch, metrics, devops, parody, burnout, uriel]
