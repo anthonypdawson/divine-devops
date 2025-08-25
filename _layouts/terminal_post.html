@@ -32,8 +32,8 @@
     </p>
   {% endif %}
   <p class="center"><em>{{ page.date }}</em></p>
-  {% if page.intro %}
-  <p class="post-intro">{{ page.intro }}</p>
+  {% if page.summary %}
+  <p class="post-intro">{{ page.summary }}</p>
   {% endif %}
   </div>
   <a href="{{ page.image | relative_url }}" target="_blank"><img class="large-post-image" src="{{ page.image | relative_url }}"
@@ -42,6 +42,9 @@
   {% else %}
   <h1 id="content" class="page-title shimmer-text">{{ page.title }}</h1>
   <p class="center"><em>{{ page.date }}</em></p>
+  {% endif %}
+  {% if page.intro %}
+  <p class="post-intro black-background">{{ page.intro }}</p>
   {% endif %}
   
   <div id="content" class="content">{{ content }}</div>
