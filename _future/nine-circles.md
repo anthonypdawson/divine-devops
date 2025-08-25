@@ -3,7 +3,7 @@ layout: terminal_post
 title: "The Nine Circles of Deployment"
 date: 2025-08-21 00:00:00
 category: artifact
-tags: [devops, dante, parody, deployment, incident, daemon, nine-circles]
+tags: [devops, dante, deployment, incident, daemon, nine-circles]
 summary: "A field report from the Dantean Migration Bureau, mapping the nine circles of deployment hell. Includes daemons, merge conflicts, and Lucifork."
 image: "/assets/images/posts/nine-circles.webp"
 image_alt: "A stylized diagram of nine concentric circles, each labeled with a deployment sin."

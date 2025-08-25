@@ -3,7 +3,7 @@ layout: terminal_post
 title: "🧪 Philosopher’s Stone Protocol: A Divine Incident Report"
 date: 2025-08-21 00:00:00
 category: incident
-tags: [alchemy, devops, uriel, ritual, parody, protocol, philosopher-stone]
+tags: [alchemy, devops, uriel, ritual, protocol, philosopher-stone]
 summary: "A forbidden ritual run by Uriel during lunch. Results: recursive chaos, poetic daemons, and a traumatized cherub. Tier IV Hazard."
 image: "/assets/images/posts/philosopher_stone_protocol.webp"
 ---

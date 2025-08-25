@@ -3,7 +3,7 @@ layout: terminal_post
 title: "Afterlife 2.0: Onboarding and Deployment"
 date: 2025-08-24 08:00:00
 category: divine-incident-report
-tags: [afterlife, devops, parody, onboarding, deployment]
+tags: [afterlife, devops, onboarding, deployment]
 summary: "A soul enters the Afterlife 2.0 onboarding pipeline, then a hotfix derails deployment with a Grace middleware timeout."
 image: "/assets/images/posts/afterlife-2.0.webp"
 image_alt: "Terminal-style title card for Afterlife 2.0"

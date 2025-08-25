@@ -4,7 +4,7 @@ date: 2025-08-03 08:00:00
 layout: terminal_post
 category: daemons
 summary: "Asmodeus, daemon of chaos, tempts developers to patch in prod, refactor recklessly, and sow disorder in the codebase."
-tags: [asmodeus, daemon, chaos, hotfix, refactor, devops, parody]
+tags: [asmodeus, daemon, chaos, hotfix, refactor, devops]
 image: "/assets/images/posts/asmodeus-animated.webp"
 image_alt: "A horned daemon gleefully juggling broken code and burning hotfixes."
 ---

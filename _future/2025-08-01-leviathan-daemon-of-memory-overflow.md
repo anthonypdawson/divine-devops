@@ -6,7 +6,7 @@ category: daemons
 summary: "Daemon alert: Leviathan, entropy-bound serpent, devours memory in recursive silence. Debug with caution — it remembers everything."
 image: "/assets/images/posts/leviathan-animated.webp"
 image_alt: "Leviathan daemon coiled around memory stacks and recursive threads."
-tags: [devops, daemon, leviathan, memory, entropy, recursion, parody, uriel]
+tags: [devops, daemon, leviathan, memory, entropy, recursion, uriel]
 ---
 
 > **entropy.daemon.memory.leviathan**  
