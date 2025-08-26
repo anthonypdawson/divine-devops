@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "📎 Welcome to the Office of Judgment"
 date: 2025-08-31 08:00:00
-category: heavenops-hr
+category: office-of-judgment
 tags: [office-of-judgment, bureaucracy, heavenops, hr, judgment, afterlife]
 summary: "An introduction to the Office of Judgment, the afterlife's least glamorous celestial agency, where souls are audited with spreadsheets and sticky notes."
 image: "/assets/images/posts/office-of-judgment.webp"
