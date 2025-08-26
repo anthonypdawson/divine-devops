@@ -144,3 +144,53 @@ div.content ul.remediation-list,
 .nowrap {
   white-space: nowrap;
 }
+
+.profile {
+  display: inline-block; /* allows width to shrink to content */
+  position: relative;
+  max-width: 100%; /* prevents overflow on smaller screens */
+  background-image: url('/assets/images/textures/parchment.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-left: 4px solid #c2a76d;
+  padding: 1.25rem 1.75rem;
+  margin: 2rem 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  line-height: 1.7;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  color: #2a1e12;
+  white-space: nowrap; /* optional: prevents line wrapping */
+  border-radius: 16px;
+}
+
+.profile summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: #1c140a;
+}
+
+.profile strong {
+  color: #1c140a; /* even darker for emphasis */
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.profile::before {
+  content: "📎 Office Profile";
+  position: absolute;
+  top: -1.2rem;
+  left: 1rem;
+  background-image: url('/assets/images/textures/parchment.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 0.5rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #5c4a2d;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
