@@ -20,6 +20,8 @@ Below is a list of all unique, standardized categories currently used in the pro
 - general-divine-operations
 - heavenops-hr
   <span style="font-size:90%">(Covers all HR-related posts, including former 'hr-announcements')</span>
+- office-of-judgment
+  <span style="font-size:90%">(Posts from the Office of Judgment: celestial audits, bureaucratic memos, and afterlife HR satire)</span>
 - heavenops-reports
 - historical-mismanagement
 - interfaith-api-conflicts
