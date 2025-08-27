@@ -26,7 +26,10 @@
           {% endunless %}
           <div class="post-list-main">
             <div class="post-list-text">
-              <em><small class="date">{{ post.date | date: "%Y-%m-%d" }}</small></em><br />
+              <em>
+                <small class="date">{{ post.date | date: "%Y-%m-%d" }}</small>
+                <span class="post-number" style="background:#222;color:#fff;border-radius:1em;padding:0.2em 0.7em;margin-left:0.5em;font-size:0.9em;vertical-align:middle;">#{{ post.index }}</span>
+              </em><br />
               <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">{{ post.title }}</a>
             </div>
             {%- comment -%} Show right image if present and is a 'post image' {%- endcomment -%}
