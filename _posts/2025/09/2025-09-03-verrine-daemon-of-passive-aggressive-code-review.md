@@ -6,6 +6,7 @@ category: daemon
 tags: [daemon, code-review, verrine, emoji, devops, gabriel, michael, uriel]
 summary: "Verrine leaves emoji-only comments and refuses to approve without explanation. Beware his passive-aggressive review rituals."
 image: "/assets/images/posts/verrine.webp"
+intro: "In which a daemon turns code review into an art form of cryptic emoji, vague implications, and the soul-crushing phrase 'you'll know it when you see it.'"
 ---
 
 ## 🧠 Daemon Spotlight: Verrine
