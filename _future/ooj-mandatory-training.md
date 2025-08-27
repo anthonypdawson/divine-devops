@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "📎 Office of Judgment: Mandatory Training Notice"
-date: 2025-08-27 09:00:00
+date: 2025-08-27 08:00:00
 category: office-of-judgment
 tags: [training, ethics, spreadsheet, tabulon, barb, compliance]
 summary: "Filed by the Department of Eternal Competence. All personnel must attend a compulsory seminar on Spreadsheet Ethics, facilitated by Archangel Tabulon. Resistance is noted. Attendance is inevitable."
@@ -12,7 +12,9 @@ intro: "The training has been scheduled. The slides have been blessed. Your pres
 
 **Office of Judgment Internal Memo**  
 **DSSRET Classification:** Compulsory Development Initiative  
-**Filed by:** Department of Eternal Competence (DEC)
+**Filed by:** Department of Eternal Competence (DEC)  
+**Reference:** TRAIN-2025-SSE-001  
+**Date Filed:** 2025-08-19 14:37:00 (Celestial Standard Time)
 
 ---
 
