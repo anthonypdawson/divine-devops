@@ -3,7 +3,7 @@ layout: terminal_post
 title: "📎 Welcome, George: Unscheduled Manifestation"
 date: 2025-08-26 08:00:00
 category: office-of-judgment
-tags: [george, office-of-judgment, bureaucracy, truth, unfiltered]
+tags: [george, barb, office-of-judgment, bureaucracy, truth, unfiltered]
 summary: "The Office of Judgment gets an unscheduled new member, George, who specializes in cosmic sarcasm and inconvenient truths."
 image: "/assets/images/posts/welcome-george.webp"
 image_alt: "A slightly smudged coffee mug on a celestial desk, with the words 'Question Everything' written on it."
