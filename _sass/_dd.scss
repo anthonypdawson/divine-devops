@@ -1,22 +1,3 @@
-/* Dropcap styling for posts */
-.dropcap {
-    float: left;
-    font-size: 2.5em;
-    line-height: 1;
-    font-family: 'Cinzel Decorative', serif;
-    color: #40c9ff;
-    margin-right: 0.1em;
-    margin-top: -0.3em;
-    font-weight: bold;
-    text-shadow: 0 0 8px #b6b6ff, 0 0 2px #fff;
-    vertical-align: baseline;
-}
-
-.decorative {
-    font-size: 1.4em;
-    font-family: 'Cinzel Decorative', serif;    
-    text-shadow: 0 0 4px #b6b6ff, 0 0 2px #fff;
-}
 
 /* Global Styles */
 html {
@@ -499,4 +480,33 @@ code {
   animation: shimmer-flicker 4s linear infinite;
   /* No background or background-size */
 }
+.post-number {
+    background: #222;
+    color: #fff;
+    border-radius: 1em;
+    padding: 0.2em 0.7em;
+    margin-left: 0.5em;
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+/* Dropcap styling for posts */
+.dropcap {
+    float: left;
+    font-size: 2.5em;
+    line-height: 1;
+    font-family: 'Cinzel Decorative', serif;
+    color: #40c9ff;
+    margin-right: 0.1em;
+    margin-top: -0.3em;
+    font-weight: bold;
+    text-shadow: 0 0 8px #b6b6ff, 0 0 2px #fff;
+    vertical-align: baseline;
+}
+
+.decorative {
+    font-size: 1.4em;
+    font-family: 'Cinzel Decorative', serif;    
+    text-shadow: 0 0 4px #b6b6ff, 0 0 2px #fff;
+}
+
 /* Post-specific styles moved to _posts.scss */

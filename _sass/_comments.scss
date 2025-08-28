@@ -1,3 +1,16 @@
+// Moved from inline styles in comments.html
+.confession-anonymous-note {
+  color: #ebd300;
+  font-size: 1.1em;
+}
+
+.confession-email-container {
+  margin: 1.5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
 .confession-booth {
   margin: 2.5em auto 1.5em auto;
   padding: 1.2em 1em 1.5em 1em;

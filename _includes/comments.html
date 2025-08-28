@@ -1,9 +1,9 @@
    <form name="comment" method="POST" data-netlify="true" id="confessions" class="confession-booth" action="/thank-you/">
       <h2 class="center">🕊️ Confession Booth</h2>
       <p class="center"><em>Share your devops sins, miracles, or seek absolution below.</em></p>
-      <span style="color:#ebd300;font-size:1.1em;">All comments are anonymous to the angels (but not to GitHub).</span>
-      <div style="margin: 1.5em 0; display: flex; flex-direction: column; align-items: center; gap: 1em;">
-        <a href="mailto:divinedevopsuniverse@gmail.com?subject=DevOps%20Confession" class="confession-email-btn">Email
+  <span class="confession-anonymous-note">All comments are anonymous to the angels (but not to GitHub).</span>
+  <div class="confession-email-container">
+        <a href="mailto:divinedevopsuniverse@gmail.com?subject=DevOps%20Confession%3A%20{{ page.title | uri_escape }}" class="confession-email-btn">Email
           a Private Confession</a>      
       </div>
 
