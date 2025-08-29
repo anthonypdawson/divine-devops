@@ -19,3 +19,4 @@ node_modules
 *.MOV
 *.xcf
 *.gif
+_future/_backup/
