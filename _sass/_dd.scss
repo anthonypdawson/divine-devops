@@ -554,7 +554,7 @@ code {
 
 /* Fallback if animation not supported */
 @supports not (animation-name: prophecyGlow) {
-  #prophecy-header {
+  .prophecy-brighten {
     animation: none !important;
     filter: none !important;
     text-shadow: none !important;
