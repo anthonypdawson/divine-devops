@@ -509,4 +509,46 @@ code {
     text-shadow: 0 0 4px #b6b6ff, 0 0 2px #fff;
 }
 
+#prophecy-header {
+    font-size:0.9em;
+    color:#666;
+    margin-top:0.5em;
+    min-height:1.5em;
+}
+
+
+.prophecy-brighten {
+    animation: prophecyGlow 8s infinite;
+}
+
+@keyframes prophecyGlow {
+  0% {
+    filter: brightness(0.95) blur(1px);
+    text-shadow: 0 0 8px #fff, 0 0 16px #ffd700;
+  }
+  20% {
+    filter: brightness(1.05) blur(0.5px);
+    text-shadow: 0 0 4px #fff, 0 0 8px #ffd700;
+  }
+  35% {
+    filter: brightness(1.1) blur(0px);
+    text-shadow: 0 0 2px #fff, 0 0 4px #ffd700;
+  }
+  60% {
+    filter: brightness(1.1) blur(0px);
+    text-shadow: none;
+  }
+  80% {
+    filter: brightness(1) blur(0.2px);
+    text-shadow: 0 0 2px #fff, 0 0 4px #ffd700;
+  }
+  90% {
+    filter: brightness(0.98) blur(0.6px);
+    text-shadow: 0 0 6px #fff, 0 0 12px #ffd700;
+  }
+  100% {
+    filter: brightness(0.95) blur(1px);
+    text-shadow: 0 0 8px #fff, 0 0 16px #ffd700;
+  }
+}
 /* Post-specific styles moved to _posts.scss */

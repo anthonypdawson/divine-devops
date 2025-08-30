@@ -7,20 +7,34 @@
 
 <div id="menu" style="background-color: rgba(10, 10, 10, 0.85); padding: 4px;">
   <p class="center">{{ site.description }}</p>
-  <p class="center" style="font-size:0.9em;color:#666;margin-top:0.5em;min-height:1.5em;" id="prophecy-header"></p>
-  <script>
-    fetch('/prophecy')
-      .then(response => response.json())
-      .then(data => {
-        if (data.verse) {
-          document.getElementById('prophecy-header').textContent = data.verse;
-        }
-      })
-      .catch((err) => {
-        document.getElementById('prophecy-header').textContent = '';
-        console.error('Failed to fetch prophecy:', err);
-      });
-  </script>
-  {% include share-buttons.html %}
-  
+  <p class="center prophecy-brighten" id="prophecy-header"></p>
+<script>
+  const prophecyEl = document.getElementById('prophecy-header');
+  let prophecies = [];
+  let index = 0;
+
+  // Fetch 10 prophecies on page load
+  fetch('/prophecy?count=10')
+    .then(response => response.json())
+    .then(data => {
+      prophecies = data.verses || [data.verse];
+      prophecyEl.textContent = prophecies[0] || "";
+    })
+    .catch((err) => {
+      prophecies = ["The prophecy system is offline."];
+      prophecyEl.textContent = prophecies[0];
+      console.error('Failed to fetch prophecies:', err);
+    });
+
+  // Cycle through prophecies on each animation iteration
+  prophecyEl.addEventListener('animationiteration', () => {
+    if (prophecies.length > 0) {
+      index = (index + 1) % prophecies.length;
+      prophecyEl.textContent = prophecies[index];
+    }
+  });
+</script>
+
+{% include share-buttons.html %}
+
 </div>

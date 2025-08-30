@@ -19,10 +19,19 @@ exports.handler = async function(event, context) {
       body: JSON.stringify({ error: 'No prophecies found.' })
     };
   }
-  const verse = prophecies[Math.floor(Math.random() * prophecies.length)];
+  // Get count from query string, default to 1
+  const params = event.queryStringParameters || {};
+  let count = parseInt(params.count, 10);
+  if (isNaN(count) || count < 1) count = 1;
+  if (count > prophecies.length) count = prophecies.length;
+
+  // Pick 'count' random unique prophecies
+  const shuffled = prophecies.slice().sort(() => Math.random() - 0.5);
+  const verses = shuffled.slice(0, count);
+
   return {
     statusCode: 200,
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ verse })
+    body: JSON.stringify(count === 1 ? { verse: verses[0] } : { verses })
   };
 };
