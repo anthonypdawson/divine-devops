@@ -5,6 +5,9 @@
 
   <title>{{ page.title }}</title>
   {% include header.html %}
+  {% if page.use_prism %}
+    {% include prism.html %}
+  {% endif %}
 </head>
 
 <body class="parallax">

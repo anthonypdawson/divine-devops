@@ -1,0 +1,22 @@
+<!-- Prism.js Autoloader setup: loads only needed languages automatically -->
+<link href="{{ '/assets/css/prism-vsc-dark-plus.css' | relative_url }}" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<style>
+/* Prism.js comment fix for overlapping text */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a9955 !important; /* VSCode green */
+  font-style: italic;
+  background: none !important;
+  position: static;
+  z-index: auto;
+  white-space: pre-wrap;
+  border: none !important;
+  padding: 0px !important;
+}
+
+
+</style>
