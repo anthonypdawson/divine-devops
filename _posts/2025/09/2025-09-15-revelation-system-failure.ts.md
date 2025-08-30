@@ -1,11 +1,12 @@
 ---
 layout: terminal_post
 title: "revelation_system_failure.ts"
-date: 2025-05-17 08:00:00
+date: 2025-09-15 08:00:00
 tags: [apocalypse, revelation, typescript, system, failure, logs]
 category: sacred-source
 summary: "A TypeScript implementation of the Revelation Event Handler, managing the final system shutdown and transition to New Heaven and New Earth."
 image: /assets/images/posts/divine-code-post.webp
+use_prism: true
 ---
 
 *// Opened from sacred-source/revelation_system_failure.ts — last commit: The End*
@@ -262,7 +263,7 @@ main().catch(console.error);
 
 ## Execution & System Log
 
-Below: The final Revelation Event Handler run command and its output log, capturing the last moments of the old universe and the transition to New Heaven and New Earth.
+> Below: The final Revelation Event Handler run command and its output log, capturing the last moments of the old universe and the transition to New Heaven and New Earth.
 
 ```sh
 > ts-node revelation_system_failure.ts
@@ -333,14 +334,14 @@ Below: The final Revelation Event Handler run command and its output log, captur
 ```
 ---
 
-### Configuration Files
+### Configuration File
 
 #### [<code><b>revelation-status.yaml</b></code>]({{ site.baseurl }}/assets/misc/revelation-status.yaml#content)
 _Summary: The final status manifest from the Revelation Event Handler, capturing the last moments before New Heaven and New Earth deployment._
 
 
-> Note: The Revelation Event Handler is a one-time-use system. Ensure all souls are properly backed up before initiating the sequence. Unauthorized tampering may result in eternal consequences.
+_Note: The Revelation Event Handler is a one-time-use system. Ensure all souls are properly backed up before initiating the sequence. Unauthorized tampering may result in eternal consequences._
 
+---
 
 > 🗨️ [Confess your system failures or share your apocalyptic bug fixes in the Confession Booth.](#confessions){: .comment-cta-link }
-
