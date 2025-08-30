@@ -551,4 +551,17 @@ code {
     text-shadow: 0 0 8px #fff, 0 0 16px #ffd700;
   }
 }
+
+/* Fallback if animation not supported */
+@supports not (animation-name: prophecyGlow) {
+  #prophecy-header {
+    animation: none !important;
+    filter: none !important;
+    text-shadow: none !important;
+    font-size:0.9em;
+    color:#666;
+    margin-top:0.5em;
+    min-height:1.5em;
+  }
+}
 /* Post-specific styles moved to _posts.scss */
