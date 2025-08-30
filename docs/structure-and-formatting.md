@@ -106,3 +106,26 @@ Add a blockquoted call-to-action at the end of each post to encourage reader com
 
 This link will jump directly to the comment form on the post page.
 Feel free to customize the wording and emoji to match the post’s theme (e.g., for daemon posts, tailor the CTA to the daemon’s domain).
+
+## PrismJS code formatting
+1. **Add `use_prism: true` to your post's YAML front matter.**
+	```yaml
+	---
+	layout: terminal_post
+	title: "your_post_title"
+	date: YYYY-MM-DD HH:MM:SS
+	...
+	use_prism: true
+	---
+	```
+
+2. **How it works:**
+	- The layout will include the Prism.js assets only for posts with `use_prism: true`.
+	- The Prism theme (e.g., VS Code Dark+) is set in `_includes/prism.html`.
+	- Code blocks must use the correct language class (e.g., `language-typescript`).
+
+3. **Customizing the theme:**
+	- To change the Prism theme, update the CSS file referenced in `_includes/prism.html`.
+	- The recommended theme for Divine DevOps is VS Code Dark+ (`prism-vsc-dark-plus.css`).
+
+See also: [`_includes/prism.html`](../_includes/prism.html) and [`_layouts/terminal_post.html`](../_layouts/terminal_post.html) for implementation details.

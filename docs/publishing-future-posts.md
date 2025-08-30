@@ -1,6 +1,6 @@
 ---
 title: "Publishing Future Posts"
-summary: "How to move a post from the /future/ collection to the main blog in Divine DevOps."
+summary: "How to move a post from the /_future/ collection to the main blog in Divine DevOps."
 layout: terminal_post
 ---
 
@@ -58,6 +58,23 @@ Move-Item "_future\afterlife-2-0-onboarding-and-deployment.md" "_posts\2025\09\2
 # 4. Clean up original (if move didn't remove it)
 Remove-Item "_future\afterlife-2-0-onboarding-and-deployment.md" -ErrorAction SilentlyContinue
 ```
+
+## Use the publish-post.sh script
+1. **Ensure the date in the front matter is correct and in the format `YYYY-MM-DD HH:MM:SS`.**
+2. **Run the script from your project root:**
+	 ```bash
+	 ./scripts/publish-post.sh _future/your-post.md
+	 ```
+	 - The script will:
+		 - Read the date from the front matter
+		 - Rename the file to include the date prefix (Jekyll style)
+		 - Move it to the correct `_posts/YYYY/MM/` subdirectory
+		 - Create the year/month directories if needed
+3. **Verify the post is now in the correct location and filename.**
+
+This saves time and reduces manual errors when publishing future posts.
+
+---
 
 ## Pre-Publication Checklist
 
