@@ -7,6 +7,7 @@ tags: [hell, staffing, torment, burnout, daemon, union]
 summary: "Sector 9 faces a hellish imbalance as the number of damned souls far exceeds available tormentors, leading to burnout and bulk agony templates."
 image: "/assets/images/posts/sector9-staffing-crisis.webp"
 intro: "A Soul Ops memo reveals the chaos in Sector 9, where tormentors are stretched thin and the damned suffer from unstructured, impersonal agony. Management scrambles for solutions as union daemons demand change."
+use_prism: true
 ---
 
 ## 🔥 Soul Ops Internal Memo – Projector Slide 3: Staffing Crisis in Sector 9 🔥
@@ -66,6 +67,8 @@ intro: "A Soul Ops memo reveals the chaos in Sector 9, where tormentors are stre
 ### 🧪 Leaked Prototype – Agony Personalization Algorithm (Redacted)
 
 ```perl
+# infernal-agony-router.pl
+
 sub assign_torment_profile {
     my ($soul) = @_;
     my $guilt_score = $soul->{guilt_index};
@@ -93,4 +96,4 @@ sub assign_torment_profile {
 
 ---
 
-> 🗨️ [How do you survive eternal spreadsheeting?](#confessions){: .comment-cta-link }
+> 🗨️ [How do you survive eternal spreadsheeting? Let us know  in the confession booth ](#confessions){: .comment-cta-link }
