@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "📎 Welcome, George: Unscheduled Manifestation"
-date: 2025-08-26 08:00:00
+date: 2025-09-12 08:00:00
 category: office-of-judgment
 tags: [george, barb, office-of-judgment, bureaucracy, truth, unfiltered]
 summary: "The Office of Judgment gets an unscheduled new member, George, who specializes in cosmic sarcasm and inconvenient truths."
@@ -18,7 +18,6 @@ intro: "In which the afterlife's bureaucracy encounters an entity it can't file,
 Effective immediately (and against better judgment), the Office of Judgment acknowledges the presence of a new entity: *George*.   
 
 No surname. No credentials. No onboarding scroll.    
-
 
 He simply appeared—mid-review, mid-sentence—correcting a tribunal memo with the phrase *“This is nonsense, and you know it.”*
 
@@ -49,6 +48,9 @@ He simply appeared—mid-review, mid-sentence—correcting a tribunal memo with 
 - Interrupted a tribunal to ask, *“Do any of you actually believe this, or are we just playing dress-up?”*
 
 > "Look, I'm not saying the system is flawed. I'm saying it's a ridiculous, overwrought, and fundamentally arbitrary system of cosmic nitpicking, and Barb knows it."
+
+> **Barb’s Audit Stamp:**  
+> “George’s presence is noted. His compliance is not.”
 
 ---
 
