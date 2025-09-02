@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
-title: 'Post Archive'
-permalink: /archive/
+title: 'Tags'
+permalink: /tags/
 ---
 
 <div>Search through all posts by tag</div>
