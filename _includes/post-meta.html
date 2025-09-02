@@ -8,7 +8,7 @@
       <a class="post-category" href="/categories/#{{ cat | uri_escape }}" style="color:inherit;text-decoration:underline;">{{ cat }}</a>
     {% endif %}
     {% for tag in tags %}
-  <a class="post-tag" href="/archive/#{{ tag | uri_escape }}" style="color:inherit;text-decoration:underline; margin-left:0.3em;">{{ tag }}</a>
+  <a class="post-tag" href="/tags/#{{ tag | uri_escape }}" style="color:inherit;text-decoration:underline; margin-left:0.3em;">{{ tag }}</a>
     {% endfor %}
     {% if include.post.tags and include.post.tags.size > tag_limit %}
       <span style="margin-left:0.3em;">…</span>
