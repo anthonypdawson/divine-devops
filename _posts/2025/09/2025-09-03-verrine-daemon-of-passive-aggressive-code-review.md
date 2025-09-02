@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "Verrine: Daemon of Passive-Aggressive Code Reviews"
 date: 2025-09-03 08:00:00
-category: daemon
+category: daemons
 tags: [daemon, code-review, verrine, emoji, devops, gabriel, michael, uriel]
 summary: "Verrine leaves emoji-only comments and refuses to approve without explanation. Beware his passive-aggressive review rituals."
 image: "/assets/images/posts/verrine.webp"
