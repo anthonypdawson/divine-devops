@@ -1,5 +1,5 @@
 ---
-layout: post,
+layout: terminal_post,
 title: This is a new article
 date: YYYY-MM-DD HH:MM
 tags: [tag1, tag2]
