@@ -70,3 +70,6 @@ At the center squats *Lucifork*, a daemon with three heads, eternally merging th
 ### Egress Procedure
 To ascend, we had to deploy a hotfix directly to Production—no staging, no review—while staring into Lucifork’s three sets of eyes.  
 The changelog wrote itself in fire.
+
+
+> 🗨️ [Confess your deployment sins, merge conflict nightmares, or Dantean ticket tales in the Confession Booth.](#confessions){: .comment-cta-link }
