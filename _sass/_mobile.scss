@@ -14,6 +14,9 @@ p {
 .footer {
     font-size: 0.9rem;
 }
+.post-title-link {
+    font-size: 1.1em;
+}
 
 /* ===== DESKTOP FIRST APPROACH - LARGEST TO SMALLEST ===== */
 
@@ -33,6 +36,9 @@ p {
     }
     .footer {
         font-size: 1rem;
+    }
+    .post-title-link {
+        font-size: 1.15em;
     }
 }
 
@@ -59,6 +65,9 @@ p {
     }
     .footer {
         font-size: 0.8rem;
+    }
+    .post-title-link {
+        font-size: 1.05em;
     }
     div.archive {
         font-size: 0.9rem;
@@ -96,6 +105,9 @@ p {
     }
     .footer {
         font-size: 0.7rem;
+    }
+    .post-title-link {
+        font-size: 1em;
     }
     div.archive {
         font-size: 0.85rem;
@@ -235,6 +247,10 @@ p {
     }
     .footer {
         font-size: 0.5rem;
+    }
+    .post-title-link {
+        font-size: 0.95em;
+        text-shadow: 0 0 3px #40c9ff88, 0 0 6px #40c9ff44;
     }
     div.archive {
         font-size: 0.7rem;

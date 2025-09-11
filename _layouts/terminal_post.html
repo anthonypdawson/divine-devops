@@ -39,8 +39,24 @@
   <p class="post-intro">{{ page.summary }}</p>
   {% endif %}
   </div>
-  <a href="{{ page.image | relative_url }}" target="_blank"><img class="large-post-image" src="{{ page.image | relative_url }}"
-      alt="{{ page.image_alt | default: page.title | append: ' image' }}"></a>
+  <!-- Image with flanking navigation -->
+  <div style="display: flex; align-items: center; justify-content: center; gap: 2em; margin: 2em 0;">
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}#content" style="font-size: 2em; color: var(--link-color); text-decoration: none; padding: 0.5em;" title="{{ page.next.title }}">←</a>
+    {% else %}
+      <span style="font-size: 2em; color: #666; padding: 0.5em;">←</span>
+    {% endif %}
+    
+    <a href="{{ page.image | relative_url }}" target="_blank">
+      <img class="large-post-image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | append: ' image' }}">
+    </a>
+    
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}#content" style="font-size: 2em; color: var(--link-color); text-decoration: none; padding: 0.5em;" title="{{ page.previous.title }}">→</a>
+    {% else %}
+      <span style="font-size: 2em; color: #666; padding: 0.5em;">→</span>
+    {% endif %}
+  </div>
   {% endif %}
   {% else %}
   <h1 id="content" class="page-title shimmer-text">{{ page.title }}</h1>
@@ -59,9 +75,25 @@
   {% endfor %} {%- endif -%}
 
   <!-- Nav buttons -->
-  <div class="nav">
-    <a href="{{ '' |relative_url }}/">← Back to index</a>
-    <a href="#">↑ Top</a>
+  <div class="nav black-background" style="font-size: 0.9em; padding: 1em; border-radius: 8px; margin: 1em 0; display: grid; grid-template-columns: 1fr auto 1fr; gap: 0; align-items: center;">
+    <div style="text-align: left; padding-right: 15%;">
+      {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}#content">← {{ page.next.title }}</a>
+      {% else %}
+        <span style="color: #666;">← No newer</span>
+      {% endif %}
+    </div>
+    <div style="white-space: nowrap;">
+      <a href="{{ '' |relative_url }}/" style="margin-right: 0.5em;">← Back to index</a>
+      <a href="#">↑ Top</a>
+    </div>
+    <div style="text-align: right; padding-left: 15%;">
+      {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}#content">{{ page.previous.title }} →</a>
+      {% else %}
+        <span style="color: #666;">No older →</span>
+      {% endif %}
+    </div>
   </div>
   <br />
     {% include credit-footer.html %}
