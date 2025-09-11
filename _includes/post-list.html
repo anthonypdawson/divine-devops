@@ -31,6 +31,7 @@
                 <span class="post-number">#{{ post.index }}</span>
               </em><br />
               <a href="{{ post.url | relative_url }}#content" title="{{ post.title }}" class="post-title-link">{{ post.title }}</a>
+              {% include post-meta.html post=post %}
             </div>
             {%- comment -%} Show right image if present and is a 'post image' {%- endcomment -%}
             {% if has_post_image %}
@@ -41,7 +42,6 @@
           </div>
         </div>
         <br />
-        {% include post-meta.html post=post %}
         {%- comment -%} Show full summary for all posts {%- endcomment -%}
         <small class="post-summary">{{ post.summary }}</small>
       </li>
