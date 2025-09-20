@@ -4,7 +4,7 @@ summary: "Incident report: abrupt termination of god_instance, cosmic P1 outage,
 layout: terminal_post
 category: historical-mismanagement
 tags: [incident, philosophy, nietzsche, devops, outage, heavenops]
-date: 1882-01-01
+date: 2025-10-06 08:00:00
 image: "/assets/images/posts/nietzsches-commit.webp"
 image_alt: "Nietzsche’s commit: kill(god_instance) incident log"
 ---

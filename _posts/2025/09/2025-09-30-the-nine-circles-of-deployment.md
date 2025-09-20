@@ -2,7 +2,7 @@
 layout: terminal_post
 title: "The Nine Circles of Deployment"
 date: 2025-09-30 08:00:00
-category: artifact
+category: incident
 tags: [devops, dante, deployment, incident, nine-circles]
 summary: "A field report mapping the nine circles of deployment hell: deprecated APIs, merge tempests, frozen ticket glaciers, and Lucifork at the core."
 image: "/assets/images/posts/nine-circles.webp"
