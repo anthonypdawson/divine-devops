@@ -19,7 +19,7 @@ pageurl = page.url %} {% endif %}
             class="twitter"
             title="Share this on Twitter"
             aria-label="Share this on Twitter"
-            onclick="window.open('https://twitter.com/intent/tweet?url={{ site.url | absolute_url }}{{ pageurl | url_encode }}&text={{ page.title | url_encode }}', '_blank');"
+            onclick="window.open('https://twitter.com/intent/tweet?url={{ site.url | absolute_url }}{{ pageurl | url_encode }}&text={{ page.title | url_encode }}{% if page.summary %} - {{ page.summary | url_encode }}{% endif %}{% if page.tags %}&hashtags={{ page.tags | join: ',' | url_encode }}{% endif %}', '_blank');"
         >
             <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -81,7 +81,7 @@ pageurl = page.url %} {% endif %}
             class="reddit"
             title="Share this on Reddit"
             aria-label="Share this on Reddit"
-            onclick="window.open('https://www.reddit.com/submit?url={{ site.url | absolute_url }}{{ pageurl | url_encode }}&title={{ page.title | url_encode }}', '_blank');"
+            onclick="window.open('https://www.reddit.com/submit?url={{ site.url | absolute_url }}{{ pageurl | url_encode }}&title={{ page.title | url_encode }}{% if page.summary %}&text={{ page.summary | url_encode }}{% endif %}', '_blank');"
         >
             <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="14px">
                 <path
