@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Gabriel — Archangel of DevOps Messaging"
-date: 2025-08-18
+date: 2025-10-20 08:00:00
 category: angels
 tags: [devops, angel, gabriel, messaging, alerts, uriel, miracles]
 summary: "Spotlight: Gabriel, archangel of alerts and divine messaging, the herald of deployments and guardian of comms. When silence risks disaster, Gabriel ensures the signal is heard."
