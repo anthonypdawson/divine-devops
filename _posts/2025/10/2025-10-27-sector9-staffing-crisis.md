@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Staffing Crisis in Sector 9: Torturer-to-Damned Ratio"
-date: 2025-09-29 08:00:00
+date: 2025-10-27 08:00:00
 category: soul-acquisition-division
 tags: [hell, staffing, torment, burnout, daemon, union]
 summary: "Sector 9 faces a hellish imbalance as the number of damned souls far exceeds available tormentors, leading to burnout and bulk agony templates."
