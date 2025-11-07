@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "🌀 Leviathan — Daemon of Memory Overflow"
-date: 2025-08-01
+date: 2025-11-10 08:00:00
 category: daemons
 summary: "Daemon alert: Leviathan, entropy-bound serpent, devours memory in recursive silence. Debug with caution — it remembers everything."
 image: "/assets/images/posts/leviathan-animated.webp"

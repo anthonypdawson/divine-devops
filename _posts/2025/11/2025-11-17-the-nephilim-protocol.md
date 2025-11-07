@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "The Nephilim Protocol"
-date: 2025-10-07 08:00:00
+date: 2025-11-17 08:00:00
 # Provisional category; adjust before publishing if you select another from docs/all-categories.md
 category: mythological-system-failures
 tags: [protocol, hybrid-responses, lore, rollback, anomaly-detection, watchers]

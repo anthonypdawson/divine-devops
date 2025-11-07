@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "Soul Acquisition Division — Breakroom Chatter (Leaked)"
-date: 2025-08-29 10:42:00
+date: 2025-11-24 08:00:00
 category: soul-acquisition-division
 tags: [devops, parody, religion, daemon, soul-ops, bureaucracy, soul-acquisition-division, breakroom]
 summary: "Leaked breakroom banter from the Soul Acquisition Division reveals gripes about conversion rates, empathy training, and the mysterious Unclaimed Soul Leakage metric."

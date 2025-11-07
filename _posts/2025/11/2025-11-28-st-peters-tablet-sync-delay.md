@@ -1,7 +1,7 @@
 ---
 layout: terminal_post
 title: "St. Peter’s Tablet Experiencing Sync Delays"
-date: 2025-09-29 08:00:00
+date: 2025-11-28 08:00:00
 category: divine-incident-report
 tags: [judgment, st-peter, tablet, sync, bug, incident]
 summary: "St. Peter’s tablet is displaying outdated arrival records due to a firmware rollback, causing delays and UI glitches at the Pearly Gates."
